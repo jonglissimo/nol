@@ -122,7 +122,7 @@
               "shifters": [
                 {
                   "type": 0,
-                  "width": 178,
+                  "width": 206,
                   "height": 302,
                   "currentContent": "Sequences",
                   "tabs": [
@@ -133,7 +133,7 @@
                 },
                 {
                   "type": 0,
-                  "width": 1112,
+                  "width": 1084,
                   "height": 302,
                   "currentContent": "Sequence Editor",
                   "tabs": [
@@ -494,6 +494,10 @@
             "controlAddress": "/totalTime"
           },
           {
+            "value": 0.0,
+            "controlAddress": "/viewStartTime"
+          },
+          {
             "value": 223.2200012207031,
             "controlAddress": "/viewEndTime"
           },
@@ -510,6 +514,10 @@
           "items": [
             {
               "parameters": [
+                {
+                  "value": true,
+                  "controlAddress": "/enabled"
+                },
                 {
                   "value": 80.0,
                   "controlAddress": "/listSize"
@@ -573,6 +581,202 @@
           "viewZoom": 1.0
         },
         "editing": true
+      },
+      {
+        "parameters": [
+          {
+            "value": 15.0,
+            "controlAddress": "/totalTime"
+          },
+          {
+            "value": 15.0,
+            "controlAddress": "/viewEndTime"
+          },
+          {
+            "value": "",
+            "controlAddress": "/ltcSyncModule",
+            "enabled": false
+          }
+        ],
+        "niceName": "Fireflies prerun",
+        "type": "Sequence",
+        "layers": {
+          "hideInEditor": true,
+          "items": [
+            {
+              "parameters": [
+                {
+                  "value": 61.0,
+                  "controlAddress": "/listSize"
+                },
+                {
+                  "value": 61,
+                  "hexMode": false,
+                  "controlAddress": "/uiHeight"
+                }
+              ],
+              "niceName": "Trigger",
+              "type": "Trigger",
+              "triggers": {
+                "hideInEditor": true,
+                "items": [
+                  {
+                    "parameters": [
+                      {
+                        "value": 15.0,
+                        "controlAddress": "/time"
+                      },
+                      {
+                        "value": 0.5,
+                        "controlAddress": "/flagY"
+                      }
+                    ],
+                    "niceName": "Start fireflies",
+                    "type": "TimeTrigger",
+                    "consequences": {
+                      "items": [
+                        {
+                          "niceName": "Consequence",
+                          "type": "Consequence",
+                          "commandModule": "sequences",
+                          "commandPath": "Playback",
+                          "commandType": "Play Sequence",
+                          "command": {
+                            "parameters": [
+                              {
+                                "value": "/sequences/fireflies",
+                                "controlAddress": "/target"
+                              },
+                              {
+                                "value": true,
+                                "controlAddress": "/playFromStart"
+                              }
+                            ],
+                            "paramLinks": {
+                            }
+                          }
+                        }
+                      ],
+                      "viewOffset": [
+                        0,
+                        0
+                      ],
+                      "viewZoom": 1.0
+                    }
+                  }
+                ],
+                "viewOffset": [
+                  0,
+                  0
+                ],
+                "viewZoom": 1.0
+              }
+            }
+          ],
+          "viewOffset": [
+            0,
+            0
+          ],
+          "viewZoom": 1.0
+        },
+        "cues": {
+          "hideInEditor": true,
+          "viewOffset": [
+            0,
+            0
+          ],
+          "viewZoom": 1.0
+        }
+      },
+      {
+        "parameters": [
+          {
+            "value": 242.3399963378906,
+            "controlAddress": "/totalTime"
+          },
+          {
+            "value": 242.3399963378906,
+            "controlAddress": "/viewEndTime"
+          },
+          {
+            "value": "",
+            "controlAddress": "/ltcSyncModule",
+            "enabled": false
+          }
+        ],
+        "niceName": "Fireflies",
+        "type": "Sequence",
+        "layers": {
+          "hideInEditor": true,
+          "items": [
+            {
+              "parameters": [
+                {
+                  "value": 80.0,
+                  "controlAddress": "/listSize"
+                },
+                {
+                  "value": 80,
+                  "hexMode": false,
+                  "controlAddress": "/uiHeight"
+                }
+              ],
+              "niceName": "Audio",
+              "type": "Audio",
+              "clips": {
+                "hideInEditor": true,
+                "items": [
+                  {
+                    "parameters": [
+                      {
+                        "value": 0.0,
+                        "controlAddress": "/startTime"
+                      },
+                      {
+                        "value": "Audio/7-Baelle-Jonglissimo_Gl\u00fchw\u00fcrmchen_02.mp3",
+                        "controlAddress": "/filePath"
+                      }
+                    ],
+                    "niceName": "AudioClip",
+                    "editorIsCollapsed": true,
+                    "type": "AudioClip"
+                  }
+                ],
+                "viewOffset": [
+                  0,
+                  0
+                ],
+                "viewZoom": 1.0
+              },
+              "channels": {
+                "parameters": [
+                  {
+                    "value": true,
+                    "controlAddress": "/channelOutLeft"
+                  },
+                  {
+                    "value": true,
+                    "controlAddress": "/channelOutRight"
+                  }
+                ]
+              },
+              "audioModule": "soundCard"
+            }
+          ],
+          "viewOffset": [
+            0,
+            0
+          ],
+          "viewZoom": 1.0
+        },
+        "cues": {
+          "hideInEditor": true,
+          "viewOffset": [
+            0,
+            0
+          ],
+          "viewZoom": 1.0
+        }
       }
     ],
     "viewOffset": [
