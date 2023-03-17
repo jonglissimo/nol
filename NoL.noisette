@@ -242,6 +242,25 @@
                   ],
                   "niceName": "Bento",
                   "type": "BaseItem"
+                },
+                {
+                  "parameters": [
+                    {
+                      "value": false,
+                      "controlAddress": "/local"
+                    },
+                    {
+                      "value": "192.168.1.100",
+                      "controlAddress": "/remoteHost"
+                    },
+                    {
+                      "value": 43000,
+                      "hexMode": false,
+                      "controlAddress": "/remotePort"
+                    }
+                  ],
+                  "niceName": "Bento 1",
+                  "type": "BaseItem"
                 }
               ],
               "viewOffset": [
@@ -554,10 +573,6 @@
                 "items": [
                   {
                     "parameters": [
-                      {
-                        "value": 0.0,
-                        "controlAddress": "/startTime"
-                      },
                       {
                         "value": "Audio/4-Antispin-Jonglissimo_Feuer_06.mp3",
                         "controlAddress": "/filePath"
