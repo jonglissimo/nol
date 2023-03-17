@@ -172,7 +172,7 @@
       {
         "parameters": [
           {
-            "value": true,
+            "value": false,
             "controlAddress": "/logOutgoing"
           }
         ],
@@ -288,7 +288,7 @@
       {
         "parameters": [
           {
-            "value": true,
+            "value": false,
             "controlAddress": "/logOutgoing"
           }
         ],
@@ -375,52 +375,6 @@
         "values": {
           "hideInEditor": true
         }
-      },
-      {
-        "parameters": [
-          {
-            "value": true,
-            "controlAddress": "/logOutgoing"
-          }
-        ],
-        "niceName": "OSCQuery",
-        "type": "OSCQuery",
-        "scripts": {
-          "viewOffset": [
-            0,
-            0
-          ],
-          "viewZoom": 1.0
-        },
-        "params": {
-          "containers": {
-            "output": {
-              "parameters": [
-                {
-                  "value": "127.0.0.1",
-                  "controlAddress": "/remoteHost"
-                },
-                {
-                  "value": 5678,
-                  "hexMode": false,
-                  "controlAddress": "/customOSCPort",
-                  "enabled": false
-                }
-              ]
-            }
-          }
-        },
-        "templates": {
-          "viewOffset": [
-            0,
-            0
-          ],
-          "viewZoom": 1.0
-        },
-        "values": {
-        },
-        "treeData": null,
-        "hasListenExtension": false
       },
       {
         "niceName": "Sound Card",
@@ -510,7 +464,7 @@
   },
   "states": {
     "viewOffset": [
-      0,
+      -117,
       0
     ],
     "viewZoom": 1.0,
@@ -525,7 +479,7 @@
     "comments": {
       "hideInEditor": true,
       "viewOffset": [
-        0,
+        -117,
         0
       ],
       "viewZoom": 1.0
