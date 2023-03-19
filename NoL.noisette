@@ -35,32 +35,32 @@
   "layout": {
     "mainLayout": {
       "type": 1,
-      "width": 1165,
-      "height": 980,
+      "width": 1920,
+      "height": 989,
       "direction": 2,
       "shifters": [
         {
           "type": 1,
-          "width": 1165,
-          "height": 980,
+          "width": 1920,
+          "height": 989,
           "direction": 2,
           "shifters": [
             {
               "type": 1,
-              "width": 1165,
-              "height": 677,
+              "width": 1920,
+              "height": 681,
               "direction": 1,
               "shifters": [
                 {
                   "type": 1,
                   "width": 278,
-                  "height": 677,
+                  "height": 681,
                   "direction": 2,
                   "shifters": [
                     {
                       "type": 0,
                       "width": 278,
-                      "height": 347,
+                      "height": 349,
                       "currentContent": "Modules",
                       "tabs": [
                         {
@@ -71,7 +71,7 @@
                     {
                       "type": 0,
                       "width": 278,
-                      "height": 324,
+                      "height": 326,
                       "currentContent": "Custom Variables",
                       "tabs": [
                         {
@@ -83,8 +83,8 @@
                 },
                 {
                   "type": 0,
-                  "width": 405,
-                  "height": 677,
+                  "width": 1160,
+                  "height": 681,
                   "currentContent": "State Machine",
                   "tabs": [
                     {
@@ -104,7 +104,7 @@
                 {
                   "type": 0,
                   "width": 470,
-                  "height": 677,
+                  "height": 681,
                   "currentContent": "Inspector",
                   "tabs": [
                     {
@@ -116,14 +116,14 @@
             },
             {
               "type": 1,
-              "width": 1165,
-              "height": 297,
+              "width": 1920,
+              "height": 301,
               "direction": 1,
               "shifters": [
                 {
                   "type": 0,
                   "width": 206,
-                  "height": 297,
+                  "height": 301,
                   "currentContent": "Sequences",
                   "tabs": [
                     {
@@ -133,8 +133,8 @@
                 },
                 {
                   "type": 0,
-                  "width": 384,
-                  "height": 297,
+                  "width": 1139,
+                  "height": 301,
                   "currentContent": "Sequence Editor",
                   "tabs": [
                     {
@@ -145,7 +145,7 @@
                 {
                   "type": 0,
                   "width": 563,
-                  "height": 297,
+                  "height": 301,
                   "currentContent": "Logger",
                   "tabs": [
                     {
@@ -190,7 +190,7 @@
               "controlAddress": "/onlySyncFromSameName"
             },
             {
-              "value": true,
+              "value": false,
               "controlAddress": "/isConnected"
             }
           ],
@@ -2949,12 +2949,6 @@
                       "editorIsCollapsed": true,
                       "containers": {
                         "input": {
-                          "parameters": [
-                            {
-                              "value": true,
-                              "controlAddress": "/enabled"
-                            }
-                          ],
                           "editorIsCollapsed": true,
                           "owned": true,
                           "niceName": "Input"
@@ -3486,6 +3480,18 @@
                                                 "effectParameters": {
                                                   "editorIsCollapsed": true,
                                                   "containers": {
+                                                    "noise5": {
+                                                      "editorIsCollapsed": true,
+                                                      "containers": {
+                                                        "parameters": {
+                                                          "editorIsCollapsed": true,
+                                                          "owned": true,
+                                                          "niceName": "Parameters"
+                                                        }
+                                                      },
+                                                      "owned": true,
+                                                      "niceName": "Noise 5"
+                                                    },
                                                     "noise4": {
                                                       "editorIsCollapsed": true,
                                                       "containers": {
@@ -3545,18 +3551,6 @@
                                                       },
                                                       "owned": true,
                                                       "niceName": "Noise"
-                                                    },
-                                                    "noise5": {
-                                                      "editorIsCollapsed": true,
-                                                      "containers": {
-                                                        "parameters": {
-                                                          "editorIsCollapsed": true,
-                                                          "owned": true,
-                                                          "niceName": "Parameters"
-                                                        }
-                                                      },
-                                                      "owned": true,
-                                                      "niceName": "Noise 5"
                                                     }
                                                   },
                                                   "owned": true,
@@ -3723,6 +3717,18 @@
                                                 "effectParameters": {
                                                   "editorIsCollapsed": true,
                                                   "containers": {
+                                                    "noise6": {
+                                                      "editorIsCollapsed": true,
+                                                      "containers": {
+                                                        "parameters": {
+                                                          "editorIsCollapsed": true,
+                                                          "owned": true,
+                                                          "niceName": "Parameters"
+                                                        }
+                                                      },
+                                                      "owned": true,
+                                                      "niceName": "Noise 6"
+                                                    },
                                                     "noise5": {
                                                       "editorIsCollapsed": true,
                                                       "containers": {
@@ -3794,18 +3800,6 @@
                                                       },
                                                       "owned": true,
                                                       "niceName": "Noise"
-                                                    },
-                                                    "noise6": {
-                                                      "editorIsCollapsed": true,
-                                                      "containers": {
-                                                        "parameters": {
-                                                          "editorIsCollapsed": true,
-                                                          "owned": true,
-                                                          "niceName": "Parameters"
-                                                        }
-                                                      },
-                                                      "owned": true,
-                                                      "niceName": "Noise 6"
                                                     }
                                                   },
                                                   "owned": true,
@@ -3976,6 +3970,18 @@
                                                 "effectParameters": {
                                                   "editorIsCollapsed": true,
                                                   "containers": {
+                                                    "noise7": {
+                                                      "editorIsCollapsed": true,
+                                                      "containers": {
+                                                        "parameters": {
+                                                          "editorIsCollapsed": true,
+                                                          "owned": true,
+                                                          "niceName": "Parameters"
+                                                        }
+                                                      },
+                                                      "owned": true,
+                                                      "niceName": "Noise 7"
+                                                    },
                                                     "noise6": {
                                                       "editorIsCollapsed": true,
                                                       "containers": {
@@ -4059,18 +4065,6 @@
                                                       },
                                                       "owned": true,
                                                       "niceName": "Noise"
-                                                    },
-                                                    "noise7": {
-                                                      "editorIsCollapsed": true,
-                                                      "containers": {
-                                                        "parameters": {
-                                                          "editorIsCollapsed": true,
-                                                          "owned": true,
-                                                          "niceName": "Parameters"
-                                                        }
-                                                      },
-                                                      "owned": true,
-                                                      "niceName": "Noise 7"
                                                     }
                                                   },
                                                   "owned": true,
@@ -4799,6 +4793,18 @@
                                                 "effectParameters": {
                                                   "editorIsCollapsed": true,
                                                   "containers": {
+                                                    "noise3": {
+                                                      "editorIsCollapsed": true,
+                                                      "containers": {
+                                                        "parameters": {
+                                                          "editorIsCollapsed": true,
+                                                          "owned": true,
+                                                          "niceName": "Parameters"
+                                                        }
+                                                      },
+                                                      "owned": true,
+                                                      "niceName": "Noise 3"
+                                                    },
                                                     "noise2": {
                                                       "editorIsCollapsed": true,
                                                       "containers": {
@@ -4834,18 +4840,6 @@
                                                       },
                                                       "owned": true,
                                                       "niceName": "Noise"
-                                                    },
-                                                    "noise3": {
-                                                      "editorIsCollapsed": true,
-                                                      "containers": {
-                                                        "parameters": {
-                                                          "editorIsCollapsed": true,
-                                                          "owned": true,
-                                                          "niceName": "Parameters"
-                                                        }
-                                                      },
-                                                      "owned": true,
-                                                      "niceName": "Noise 3"
                                                     }
                                                   },
                                                   "owned": true,
@@ -6244,22 +6238,6 @@
                                                           "editorIsCollapsed": true,
                                                           "containers": {
                                                             "easing": {
-                                                              "parameters": [
-                                                                {
-                                                                  "value": [
-                                                                    0.0,
-                                                                    0.0
-                                                                  ],
-                                                                  "controlAddress": "/anchor1"
-                                                                },
-                                                                {
-                                                                  "value": [
-                                                                    0.0,
-                                                                    0.0
-                                                                  ],
-                                                                  "controlAddress": "/anchor2"
-                                                                }
-                                                              ],
                                                               "editorIsCollapsed": true,
                                                               "owned": true,
                                                               "niceName": "Easing"
@@ -6423,27 +6401,11 @@
                                                     },
                                                     {
                                                       "value": [
-                                                        0.0,
-                                                        0.0,
-                                                        0.0
-                                                      ],
-                                                      "controlAddress": "/center"
-                                                    },
-                                                    {
-                                                      "value": [
                                                         1.0,
                                                         0.0,
                                                         0.0
                                                       ],
                                                       "controlAddress": "/orientation"
-                                                    },
-                                                    {
-                                                      "value": 0.0,
-                                                      "controlAddress": "/startAngle"
-                                                    },
-                                                    {
-                                                      "value": 1.0,
-                                                      "controlAddress": "/endAngle"
                                                     }
                                                   ],
                                                   "editorIsCollapsed": true,
@@ -6654,22 +6616,6 @@
                                                           "editorIsCollapsed": true,
                                                           "containers": {
                                                             "easing": {
-                                                              "parameters": [
-                                                                {
-                                                                  "value": [
-                                                                    0.0,
-                                                                    0.0
-                                                                  ],
-                                                                  "controlAddress": "/anchor1"
-                                                                },
-                                                                {
-                                                                  "value": [
-                                                                    0.0,
-                                                                    0.0
-                                                                  ],
-                                                                  "controlAddress": "/anchor2"
-                                                                }
-                                                              ],
                                                               "editorIsCollapsed": true,
                                                               "owned": true,
                                                               "niceName": "Easing"
@@ -6823,27 +6769,11 @@
                                                     },
                                                     {
                                                       "value": [
-                                                        0.0,
-                                                        0.0,
-                                                        0.0
-                                                      ],
-                                                      "controlAddress": "/center"
-                                                    },
-                                                    {
-                                                      "value": [
                                                         1.0,
                                                         0.0,
                                                         0.0
                                                       ],
                                                       "controlAddress": "/orientation"
-                                                    },
-                                                    {
-                                                      "value": 0.0,
-                                                      "controlAddress": "/startAngle"
-                                                    },
-                                                    {
-                                                      "value": 1.0,
-                                                      "controlAddress": "/endAngle"
                                                     }
                                                   ],
                                                   "editorIsCollapsed": true,
@@ -7276,10 +7206,6 @@
                             {
                               "value": 242.3999938964844,
                               "controlAddress": "/totalTime"
-                            },
-                            {
-                              "value": 242.3999938964844,
-                              "controlAddress": "/viewEndTime"
                             }
                           ],
                           "editorIsCollapsed": true,
@@ -45486,7 +45412,7 @@
             }
           }
         },
-        "hasListenExtension": true
+        "hasListenExtension": false
       },
       {
         "niceName": "Sync Bento",
@@ -45758,8 +45684,8 @@
       {
         "parameters": [
           {
-            "value": true,
-            "controlAddress": "/enabled"
+            "value": false,
+            "controlAddress": "/logIncoming"
           }
         ],
         "niceName": "WebSocket Client",
@@ -45826,81 +45752,27 @@
           "viewZoom": 1.0
         },
         "values": {
-          "parameters": [
-            {
-              "value": [
-                1.492307066917419,
-                2.03479790687561,
-                -2.582521915435791
-              ],
-              "controlAddress": "/position"
-            },
-            {
-              "value": [
-                0.1145673394203186,
-                1.776921153068542,
-                -0.9978994131088257
-              ],
-              "controlAddress": "/position0"
-            },
-            {
-              "value": [
-                0.1104220598936081,
-                1.89950954914093,
-                -0.9983092546463013
-              ],
-              "controlAddress": "/position1"
-            },
-            {
-              "value": [
-                -1.208579778671265,
-                1.820612668991089,
-                -2.115399360656738
-              ],
-              "controlAddress": "/position2"
-            },
-            {
-              "value": [
-                1.158446073532104,
-                0.7779266834259033,
-                -1.741155624389648
-              ],
-              "controlAddress": "/position3"
-            },
-            {
-              "value": [
-                1.320141077041626,
-                1.855827212333679,
-                -2.641856670379639
-              ],
-              "controlAddress": "/position4"
-            }
-          ],
           "containers": {
             "data": {
-              "niceName": "data",
               "containers": {
                 "scenes": {
-                  "niceName": "scenes",
                   "editorIsCollapsed": true,
                   "containers": {
                     "scene": {
-                      "niceName": "scene",
                       "containers": {
                         "0": {
-                          "niceName": "0",
-                          "owned": true
+                          "owned": true,
+                          "niceName": "0"
                         },
                         "1": {
-                          "niceName": "1",
-                          "owned": true
+                          "owned": true,
+                          "niceName": "1"
                         },
                         "2": {
-                          "niceName": "2",
-                          "owned": true
+                          "owned": true,
+                          "niceName": "2"
                         },
                         "nodes": {
-                          "niceName": "nodes",
                           "containers": {
                             "source": {
                               "parameters": [
@@ -45930,14 +45802,14 @@
                                   "feedbackOnly": false
                                 }
                               ],
-                              "niceName": "source",
                               "containers": {
                                 "controls": {
-                                  "niceName": "controls",
-                                  "owned": true
+                                  "owned": true,
+                                  "niceName": "controls"
                                 }
                               },
-                              "owned": true
+                              "owned": true,
+                              "niceName": "source"
                             },
                             "transform": {
                               "parameters": [
@@ -45967,10 +45839,8 @@
                                   "feedbackOnly": false
                                 }
                               ],
-                              "niceName": "transform",
                               "containers": {
                                 "controls": {
-                                  "niceName": "controls",
                                   "containers": {
                                     "transform": {
                                       "parameters": [
@@ -45987,32 +45857,34 @@
                                           "feedbackOnly": false
                                         }
                                       ],
-                                      "niceName": "transform",
                                       "containers": {
                                         "0": {
-                                          "niceName": "0",
-                                          "owned": true
+                                          "owned": true,
+                                          "niceName": "0"
                                         },
                                         "1": {
-                                          "niceName": "1",
-                                          "owned": true
+                                          "owned": true,
+                                          "niceName": "1"
                                         },
                                         "2": {
-                                          "niceName": "2",
-                                          "owned": true
+                                          "owned": true,
+                                          "niceName": "2"
                                         },
                                         "3": {
-                                          "niceName": "3",
-                                          "owned": true
+                                          "owned": true,
+                                          "niceName": "3"
                                         }
                                       },
-                                      "owned": true
+                                      "owned": true,
+                                      "niceName": "transform"
                                     }
                                   },
-                                  "owned": true
+                                  "owned": true,
+                                  "niceName": "controls"
                                 }
                               },
-                              "owned": true
+                              "owned": true,
+                              "niceName": "transform"
                             },
                             "out": {
                               "parameters": [
@@ -46042,14 +45914,14 @@
                                   "feedbackOnly": false
                                 }
                               ],
-                              "niceName": "out",
                               "containers": {
                                 "controls": {
-                                  "niceName": "controls",
-                                  "owned": true
+                                  "owned": true,
+                                  "niceName": "controls"
                                 }
                               },
-                              "owned": true
+                              "owned": true,
+                              "niceName": "out"
                             },
                             "crop": {
                               "parameters": [
@@ -46079,10 +45951,8 @@
                                   "feedbackOnly": false
                                 }
                               ],
-                              "niceName": "crop",
                               "containers": {
                                 "controls": {
-                                  "niceName": "controls",
                                   "containers": {
                                     "box": {
                                       "parameters": [
@@ -46113,32 +45983,34 @@
                                           "feedbackOnly": false
                                         }
                                       ],
-                                      "niceName": "box",
                                       "containers": {
                                         "0": {
-                                          "niceName": "0",
-                                          "owned": true
+                                          "owned": true,
+                                          "niceName": "0"
                                         },
                                         "1": {
-                                          "niceName": "1",
-                                          "owned": true
+                                          "owned": true,
+                                          "niceName": "1"
                                         },
                                         "2": {
-                                          "niceName": "2",
-                                          "owned": true
+                                          "owned": true,
+                                          "niceName": "2"
                                         },
                                         "3": {
-                                          "niceName": "3",
-                                          "owned": true
+                                          "owned": true,
+                                          "niceName": "3"
                                         }
                                       },
-                                      "owned": true
+                                      "owned": true,
+                                      "niceName": "box"
                                     }
                                   },
-                                  "owned": true
+                                  "owned": true,
+                                  "niceName": "controls"
                                 }
                               },
-                              "owned": true
+                              "owned": true,
+                              "niceName": "crop"
                             },
                             "euclideanCluster": {
                               "parameters": [
@@ -46168,14 +46040,14 @@
                                   "feedbackOnly": false
                                 }
                               ],
-                              "niceName": "euclideanCluster",
                               "containers": {
                                 "controls": {
-                                  "niceName": "controls",
-                                  "owned": true
+                                  "owned": true,
+                                  "niceName": "controls"
                                 }
                               },
-                              "owned": true
+                              "owned": true,
+                              "niceName": "euclideanCluster"
                             },
                             "oneEuroFilter": {
                               "parameters": [
@@ -46205,14 +46077,14 @@
                                   "feedbackOnly": false
                                 }
                               ],
-                              "niceName": "oneEuroFilter",
                               "containers": {
                                 "controls": {
-                                  "niceName": "controls",
-                                  "owned": true
+                                  "owned": true,
+                                  "niceName": "controls"
                                 }
                               },
-                              "owned": true
+                              "owned": true,
+                              "niceName": "oneEuroFilter"
                             },
                             "tracker": {
                               "parameters": [
@@ -46242,14 +46114,14 @@
                                   "feedbackOnly": false
                                 }
                               ],
-                              "niceName": "tracker",
                               "containers": {
                                 "controls": {
-                                  "niceName": "controls",
-                                  "owned": true
+                                  "owned": true,
+                                  "niceName": "controls"
                                 }
                               },
-                              "owned": true
+                              "owned": true,
+                              "niceName": "tracker"
                             },
                             "slot": {
                               "parameters": [
@@ -46279,30 +46151,34 @@
                                   "feedbackOnly": false
                                 }
                               ],
-                              "niceName": "slot",
                               "containers": {
                                 "controls": {
-                                  "niceName": "controls",
-                                  "owned": true
+                                  "owned": true,
+                                  "niceName": "controls"
                                 }
                               },
-                              "owned": true
+                              "owned": true,
+                              "niceName": "slot"
                             }
                           },
-                          "owned": true
+                          "owned": true,
+                          "niceName": "nodes"
                         },
                         "scenes": {
-                          "niceName": "scenes",
-                          "owned": true
+                          "owned": true,
+                          "niceName": "scenes"
                         }
                       },
-                      "owned": true
+                      "owned": true,
+                      "niceName": "scene"
                     }
                   },
-                  "owned": true
+                  "owned": true,
+                  "niceName": "scenes"
                 }
               },
-              "owned": true
+              "owned": true,
+              "niceName": "data"
             }
           }
         }
@@ -46334,8 +46210,8 @@
           },
           {
             "value": [
-              278.0,
-              198.0
+              333.0,
+              238.0
             ],
             "controlAddress": "/viewUISize"
           },
@@ -46517,11 +46393,11 @@
             "controlAddress": "/beatsPerBar"
           },
           {
-            "value": 21.53662109375,
+            "value": 0.0,
             "controlAddress": "/viewStartTime"
           },
           {
-            "value": 78.68092346191406,
+            "value": 223.2200012207031,
             "controlAddress": "/viewEndTime"
           },
           {
