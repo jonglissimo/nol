@@ -106,13 +106,13 @@
                 {
                   "type": 1,
                   "width": 1180,
-                  "height": 449,
+                  "height": 587,
                   "direction": 1,
                   "shifters": [
                     {
                       "type": 0,
                       "width": 822,
-                      "height": 449,
+                      "height": 587,
                       "currentContent": "Stage 3D View",
                       "tabs": [
                         {
@@ -129,7 +129,7 @@
                     {
                       "type": 0,
                       "width": 352,
-                      "height": 449,
+                      "height": 587,
                       "currentContent": "Scenes",
                       "tabs": [
                         {
@@ -142,7 +142,7 @@
                 {
                   "type": 0,
                   "width": 1180,
-                  "height": 542,
+                  "height": 404,
                   "currentContent": "Sequence Editor",
                   "tabs": [
                     {
@@ -260,12 +260,6 @@
           "components": {
             "items": [
               {
-                "parameters": [
-                  {
-                    "value": 0.0,
-                    "controlAddress": "/value"
-                  }
-                ],
                 "niceName": "Dimmer",
                 "containers": {
                   "dmxParameters": {
@@ -432,14 +426,6 @@
                         "controlAddress": "/dmxTiltRange"
                       },
                       {
-                        "value": true,
-                        "controlAddress": "/useAlternativeRange"
-                      },
-                      {
-                        "value": "X",
-                        "controlAddress": "/alternativeAxis"
-                      },
-                      {
                         "value": [
                           0.0,
                           170.0
@@ -453,8 +439,7 @@
                         ],
                         "controlAddress": "/dmxTiltRange2"
                       }
-                    ],
-                    "editorIsCollapsed": true
+                    ]
                   }
                 },
                 "type": "Orientation",
@@ -551,11 +536,12 @@
               {
                 "parameters": [
                   {
-                    "value": false,
-                    "controlAddress": "/excludeFromScenes"
+                    "value": 1,
+                    "hexMode": false,
+                    "controlAddress": "/count"
                   },
                   {
-                    "value": 0.7701149582862854,
+                    "value": 0.1500000059604645,
                     "minValue": 0.0,
                     "maxValue": 1.0,
                     "default": 0.0,
@@ -585,16 +571,7 @@
                       "enabled": true
                     }
                   ]
-                },
-                "valueNames": [
-                  "Value 1"
-                ],
-                "valueRanges": [
-                  [
-                    0.0,
-                    1.0
-                  ]
-                ]
+                }
               }
             ],
             "viewOffset": [
@@ -615,6 +592,10 @@
       },
       {
         "parameters": [
+          {
+            "value": true,
+            "controlAddress": "/enabled"
+          },
           {
             "value": [
               -1.740000009536743,
@@ -670,12 +651,6 @@
           "components": {
             "items": [
               {
-                "parameters": [
-                  {
-                    "value": 0.0,
-                    "controlAddress": "/value"
-                  }
-                ],
                 "niceName": "Dimmer",
                 "containers": {
                   "dmxParameters": {
@@ -790,6 +765,10 @@
               {
                 "parameters": [
                   {
+                    "value": 0,
+                    "controlAddress": "/controlMode"
+                  },
+                  {
                     "value": [
                       0.0,
                       -0.5000005960464478,
@@ -839,10 +818,6 @@
                           235.0
                         ],
                         "controlAddress": "/dmxTiltRange"
-                      },
-                      {
-                        "value": true,
-                        "controlAddress": "/useAlternativeRange"
                       },
                       {
                         "value": [
@@ -954,7 +929,12 @@
               {
                 "parameters": [
                   {
-                    "value": 0.7701150178909302,
+                    "value": 1,
+                    "hexMode": false,
+                    "controlAddress": "/count"
+                  },
+                  {
+                    "value": 0.1500000059604645,
                     "minValue": 0.0,
                     "maxValue": 1.0,
                     "default": 0.0,
@@ -984,16 +964,7 @@
                       "enabled": true
                     }
                   ]
-                },
-                "valueNames": [
-                  "Value 1"
-                ],
-                "valueRanges": [
-                  [
-                    0.0,
-                    1.0
-                  ]
-                ]
+                }
               }
             ],
             "viewOffset": [
@@ -1014,6 +985,10 @@
       },
       {
         "parameters": [
+          {
+            "value": true,
+            "controlAddress": "/enabled"
+          },
           {
             "value": [
               -0.6299999952316284,
@@ -1069,12 +1044,6 @@
           "components": {
             "items": [
               {
-                "parameters": [
-                  {
-                    "value": 0.0,
-                    "controlAddress": "/value"
-                  }
-                ],
                 "niceName": "Dimmer",
                 "containers": {
                   "dmxParameters": {
@@ -1240,10 +1209,6 @@
                         "controlAddress": "/dmxTiltRange"
                       },
                       {
-                        "value": true,
-                        "controlAddress": "/useAlternativeRange"
-                      },
-                      {
                         "value": [
                           0.0,
                           170.0
@@ -1353,7 +1318,12 @@
               {
                 "parameters": [
                   {
-                    "value": 0.7701150178909302,
+                    "value": 1,
+                    "hexMode": false,
+                    "controlAddress": "/count"
+                  },
+                  {
+                    "value": 0.1500000059604645,
                     "minValue": 0.0,
                     "maxValue": 1.0,
                     "default": 0.0,
@@ -1383,16 +1353,7 @@
                       "enabled": true
                     }
                   ]
-                },
-                "valueNames": [
-                  "Value 1"
-                ],
-                "valueRanges": [
-                  [
-                    0.0,
-                    1.0
-                  ]
-                ]
+                }
               }
             ],
             "viewOffset": [
@@ -1413,6 +1374,10 @@
       },
       {
         "parameters": [
+          {
+            "value": true,
+            "controlAddress": "/enabled"
+          },
           {
             "value": [
               0.6299999952316284,
@@ -1467,12 +1432,6 @@
           "components": {
             "items": [
               {
-                "parameters": [
-                  {
-                    "value": 0.0,
-                    "controlAddress": "/value"
-                  }
-                ],
                 "niceName": "Dimmer",
                 "containers": {
                   "dmxParameters": {
@@ -1638,10 +1597,6 @@
                         "controlAddress": "/dmxTiltRange"
                       },
                       {
-                        "value": true,
-                        "controlAddress": "/useAlternativeRange"
-                      },
-                      {
                         "value": [
                           0.0,
                           170.0
@@ -1751,7 +1706,12 @@
               {
                 "parameters": [
                   {
-                    "value": 0.7701150178909302,
+                    "value": 1,
+                    "hexMode": false,
+                    "controlAddress": "/count"
+                  },
+                  {
+                    "value": 0.1500000059604645,
                     "minValue": 0.0,
                     "maxValue": 1.0,
                     "default": 0.0,
@@ -1781,16 +1741,7 @@
                       "enabled": true
                     }
                   ]
-                },
-                "valueNames": [
-                  "Value 1"
-                ],
-                "valueRanges": [
-                  [
-                    0.0,
-                    1.0
-                  ]
-                ]
+                }
               }
             ],
             "viewOffset": [
@@ -1811,6 +1762,10 @@
       },
       {
         "parameters": [
+          {
+            "value": true,
+            "controlAddress": "/enabled"
+          },
           {
             "value": [
               1.740000009536743,
@@ -2031,10 +1986,6 @@
                         "controlAddress": "/dmxTiltRange"
                       },
                       {
-                        "value": true,
-                        "controlAddress": "/useAlternativeRange"
-                      },
-                      {
                         "value": [
                           0.0,
                           170.0
@@ -2144,7 +2095,12 @@
               {
                 "parameters": [
                   {
-                    "value": 0.7701150178909302,
+                    "value": 1,
+                    "hexMode": false,
+                    "controlAddress": "/count"
+                  },
+                  {
+                    "value": 0.1500000059604645,
                     "minValue": 0.0,
                     "maxValue": 1.0,
                     "default": 0.0,
@@ -2174,16 +2130,7 @@
                       "enabled": true
                     }
                   ]
-                },
-                "valueNames": [
-                  "Value 1"
-                ],
-                "valueRanges": [
-                  [
-                    0.0,
-                    1.0
-                  ]
-                ]
+                }
               }
             ],
             "viewOffset": [
@@ -2204,6 +2151,10 @@
       },
       {
         "parameters": [
+          {
+            "value": true,
+            "controlAddress": "/enabled"
+          },
           {
             "value": [
               3.039999961853027,
@@ -2258,12 +2209,6 @@
           "components": {
             "items": [
               {
-                "parameters": [
-                  {
-                    "value": 0.0,
-                    "controlAddress": "/value"
-                  }
-                ],
                 "niceName": "Dimmer",
                 "containers": {
                   "dmxParameters": {
@@ -2429,10 +2374,6 @@
                         "controlAddress": "/dmxTiltRange"
                       },
                       {
-                        "value": true,
-                        "controlAddress": "/useAlternativeRange"
-                      },
-                      {
                         "value": [
                           0.0,
                           170.0
@@ -2542,7 +2483,12 @@
               {
                 "parameters": [
                   {
-                    "value": 0.7701150178909302,
+                    "value": 1,
+                    "hexMode": false,
+                    "controlAddress": "/count"
+                  },
+                  {
+                    "value": 0.1500000059604645,
                     "minValue": 0.0,
                     "maxValue": 1.0,
                     "default": 0.0,
@@ -2572,16 +2518,7 @@
                       "enabled": true
                     }
                   ]
-                },
-                "valueNames": [
-                  "Value 1"
-                ],
-                "valueRanges": [
-                  [
-                    0.0,
-                    1.0
-                  ]
-                ]
+                }
               }
             ],
             "viewOffset": [
@@ -2602,6 +2539,10 @@
       },
       {
         "parameters": [
+          {
+            "value": true,
+            "controlAddress": "/enabled"
+          },
           {
             "value": [
               -3.400000095367432,
@@ -2656,12 +2597,6 @@
           "components": {
             "items": [
               {
-                "parameters": [
-                  {
-                    "value": 0.0,
-                    "controlAddress": "/value"
-                  }
-                ],
                 "niceName": "Dimmer",
                 "containers": {
                   "dmxParameters": {
@@ -2986,21 +2921,7 @@
                       "enabled": true
                     }
                   ]
-                },
-                "valueNames": [
-                  "Value 1",
-                  "Value 2"
-                ],
-                "valueRanges": [
-                  [
-                    0.0,
-                    1.0
-                  ],
-                  [
-                    0.0,
-                    1.0
-                  ]
-                ]
+                }
               }
             ],
             "viewOffset": [
@@ -3021,6 +2942,10 @@
       },
       {
         "parameters": [
+          {
+            "value": true,
+            "controlAddress": "/enabled"
+          },
           {
             "value": [
               -2.849999904632568,
@@ -3075,12 +3000,6 @@
           "components": {
             "items": [
               {
-                "parameters": [
-                  {
-                    "value": 0.0,
-                    "controlAddress": "/value"
-                  }
-                ],
                 "niceName": "Dimmer",
                 "containers": {
                   "dmxParameters": {
@@ -3405,21 +3324,7 @@
                       "enabled": true
                     }
                   ]
-                },
-                "valueNames": [
-                  "Value 1",
-                  "Value 2"
-                ],
-                "valueRanges": [
-                  [
-                    0.0,
-                    1.0
-                  ],
-                  [
-                    0.0,
-                    1.0
-                  ]
-                ]
+                }
               }
             ],
             "viewOffset": [
@@ -3441,7 +3346,7 @@
       {
         "parameters": [
           {
-            "value": false,
+            "value": true,
             "controlAddress": "/enabled"
           },
           {
@@ -3490,12 +3395,6 @@
           "components": {
             "items": [
               {
-                "parameters": [
-                  {
-                    "value": 0.0,
-                    "controlAddress": "/value"
-                  }
-                ],
                 "niceName": "Dimmer",
                 "containers": {
                   "dmxParameters": {
@@ -3820,21 +3719,7 @@
                       "enabled": true
                     }
                   ]
-                },
-                "valueNames": [
-                  "Value 1",
-                  "Value 2"
-                ],
-                "valueRanges": [
-                  [
-                    0.0,
-                    1.0
-                  ],
-                  [
-                    0.0,
-                    1.0
-                  ]
-                ]
+                }
               }
             ],
             "viewOffset": [
@@ -3856,7 +3741,7 @@
       {
         "parameters": [
           {
-            "value": false,
+            "value": true,
             "controlAddress": "/enabled"
           },
           {
@@ -3905,12 +3790,6 @@
           "components": {
             "items": [
               {
-                "parameters": [
-                  {
-                    "value": 0.0,
-                    "controlAddress": "/value"
-                  }
-                ],
                 "niceName": "Dimmer",
                 "containers": {
                   "dmxParameters": {
@@ -4186,13 +4065,6 @@
                     "controlAddress": "/count"
                   },
                   {
-                    "value": 0.0,
-                    "minValue": 0.0,
-                    "maxValue": 1.0,
-                    "default": 0.0,
-                    "controlAddress": "/value1"
-                  },
-                  {
                     "value": 0.540229856967926,
                     "minValue": 0.0,
                     "maxValue": 1.0,
@@ -4235,21 +4107,7 @@
                       "enabled": true
                     }
                   ]
-                },
-                "valueNames": [
-                  "Value 1",
-                  "Value 2"
-                ],
-                "valueRanges": [
-                  [
-                    0.0,
-                    1.0
-                  ],
-                  [
-                    0.0,
-                    1.0
-                  ]
-                ]
+                }
               }
             ],
             "viewOffset": [
@@ -4270,6 +4128,10 @@
       },
       {
         "parameters": [
+          {
+            "value": true,
+            "controlAddress": "/enabled"
+          },
           {
             "value": [
               2.849999904632568,
@@ -4324,12 +4186,6 @@
           "components": {
             "items": [
               {
-                "parameters": [
-                  {
-                    "value": 0.0,
-                    "controlAddress": "/value"
-                  }
-                ],
                 "niceName": "Dimmer",
                 "containers": {
                   "dmxParameters": {
@@ -4654,21 +4510,7 @@
                       "enabled": true
                     }
                   ]
-                },
-                "valueNames": [
-                  "Value 1",
-                  "Value 2"
-                ],
-                "valueRanges": [
-                  [
-                    0.0,
-                    1.0
-                  ],
-                  [
-                    0.0,
-                    1.0
-                  ]
-                ]
+                }
               }
             ],
             "viewOffset": [
@@ -4689,6 +4531,10 @@
       },
       {
         "parameters": [
+          {
+            "value": true,
+            "controlAddress": "/enabled"
+          },
           {
             "value": [
               3.400000095367432,
@@ -4743,12 +4589,6 @@
           "components": {
             "items": [
               {
-                "parameters": [
-                  {
-                    "value": 0.0,
-                    "controlAddress": "/value"
-                  }
-                ],
                 "niceName": "Dimmer",
                 "containers": {
                   "dmxParameters": {
@@ -5073,21 +4913,7 @@
                       "enabled": true
                     }
                   ]
-                },
-                "valueNames": [
-                  "Value 1",
-                  "Value 2"
-                ],
-                "valueRanges": [
-                  [
-                    0.0,
-                    1.0
-                  ],
-                  [
-                    0.0,
-                    1.0
-                  ]
-                ]
+                }
               }
             ],
             "viewOffset": [
@@ -5143,12 +4969,6 @@
           "components": {
             "items": [
               {
-                "parameters": [
-                  {
-                    "value": 0.0,
-                    "controlAddress": "/value"
-                  }
-                ],
                 "niceName": "Dimmer",
                 "containers": {
                   "dmxParameters": {
@@ -5333,15 +5153,6 @@
                 }
               },
               {
-                "parameters": [
-                  {
-                    "value": 0.0,
-                    "minValue": 0.0,
-                    "maxValue": 1.0,
-                    "default": 0.0,
-                    "controlAddress": "/value1"
-                  }
-                ],
                 "niceName": "Custom",
                 "containers": {
                   "dmxParameters": {
@@ -5365,16 +5176,7 @@
                       "enabled": true
                     }
                   ]
-                },
-                "valueNames": [
-                  "Value 1"
-                ],
-                "valueRanges": [
-                  [
-                    0.0,
-                    1.0
-                  ]
-                ]
+                }
               }
             ],
             "viewOffset": [
@@ -5453,12 +5255,6 @@
           "components": {
             "items": [
               {
-                "parameters": [
-                  {
-                    "value": 0.0,
-                    "controlAddress": "/value"
-                  }
-                ],
                 "niceName": "Dimmer",
                 "containers": {
                   "dmxParameters": {
@@ -5643,15 +5439,6 @@
                 }
               },
               {
-                "parameters": [
-                  {
-                    "value": 0.0,
-                    "minValue": 0.0,
-                    "maxValue": 1.0,
-                    "default": 0.0,
-                    "controlAddress": "/value1"
-                  }
-                ],
                 "niceName": "Shutter",
                 "containers": {
                   "dmxParameters": {
@@ -5675,16 +5462,7 @@
                       "enabled": true
                     }
                   ]
-                },
-                "valueNames": [
-                  "Value 1"
-                ],
-                "valueRanges": [
-                  [
-                    0.0,
-                    1.0
-                  ]
-                ]
+                }
               }
             ],
             "viewOffset": [
@@ -5763,12 +5541,6 @@
           "components": {
             "items": [
               {
-                "parameters": [
-                  {
-                    "value": 0.0,
-                    "controlAddress": "/value"
-                  }
-                ],
                 "niceName": "Dimmer",
                 "containers": {
                   "dmxParameters": {
@@ -5953,15 +5725,6 @@
                 }
               },
               {
-                "parameters": [
-                  {
-                    "value": 0.0,
-                    "minValue": 0.0,
-                    "maxValue": 1.0,
-                    "default": 0.0,
-                    "controlAddress": "/value1"
-                  }
-                ],
                 "niceName": "Shutter",
                 "containers": {
                   "dmxParameters": {
@@ -5985,16 +5748,7 @@
                       "enabled": true
                     }
                   ]
-                },
-                "valueNames": [
-                  "Value 1"
-                ],
-                "valueRanges": [
-                  [
-                    0.0,
-                    1.0
-                  ]
-                ]
+                }
               }
             ],
             "viewOffset": [
@@ -6317,12 +6071,6 @@
           "components": {
             "items": [
               {
-                "parameters": [
-                  {
-                    "value": true,
-                    "controlAddress": "/enabled"
-                  }
-                ],
                 "niceName": "Dimmer",
                 "containers": {
                   "dmxParameters": {
@@ -6567,6 +6315,12 @@
           "components": {
             "items": [
               {
+                "parameters": [
+                  {
+                    "value": 0.0,
+                    "controlAddress": "/value"
+                  }
+                ],
                 "niceName": "Dimmer",
                 "containers": {
                   "dmxParameters": {
@@ -6813,8 +6567,8 @@
               {
                 "parameters": [
                   {
-                    "value": true,
-                    "controlAddress": "/enabled"
+                    "value": 0.0,
+                    "controlAddress": "/value"
                   }
                 ],
                 "niceName": "Dimmer",
@@ -7004,6 +6758,10 @@
       {
         "parameters": [
           {
+            "value": true,
+            "controlAddress": "/enabled"
+          },
+          {
             "value": "",
             "controlAddress": "/customIcon"
           },
@@ -7045,7 +6803,7 @@
                     "controlAddress": "/count"
                   },
                   {
-                    "value": 0.0,
+                    "value": 0.05363984405994415,
                     "minValue": 0.0,
                     "maxValue": 1.0,
                     "default": 0.0,
@@ -7082,21 +6840,7 @@
                       "enabled": true
                     }
                   ]
-                },
-                "valueNames": [
-                  "Value 1",
-                  "Value 2"
-                ],
-                "valueRanges": [
-                  [
-                    0.0,
-                    1.0
-                  ],
-                  [
-                    0.0,
-                    1.0
-                  ]
-                ]
+                }
               }
             ],
             "viewOffset": [
@@ -7133,6 +6877,10 @@
     "items": [
       {
         "parameters": [
+          {
+            "value": true,
+            "controlAddress": "/enabled"
+          },
           {
             "value": "Art-Net",
             "controlAddress": "/dmxType"
@@ -7279,7 +7027,7 @@
                     "controlAddress": "/saveMode"
                   },
                   {
-                    "value": 1.0,
+                    "value": 0.0,
                     "controlAddress": "/weight"
                   }
                 ],
@@ -7316,15 +7064,11 @@
                     "controlAddress": "/enabled"
                   },
                   {
-                    "value": "Use local randomized",
-                    "controlAddress": "/idMode"
-                  },
-                  {
                     "value": "Save weight only",
                     "controlAddress": "/saveMode"
                   },
                   {
-                    "value": 1.0,
+                    "value": 0.0,
                     "controlAddress": "/weight"
                   }
                 ],
@@ -7572,7 +7316,7 @@
               {
                 "parameters": [
                   {
-                    "value": true,
+                    "value": false,
                     "controlAddress": "/enabled"
                   },
                   {
@@ -7580,18 +7324,15 @@
                     "controlAddress": "/saveMode"
                   },
                   {
-                    "value": 1.0,
+                    "value": 0.0,
                     "controlAddress": "/weight"
                   }
                 ],
                 "niceName": "Orientation Target",
+                "editorIsCollapsed": true,
                 "containers": {
                   "effectParameters": {
                     "parameters": [
-                      {
-                        "value": "Point",
-                        "controlAddress": "/shape"
-                      },
                       {
                         "value": 6,
                         "hexMode": false,
@@ -7900,7 +7641,7 @@
                     "controlAddress": "/saveMode"
                   },
                   {
-                    "value": 1.0,
+                    "value": 0.0,
                     "controlAddress": "/weight"
                   }
                 ],
@@ -7909,10 +7650,6 @@
                 "containers": {
                   "effectParameters": {
                     "parameters": [
-                      {
-                        "value": "Point",
-                        "controlAddress": "/shape"
-                      },
                       {
                         "value": 6,
                         "hexMode": false,
@@ -8175,15 +7912,6 @@
                 "editorIsCollapsed": true,
                 "containers": {
                   "effectParameters": {
-                    "parameters": [
-                      {
-                        "value": 0.0,
-                        "minValue": -1.0,
-                        "maxValue": 1.0,
-                        "default": 0.0,
-                        "controlAddress": "/value"
-                      }
-                    ],
                     "paramLinks": {
                     }
                   },
@@ -8217,8 +7945,8 @@
                 "containers": {
                   "effectParameters": {
                     "containers": {
-                      "rainbow1": {
-                        "niceName": "Rainbow 1",
+                      "rainbow6": {
+                        "niceName": "Rainbow 6",
                         "containers": {
                           "parameters": {
                             "parameters": [
@@ -8236,6 +7964,56 @@
                           }
                         },
                         "type": "Rainbow"
+                      },
+                      "rainbow5": {
+                        "containers": {
+                          "parameters": {
+                            "owned": true,
+                            "niceName": "parameters"
+                          }
+                        },
+                        "owned": true,
+                        "niceName": "Rainbow 5"
+                      },
+                      "rainbow4": {
+                        "containers": {
+                          "parameters": {
+                            "owned": true,
+                            "niceName": "parameters"
+                          }
+                        },
+                        "owned": true,
+                        "niceName": "Rainbow 4"
+                      },
+                      "rainbow3": {
+                        "containers": {
+                          "parameters": {
+                            "owned": true,
+                            "niceName": "parameters"
+                          }
+                        },
+                        "owned": true,
+                        "niceName": "Rainbow 3"
+                      },
+                      "rainbow2": {
+                        "containers": {
+                          "parameters": {
+                            "owned": true,
+                            "niceName": "parameters"
+                          }
+                        },
+                        "owned": true,
+                        "niceName": "Rainbow 2"
+                      },
+                      "rainbow1": {
+                        "containers": {
+                          "parameters": {
+                            "owned": true,
+                            "niceName": "parameters"
+                          }
+                        },
+                        "owned": true,
+                        "niceName": "Rainbow 1"
                       },
                       "rainbow": {
                         "containers": {
@@ -8261,7 +8039,7 @@
                 },
                 "type": "Override (Color)",
                 "colorSource": {
-                  "niceName": "Rainbow 1",
+                  "niceName": "Rainbow 6",
                   "containers": {
                     "parameters": {
                       "parameters": [
@@ -8523,15 +8301,6 @@
                 "editorIsCollapsed": true,
                 "containers": {
                   "effectParameters": {
-                    "parameters": [
-                      {
-                        "value": 0.0,
-                        "minValue": -1.0,
-                        "maxValue": 1.0,
-                        "default": 0.0,
-                        "controlAddress": "/value"
-                      }
-                    ],
                     "paramLinks": {
                     }
                   },
@@ -8684,15 +8453,6 @@
                 "editorIsCollapsed": true,
                 "containers": {
                   "effectParameters": {
-                    "parameters": [
-                      {
-                        "value": 0.0,
-                        "minValue": -1.0,
-                        "maxValue": 1.0,
-                        "default": 0.0,
-                        "controlAddress": "/value"
-                      }
-                    ],
                     "paramLinks": {
                     }
                   },
@@ -10012,8 +9772,8 @@
                                   "containers": {
                                     "effectParameters": {
                                       "containers": {
-                                        "noise9": {
-                                          "niceName": "Noise 9",
+                                        "noise14": {
+                                          "niceName": "Noise 14",
                                           "containers": {
                                             "parameters": {
                                               "parameters": [
@@ -10043,6 +9803,56 @@
                                             }
                                           },
                                           "type": "Noise"
+                                        },
+                                        "noise13": {
+                                          "containers": {
+                                            "parameters": {
+                                              "owned": true,
+                                              "niceName": "parameters"
+                                            }
+                                          },
+                                          "owned": true,
+                                          "niceName": "Noise 13"
+                                        },
+                                        "noise12": {
+                                          "containers": {
+                                            "parameters": {
+                                              "owned": true,
+                                              "niceName": "parameters"
+                                            }
+                                          },
+                                          "owned": true,
+                                          "niceName": "Noise 12"
+                                        },
+                                        "noise11": {
+                                          "containers": {
+                                            "parameters": {
+                                              "owned": true,
+                                              "niceName": "parameters"
+                                            }
+                                          },
+                                          "owned": true,
+                                          "niceName": "Noise 11"
+                                        },
+                                        "noise10": {
+                                          "containers": {
+                                            "parameters": {
+                                              "owned": true,
+                                              "niceName": "parameters"
+                                            }
+                                          },
+                                          "owned": true,
+                                          "niceName": "Noise 10"
+                                        },
+                                        "noise9": {
+                                          "containers": {
+                                            "parameters": {
+                                              "owned": true,
+                                              "niceName": "parameters"
+                                            }
+                                          },
+                                          "owned": true,
+                                          "niceName": "Noise 9"
                                         },
                                         "noise8": {
                                           "containers": {
@@ -10183,7 +9993,7 @@
                                   },
                                   "type": "Override (Color)",
                                   "colorSource": {
-                                    "niceName": "Noise 9",
+                                    "niceName": "Noise 14",
                                     "containers": {
                                       "parameters": {
                                         "parameters": [
@@ -10339,8 +10149,8 @@
                                   "containers": {
                                     "effectParameters": {
                                       "containers": {
-                                        "noise10": {
-                                          "niceName": "Noise 10",
+                                        "noise15": {
+                                          "niceName": "Noise 15",
                                           "containers": {
                                             "parameters": {
                                               "parameters": [
@@ -10370,6 +10180,56 @@
                                             }
                                           },
                                           "type": "Noise"
+                                        },
+                                        "noise14": {
+                                          "containers": {
+                                            "parameters": {
+                                              "owned": true,
+                                              "niceName": "parameters"
+                                            }
+                                          },
+                                          "owned": true,
+                                          "niceName": "Noise 14"
+                                        },
+                                        "noise13": {
+                                          "containers": {
+                                            "parameters": {
+                                              "owned": true,
+                                              "niceName": "parameters"
+                                            }
+                                          },
+                                          "owned": true,
+                                          "niceName": "Noise 13"
+                                        },
+                                        "noise12": {
+                                          "containers": {
+                                            "parameters": {
+                                              "owned": true,
+                                              "niceName": "parameters"
+                                            }
+                                          },
+                                          "owned": true,
+                                          "niceName": "Noise 12"
+                                        },
+                                        "noise11": {
+                                          "containers": {
+                                            "parameters": {
+                                              "owned": true,
+                                              "niceName": "parameters"
+                                            }
+                                          },
+                                          "owned": true,
+                                          "niceName": "Noise 11"
+                                        },
+                                        "noise10": {
+                                          "containers": {
+                                            "parameters": {
+                                              "owned": true,
+                                              "niceName": "parameters"
+                                            }
+                                          },
+                                          "owned": true,
+                                          "niceName": "Noise 10"
                                         },
                                         "noise9": {
                                           "containers": {
@@ -10522,7 +10382,7 @@
                                   },
                                   "type": "Override (Color)",
                                   "colorSource": {
-                                    "niceName": "Noise 10",
+                                    "niceName": "Noise 15",
                                     "containers": {
                                       "parameters": {
                                         "parameters": [
@@ -10678,8 +10538,8 @@
                                   "containers": {
                                     "effectParameters": {
                                       "containers": {
-                                        "noise11": {
-                                          "niceName": "Noise 11",
+                                        "noise16": {
+                                          "niceName": "Noise 16",
                                           "containers": {
                                             "parameters": {
                                               "parameters": [
@@ -10801,6 +10661,56 @@
                                             }
                                           },
                                           "type": "Noise"
+                                        },
+                                        "noise15": {
+                                          "containers": {
+                                            "parameters": {
+                                              "owned": true,
+                                              "niceName": "parameters"
+                                            }
+                                          },
+                                          "owned": true,
+                                          "niceName": "Noise 15"
+                                        },
+                                        "noise14": {
+                                          "containers": {
+                                            "parameters": {
+                                              "owned": true,
+                                              "niceName": "parameters"
+                                            }
+                                          },
+                                          "owned": true,
+                                          "niceName": "Noise 14"
+                                        },
+                                        "noise13": {
+                                          "containers": {
+                                            "parameters": {
+                                              "owned": true,
+                                              "niceName": "parameters"
+                                            }
+                                          },
+                                          "owned": true,
+                                          "niceName": "Noise 13"
+                                        },
+                                        "noise12": {
+                                          "containers": {
+                                            "parameters": {
+                                              "owned": true,
+                                              "niceName": "parameters"
+                                            }
+                                          },
+                                          "owned": true,
+                                          "niceName": "Noise 12"
+                                        },
+                                        "noise11": {
+                                          "containers": {
+                                            "parameters": {
+                                              "owned": true,
+                                              "niceName": "parameters"
+                                            }
+                                          },
+                                          "owned": true,
+                                          "niceName": "Noise 11"
                                         },
                                         "noise10": {
                                           "containers": {
@@ -10947,7 +10857,7 @@
                                   },
                                   "type": "Override (Color)",
                                   "colorSource": {
-                                    "niceName": "Noise 11",
+                                    "niceName": "Noise 16",
                                     "containers": {
                                       "parameters": {
                                         "parameters": [
@@ -12113,8 +12023,8 @@
                                   "containers": {
                                     "effectParameters": {
                                       "containers": {
-                                        "noise7": {
-                                          "niceName": "Noise 7",
+                                        "noise12": {
+                                          "niceName": "Noise 12",
                                           "containers": {
                                             "parameters": {
                                               "parameters": [
@@ -12146,6 +12056,56 @@
                                             }
                                           },
                                           "type": "Noise"
+                                        },
+                                        "noise11": {
+                                          "containers": {
+                                            "parameters": {
+                                              "owned": true,
+                                              "niceName": "parameters"
+                                            }
+                                          },
+                                          "owned": true,
+                                          "niceName": "Noise 11"
+                                        },
+                                        "noise10": {
+                                          "containers": {
+                                            "parameters": {
+                                              "owned": true,
+                                              "niceName": "parameters"
+                                            }
+                                          },
+                                          "owned": true,
+                                          "niceName": "Noise 10"
+                                        },
+                                        "noise9": {
+                                          "containers": {
+                                            "parameters": {
+                                              "owned": true,
+                                              "niceName": "parameters"
+                                            }
+                                          },
+                                          "owned": true,
+                                          "niceName": "Noise 9"
+                                        },
+                                        "noise8": {
+                                          "containers": {
+                                            "parameters": {
+                                              "owned": true,
+                                              "niceName": "parameters"
+                                            }
+                                          },
+                                          "owned": true,
+                                          "niceName": "Noise 8"
+                                        },
+                                        "noise7": {
+                                          "containers": {
+                                            "parameters": {
+                                              "owned": true,
+                                              "niceName": "parameters"
+                                            }
+                                          },
+                                          "owned": true,
+                                          "niceName": "Noise 7"
                                         },
                                         "noise6": {
                                           "containers": {
@@ -12231,7 +12191,7 @@
                                   },
                                   "type": "Override (Color)",
                                   "colorSource": {
-                                    "niceName": "Noise 7",
+                                    "niceName": "Noise 12",
                                     "containers": {
                                       "parameters": {
                                         "parameters": [
@@ -14880,10 +14840,6 @@
                     },
                     {
                       "parameters": [
-                        {
-                          "value": true,
-                          "controlAddress": "/enabled"
-                        },
                         {
                           "value": 60.0,
                           "controlAddress": "/listSize"
@@ -17763,10 +17719,6 @@
                             {
                               "parameters": [
                                 {
-                                  "value": 0.0,
-                                  "controlAddress": "/startTime"
-                                },
-                                {
                                   "value": 314.7200012207031,
                                   "controlAddress": "/length"
                                 }
@@ -17986,10 +17938,6 @@
                             {
                               "parameters": [
                                 {
-                                  "value": 0.0,
-                                  "controlAddress": "/startTime"
-                                },
-                                {
                                   "value": 302.0599975585938,
                                   "controlAddress": "/length"
                                 }
@@ -18051,10 +17999,6 @@
                                                     {
                                                       "value": 0.04321934282779694,
                                                       "controlAddress": "/position"
-                                                    },
-                                                    {
-                                                      "value": 0.0,
-                                                      "controlAddress": "/value"
                                                     },
                                                     {
                                                       "value": "Bezier",
@@ -18285,10 +18229,6 @@
                                                     {
                                                       "value": 113.6303024291992,
                                                       "controlAddress": "/position"
-                                                    },
-                                                    {
-                                                      "value": 0.0,
-                                                      "controlAddress": "/value"
                                                     },
                                                     {
                                                       "value": "Bezier",
@@ -18868,67 +18808,7 @@
                     {
                       "parameters": [
                         {
-                          "value": false,
-                          "controlAddress": "/enabled"
-                        },
-                        {
-                          "value": 60.0,
-                          "controlAddress": "/listSize"
-                        },
-                        {
-                          "value": 60,
-                          "hexMode": false,
-                          "controlAddress": "/uiHeight"
-                        }
-                      ],
-                      "niceName": "Audio",
-                      "type": "Audio",
-                      "clips": {
-                        "hideInEditor": true,
-                        "items": [
-                          {
-                            "parameters": [
-                              {
-                                "value": 0.0,
-                                "controlAddress": "/startTime"
-                              },
-                              {
-                                "value": "Audio/2-Hoop-Jonglissimo_Wasser_12.mp3",
-                                "controlAddress": "/filePath"
-                              }
-                            ],
-                            "niceName": "AudioClip",
-                            "editorIsCollapsed": true,
-                            "type": "AudioClip"
-                          }
-                        ],
-                        "viewOffset": [
-                          0,
-                          0
-                        ],
-                        "viewZoom": 1.0
-                      },
-                      "channels": {
-                        "parameters": [
-                          {
-                            "value": true,
-                            "controlAddress": "/channelOutLeft"
-                          },
-                          {
-                            "value": true,
-                            "controlAddress": "/channelOutRight"
-                          }
-                        ]
-                      }
-                    },
-                    {
-                      "parameters": [
-                        {
                           "value": true,
-                          "controlAddress": "/enabled"
-                        },
-                        {
-                          "value": false,
                           "controlAddress": "/miniMode"
                         },
                         {
@@ -18936,7 +18816,7 @@
                           "controlAddress": "/listSize"
                         },
                         {
-                          "value": 88,
+                          "value": 22,
                           "hexMode": false,
                           "controlAddress": "/uiHeight"
                         }
@@ -18948,10 +18828,6 @@
                           "items": [
                             {
                               "parameters": [
-                                {
-                                  "value": 0.0,
-                                  "controlAddress": "/startTime"
-                                },
                                 {
                                   "value": 302.0599975585938,
                                   "controlAddress": "/length"
@@ -19012,10 +18888,6 @@
                                                 {
                                                   "parameters": [
                                                     {
-                                                      "value": 0.0,
-                                                      "controlAddress": "/position"
-                                                    },
-                                                    {
                                                       "value": -0.4776821732521057,
                                                       "controlAddress": "/value"
                                                     },
@@ -19036,10 +18908,6 @@
                                                     {
                                                       "value": 112.9741897583008,
                                                       "controlAddress": "/position"
-                                                    },
-                                                    {
-                                                      "value": 0.0,
-                                                      "controlAddress": "/value"
                                                     },
                                                     {
                                                       "value": "Bezier",
@@ -19150,10 +19018,6 @@
                                                     {
                                                       "value": 238.8099517822266,
                                                       "controlAddress": "/position"
-                                                    },
-                                                    {
-                                                      "value": 0.0,
-                                                      "controlAddress": "/value"
                                                     },
                                                     {
                                                       "value": "Bezier",
@@ -19334,10 +19198,6 @@
                           "items": [
                             {
                               "parameters": [
-                                {
-                                  "value": 0.0,
-                                  "controlAddress": "/startTime"
-                                },
                                 {
                                   "value": 302.0599975585938,
                                   "controlAddress": "/length"
@@ -19558,10 +19418,6 @@
                             {
                               "parameters": [
                                 {
-                                  "value": 0.0,
-                                  "controlAddress": "/startTime"
-                                },
-                                {
                                   "value": 303.0799865722656,
                                   "controlAddress": "/length"
                                 }
@@ -19727,6 +19583,58 @@
                       "parameters": [
                         {
                           "value": false,
+                          "controlAddress": "/enabled"
+                        },
+                        {
+                          "value": 49.0,
+                          "controlAddress": "/listSize"
+                        },
+                        {
+                          "value": 49,
+                          "hexMode": false,
+                          "controlAddress": "/uiHeight"
+                        }
+                      ],
+                      "niceName": "Audio",
+                      "type": "Audio",
+                      "clips": {
+                        "hideInEditor": true,
+                        "items": [
+                          {
+                            "parameters": [
+                              {
+                                "value": "Audio/2-Hoop-Jonglissimo_Wasser_12.mp3",
+                                "controlAddress": "/filePath"
+                              }
+                            ],
+                            "niceName": "AudioClip",
+                            "editorIsCollapsed": true,
+                            "type": "AudioClip"
+                          }
+                        ],
+                        "viewOffset": [
+                          0,
+                          0
+                        ],
+                        "viewZoom": 1.0
+                      },
+                      "channels": {
+                        "parameters": [
+                          {
+                            "value": true,
+                            "controlAddress": "/channelOutLeft"
+                          },
+                          {
+                            "value": true,
+                            "controlAddress": "/channelOutRight"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "parameters": [
+                        {
+                          "value": true,
                           "controlAddress": "/miniMode"
                         },
                         {
@@ -19734,7 +19642,7 @@
                           "controlAddress": "/listSize"
                         },
                         {
-                          "value": 60,
+                          "value": 22,
                           "hexMode": false,
                           "controlAddress": "/uiHeight"
                         }
@@ -19747,15 +19655,11 @@
                             {
                               "parameters": [
                                 {
-                                  "value": 0.0,
-                                  "controlAddress": "/startTime"
-                                },
-                                {
-                                  "value": 239.3199920654297,
+                                  "value": 303.9400024414063,
                                   "controlAddress": "/length"
                                 },
                                 {
-                                  "value": 3.6199951171875,
+                                  "value": 0.0,
                                   "controlAddress": "/fadeOut",
                                   "enabled": false
                                 }
@@ -19782,148 +19686,7 @@
                                           "value": [
                                             0.0,
                                             1.200000047683716,
-                                            -0.699999988079071
-                                          ],
-                                          "controlAddress": "/position"
-                                        }
-                                      ],
-                                      "paramLinks": {
-                                      }
-                                    },
-                                    "filters": {
-                                      "viewOffset": [
-                                        0,
-                                        0
-                                      ],
-                                      "viewZoom": 1.0
-                                    }
-                                  },
-                                  "type": "Orientation Target"
-                                },
-                                "fadeCurve": {
-                                  "parameters": [
-                                    {
-                                      "value": 1.0,
-                                      "controlAddress": "/length"
-                                    },
-                                    {
-                                      "value": [
-                                        0.0,
-                                        1.0
-                                      ],
-                                      "controlAddress": "/viewValueRange"
-                                    },
-                                    {
-                                      "value": [
-                                        0.0,
-                                        1.0
-                                      ],
-                                      "controlAddress": "/range",
-                                      "enabled": true
-                                    }
-                                  ],
-                                  "items": [
-                                    {
-                                      "parameters": [
-                                        {
-                                          "value": "Bezier",
-                                          "controlAddress": "/easingType"
-                                        }
-                                      ],
-                                      "niceName": "Key",
-                                      "containers": {
-                                        "easing": {
-                                          "parameters": [
-                                            {
-                                              "value": [
-                                                0.300000011920929,
-                                                0.0
-                                              ],
-                                              "controlAddress": "/anchor1"
-                                            },
-                                            {
-                                              "value": [
-                                                -0.300000011920929,
-                                                0.0
-                                              ],
-                                              "controlAddress": "/anchor2"
-                                            }
-                                          ]
-                                        }
-                                      },
-                                      "type": "Key"
-                                    },
-                                    {
-                                      "parameters": [
-                                        {
-                                          "value": 1.0,
-                                          "controlAddress": "/position"
-                                        },
-                                        {
-                                          "value": 1.0,
-                                          "controlAddress": "/value"
-                                        },
-                                        {
-                                          "value": "Bezier",
-                                          "controlAddress": "/easingType"
-                                        }
-                                      ],
-                                      "niceName": "Key 1",
-                                      "containers": {
-                                        "easing": {
-                                        }
-                                      },
-                                      "type": "Key"
-                                    }
-                                  ],
-                                  "viewOffset": [
-                                    0,
-                                    0
-                                  ],
-                                  "viewZoom": 1.0
-                                }
-                              },
-                              "type": "Orientation Target"
-                            },
-                            {
-                              "parameters": [
-                                {
-                                  "value": 235.6999969482422,
-                                  "controlAddress": "/startTime"
-                                },
-                                {
-                                  "value": 7.380000114440918,
-                                  "controlAddress": "/length"
-                                },
-                                {
-                                  "value": 3.6199951171875,
-                                  "controlAddress": "/fadeIn",
-                                  "enabled": false
-                                }
-                              ],
-                              "niceName": "Orientation Target 1",
-                              "editorIsCollapsed": true,
-                              "containers": {
-                                "orientationTarget": {
-                                  "parameters": [
-                                    {
-                                      "value": false,
-                                      "controlAddress": "/enabled"
-                                    },
-                                    {
-                                      "value": "Save weight only",
-                                      "controlAddress": "/saveMode"
-                                    }
-                                  ],
-                                  "niceName": "Orientation Target",
-                                  "containers": {
-                                    "effectParameters": {
-                                      "parameters": [
-                                        {
-                                          "value": [
-                                            0.0,
-                                            2.400000095367432,
-                                            -3.899999141693115
+                                            -0.4699999690055847
                                           ],
                                           "controlAddress": "/position"
                                         }
@@ -20061,11 +19824,19 @@
                     {
                       "parameters": [
                         {
-                          "value": 255.0,
+                          "value": true,
+                          "controlAddress": "/enabled"
+                        },
+                        {
+                          "value": true,
+                          "controlAddress": "/miniMode"
+                        },
+                        {
+                          "value": 35.0,
                           "controlAddress": "/listSize"
                         },
                         {
-                          "value": 255,
+                          "value": 22,
                           "hexMode": false,
                           "controlAddress": "/uiHeight"
                         }
@@ -20078,15 +19849,11 @@
                             {
                               "parameters": [
                                 {
-                                  "value": 0.0,
-                                  "controlAddress": "/startTime"
-                                },
-                                {
-                                  "value": 217.9199829101563,
+                                  "value": 218.9599761962891,
                                   "controlAddress": "/length"
                                 },
                                 {
-                                  "value": 0.160003662109375,
+                                  "value": 1.759994506835938,
                                   "controlAddress": "/fadeOut",
                                   "enabled": false
                                 }
@@ -20114,7 +19881,7 @@
                                           "paramAutomation": {
                                             "parameters": [
                                               {
-                                                "value": 217.9199829101563,
+                                                "value": 218.9599761962891,
                                                 "controlAddress": "/length"
                                               }
                                             ],
@@ -20123,7 +19890,7 @@
                                             "automation": {
                                               "parameters": [
                                                 {
-                                                  "value": 217.9199829101563,
+                                                  "value": 218.9599761962891,
                                                   "controlAddress": "/length"
                                                 },
                                                 {
@@ -20148,10 +19915,6 @@
                                                     {
                                                       "value": 207.8431396484375,
                                                       "controlAddress": "/position"
-                                                    },
-                                                    {
-                                                      "value": 0.0,
-                                                      "controlAddress": "/value"
                                                     },
                                                     {
                                                       "value": "Bezier",
@@ -20184,11 +19947,11 @@
                                                 {
                                                   "parameters": [
                                                     {
-                                                      "value": 217.0167236328125,
+                                                      "value": 217.0859222412109,
                                                       "controlAddress": "/position"
                                                     },
                                                     {
-                                                      "value": 0.300000011920929,
+                                                      "value": 0.05,
                                                       "controlAddress": "/value"
                                                     },
                                                     {
@@ -20334,15 +20097,15 @@
                             {
                               "parameters": [
                                 {
-                                  "value": 217.7599792480469,
+                                  "value": 217.1999816894531,
                                   "controlAddress": "/startTime"
                                 },
                                 {
-                                  "value": 6.580002784729004,
+                                  "value": 7.140000343322754,
                                   "controlAddress": "/length"
                                 },
                                 {
-                                  "value": 0.160003662109375,
+                                  "value": 1.759994506835938,
                                   "controlAddress": "/fadeIn",
                                   "enabled": false
                                 },
@@ -20371,17 +20134,13 @@
                                     "effectParameters": {
                                       "parameters": [
                                         {
-                                          "value": 1.0,
-                                          "controlAddress": "/speed"
-                                        },
-                                        {
                                           "value": 0.3333333333333333,
                                           "controlAddress": "/timeOffsetByID"
                                         },
                                         {
                                           "value": [
                                             0.0,
-                                            0.300000011920929
+                                            0.2000000029802322
                                           ],
                                           "controlAddress": "/range"
                                         }
@@ -20396,14 +20155,14 @@
                                             {
                                               "value": [
                                                 0.0,
-                                                0.300000011920929
+                                                0.2000000029802322
                                               ],
                                               "controlAddress": "/viewValueRange"
                                             },
                                             {
                                               "value": [
                                                 0.0,
-                                                0.300000011920929
+                                                0.2000000029802322
                                               ],
                                               "controlAddress": "/range",
                                               "enabled": true
@@ -20447,11 +20206,11 @@
                                             {
                                               "parameters": [
                                                 {
-                                                  "value": 0.5,
+                                                  "value": 0.5096385478973389,
                                                   "controlAddress": "/position"
                                                 },
                                                 {
-                                                  "value": 0.300000011920929,
+                                                  "value": 0.04833333194255829,
                                                   "controlAddress": "/value"
                                                 },
                                                 {
@@ -20613,7 +20372,7 @@
                                   "controlAddress": "/startTime"
                                 },
                                 {
-                                  "value": 12.35999965667725,
+                                  "value": 12.13999938964844,
                                   "controlAddress": "/length"
                                 },
                                 {
@@ -20622,7 +20381,7 @@
                                   "enabled": false
                                 },
                                 {
-                                  "value": 0.32000732421875,
+                                  "value": 0.0800018310546875,
                                   "controlAddress": "/fadeOut",
                                   "enabled": false
                                 }
@@ -20656,7 +20415,7 @@
                                         {
                                           "value": [
                                             0.0,
-                                            0.300000011920929
+                                            0.2000000029802322
                                           ],
                                           "controlAddress": "/range"
                                         }
@@ -20671,14 +20430,14 @@
                                             {
                                               "value": [
                                                 0.0,
-                                                0.300000011920929
+                                                0.2000000029802322
                                               ],
                                               "controlAddress": "/viewValueRange"
                                             },
                                             {
                                               "value": [
                                                 0.0,
-                                                0.300000011920929
+                                                0.2000000029802322
                                               ],
                                               "controlAddress": "/range",
                                               "enabled": true
@@ -20722,11 +20481,11 @@
                                             {
                                               "parameters": [
                                                 {
-                                                  "value": 0.4975903630256653,
+                                                  "value": 0.4951807260513306,
                                                   "controlAddress": "/position"
                                                 },
                                                 {
-                                                  "value": 0.300000011920929,
+                                                  "value": 0.03499998897314072,
                                                   "controlAddress": "/value"
                                                 },
                                                 {
@@ -20884,22 +20643,22 @@
                             {
                               "parameters": [
                                 {
-                                  "value": 235.7599945068359,
+                                  "value": 235.7799987792969,
                                   "controlAddress": "/startTime"
                                 },
                                 {
-                                  "value": 3.620001554489136,
+                                  "value": 5.160001754760742,
                                   "controlAddress": "/length"
                                 },
                                 {
-                                  "value": 0.32000732421875,
+                                  "value": 0.0800018310546875,
                                   "controlAddress": "/fadeIn",
                                   "enabled": false
                                 },
                                 {
-                                  "value": 2.887866258621216,
+                                  "value": 0.0,
                                   "controlAddress": "/fadeOut",
-                                  "enabled": true
+                                  "enabled": false
                                 }
                               ],
                               "niceName": "Override (Number) 1",
@@ -20921,7 +20680,107 @@
                                     "effectParameters": {
                                       "parameters": [
                                         {
-                                          "value": 1.0,
+                                          "controlMode": 3,
+                                          "paramAutomation": {
+                                            "parameters": [
+                                              {
+                                                "value": 5.160001754760742,
+                                                "controlAddress": "/length"
+                                              }
+                                            ],
+                                            "niceName": "Value automation",
+                                            "type": "BaseItem",
+                                            "automation": {
+                                              "parameters": [
+                                                {
+                                                  "value": 5.160001754760742,
+                                                  "controlAddress": "/length"
+                                                },
+                                                {
+                                                  "value": [
+                                                    -1.0,
+                                                    1.0
+                                                  ],
+                                                  "controlAddress": "/viewValueRange"
+                                                },
+                                                {
+                                                  "value": [
+                                                    -1.0,
+                                                    1.0
+                                                  ],
+                                                  "controlAddress": "/range",
+                                                  "enabled": true
+                                                }
+                                              ],
+                                              "items": [
+                                                {
+                                                  "parameters": [
+                                                    {
+                                                      "value": 0.5414816737174988,
+                                                      "controlAddress": "/position"
+                                                    },
+                                                    {
+                                                      "value": 0.2917748689651489,
+                                                      "controlAddress": "/value"
+                                                    },
+                                                    {
+                                                      "value": "Bezier",
+                                                      "controlAddress": "/easingType"
+                                                    }
+                                                  ],
+                                                  "niceName": "Key",
+                                                  "containers": {
+                                                    "easing": {
+                                                      "parameters": [
+                                                        {
+                                                          "value": [
+                                                            2.611852884292603,
+                                                            0.0
+                                                          ],
+                                                          "controlAddress": "/anchor1"
+                                                        },
+                                                        {
+                                                          "value": [
+                                                            -2.611852884292603,
+                                                            0.0
+                                                          ],
+                                                          "controlAddress": "/anchor2"
+                                                        }
+                                                      ]
+                                                    }
+                                                  },
+                                                  "type": "Key"
+                                                },
+                                                {
+                                                  "parameters": [
+                                                    {
+                                                      "value": 4.881236553192139,
+                                                      "controlAddress": "/position"
+                                                    },
+                                                    {
+                                                      "value": -1.0,
+                                                      "controlAddress": "/value"
+                                                    },
+                                                    {
+                                                      "value": "Bezier",
+                                                      "controlAddress": "/easingType"
+                                                    }
+                                                  ],
+                                                  "niceName": "Key 1",
+                                                  "containers": {
+                                                    "easing": {
+                                                    }
+                                                  },
+                                                  "type": "Key"
+                                                }
+                                              ],
+                                              "viewOffset": [
+                                                0,
+                                                0
+                                              ],
+                                              "viewZoom": 1.0
+                                            }
+                                          },
                                           "minValue": -1.0,
                                           "maxValue": 1.0,
                                           "default": 0.0,
@@ -21061,11 +20920,15 @@
                     {
                       "parameters": [
                         {
+                          "value": true,
+                          "controlAddress": "/miniMode"
+                        },
+                        {
                           "value": 60.0,
                           "controlAddress": "/listSize"
                         },
                         {
-                          "value": 60,
+                          "value": 22,
                           "hexMode": false,
                           "controlAddress": "/uiHeight"
                         }
@@ -21178,7 +21041,7 @@
                                                         {
                                                           "parameters": [
                                                             {
-                                                              "value": 236.1173248291016,
+                                                              "value": 236.2978210449219,
                                                               "controlAddress": "/time"
                                                             },
                                                             {
@@ -21298,7 +21161,7 @@
                                                   {
                                                     "parameters": [
                                                       {
-                                                        "value": 236.1173248291016,
+                                                        "value": 236.2978210449219,
                                                         "controlAddress": "/time"
                                                       },
                                                       {
@@ -21416,6 +21279,282 @@
                                 }
                               },
                               "type": "Override (Color)"
+                            }
+                          ],
+                          "viewOffset": [
+                            0,
+                            0
+                          ],
+                          "viewZoom": 1.0
+                        },
+                        "filters": {
+                          "items": [
+                            {
+                              "parameters": [
+                                {
+                                  "value": "Use local",
+                                  "controlAddress": "/idMode"
+                                }
+                              ],
+                              "niceName": "Filter by Group",
+                              "type": "Filter by Group",
+                              "groups": [
+                                "/arc"
+                              ]
+                            }
+                          ],
+                          "viewOffset": [
+                            0,
+                            0
+                          ],
+                          "viewZoom": 1.0
+                        }
+                      },
+                      "type": "Effect"
+                    },
+                    {
+                      "parameters": [
+                        {
+                          "value": true,
+                          "controlAddress": "/miniMode"
+                        },
+                        {
+                          "value": 104.0,
+                          "controlAddress": "/listSize"
+                        },
+                        {
+                          "value": 22,
+                          "hexMode": false,
+                          "controlAddress": "/uiHeight"
+                        }
+                      ],
+                      "niceName": "Arc Lense",
+                      "containers": {
+                        "blocks": {
+                          "hideInEditor": true,
+                          "items": [
+                            {
+                              "parameters": [
+                                {
+                                  "value": 284.0400085449219,
+                                  "controlAddress": "/length"
+                                },
+                                {
+                                  "value": 0.0,
+                                  "controlAddress": "/fadeOut",
+                                  "enabled": false
+                                }
+                              ],
+                              "niceName": "Values Override",
+                              "editorIsCollapsed": true,
+                              "containers": {
+                                "valuesOverride": {
+                                  "parameters": [
+                                    {
+                                      "value": false,
+                                      "controlAddress": "/enabled"
+                                    },
+                                    {
+                                      "value": "Save weight only",
+                                      "controlAddress": "/saveMode"
+                                    }
+                                  ],
+                                  "niceName": "Values Override",
+                                  "containers": {
+                                    "effectParameters": {
+                                      "parameters": [
+                                        {
+                                          "value": 1,
+                                          "hexMode": false,
+                                          "controlAddress": "/numValues"
+                                        },
+                                        {
+                                          "controlMode": 3,
+                                          "paramAutomation": {
+                                            "parameters": [
+                                              {
+                                                "value": 284.0400085449219,
+                                                "controlAddress": "/length"
+                                              }
+                                            ],
+                                            "niceName": "Value 0 automation",
+                                            "type": "BaseItem",
+                                            "automation": {
+                                              "parameters": [
+                                                {
+                                                  "value": 284.0400085449219,
+                                                  "controlAddress": "/length"
+                                                },
+                                                {
+                                                  "value": [
+                                                    0.0,
+                                                    1.0
+                                                  ],
+                                                  "controlAddress": "/viewValueRange"
+                                                },
+                                                {
+                                                  "value": [
+                                                    0.0,
+                                                    1.0
+                                                  ],
+                                                  "controlAddress": "/range",
+                                                  "enabled": true
+                                                }
+                                              ],
+                                              "items": [
+                                                {
+                                                  "parameters": [
+                                                    {
+                                                      "value": 235.81396484375,
+                                                      "controlAddress": "/position"
+                                                    },
+                                                    {
+                                                      "value": 0.06269228458404541,
+                                                      "controlAddress": "/value"
+                                                    },
+                                                    {
+                                                      "value": "Linear",
+                                                      "controlAddress": "/easingType"
+                                                    }
+                                                  ],
+                                                  "niceName": "Key 1",
+                                                  "containers": {
+                                                    "easing": {
+                                                    }
+                                                  },
+                                                  "type": "Key"
+                                                },
+                                                {
+                                                  "parameters": [
+                                                    {
+                                                      "value": 237.5518035888672,
+                                                      "controlAddress": "/position"
+                                                    },
+                                                    {
+                                                      "value": 0.2307692170143127,
+                                                      "controlAddress": "/value"
+                                                    },
+                                                    {
+                                                      "value": "Bezier",
+                                                      "controlAddress": "/easingType"
+                                                    }
+                                                  ],
+                                                  "niceName": "Key 2",
+                                                  "containers": {
+                                                    "easing": {
+                                                    }
+                                                  },
+                                                  "type": "Key"
+                                                }
+                                              ],
+                                              "viewOffset": [
+                                                0,
+                                                0
+                                              ],
+                                              "viewZoom": 1.0
+                                            }
+                                          },
+                                          "controlAddress": "/value0",
+                                          "enabled": true
+                                        }
+                                      ],
+                                      "paramLinks": {
+                                      }
+                                    },
+                                    "filters": {
+                                      "viewOffset": [
+                                        0,
+                                        0
+                                      ],
+                                      "viewZoom": 1.0
+                                    }
+                                  },
+                                  "type": "Values Override"
+                                },
+                                "fadeCurve": {
+                                  "parameters": [
+                                    {
+                                      "value": 1.0,
+                                      "controlAddress": "/length"
+                                    },
+                                    {
+                                      "value": [
+                                        0.0,
+                                        1.0
+                                      ],
+                                      "controlAddress": "/viewValueRange"
+                                    },
+                                    {
+                                      "value": [
+                                        0.0,
+                                        1.0
+                                      ],
+                                      "controlAddress": "/range",
+                                      "enabled": true
+                                    }
+                                  ],
+                                  "items": [
+                                    {
+                                      "parameters": [
+                                        {
+                                          "value": "Bezier",
+                                          "controlAddress": "/easingType"
+                                        }
+                                      ],
+                                      "niceName": "Key",
+                                      "containers": {
+                                        "easing": {
+                                          "parameters": [
+                                            {
+                                              "value": [
+                                                0.300000011920929,
+                                                0.0
+                                              ],
+                                              "controlAddress": "/anchor1"
+                                            },
+                                            {
+                                              "value": [
+                                                -0.300000011920929,
+                                                0.0
+                                              ],
+                                              "controlAddress": "/anchor2"
+                                            }
+                                          ]
+                                        }
+                                      },
+                                      "type": "Key"
+                                    },
+                                    {
+                                      "parameters": [
+                                        {
+                                          "value": 1.0,
+                                          "controlAddress": "/position"
+                                        },
+                                        {
+                                          "value": 1.0,
+                                          "controlAddress": "/value"
+                                        },
+                                        {
+                                          "value": "Bezier",
+                                          "controlAddress": "/easingType"
+                                        }
+                                      ],
+                                      "niceName": "Key 1",
+                                      "containers": {
+                                        "easing": {
+                                        }
+                                      },
+                                      "type": "Key"
+                                    }
+                                  ],
+                                  "viewOffset": [
+                                    0,
+                                    0
+                                  ],
+                                  "viewZoom": 1.0
+                                }
+                              },
+                              "type": "Values Override"
                             }
                           ],
                           "viewOffset": [
@@ -22110,7 +22249,7 @@
                   "effectParameters": {
                     "parameters": [
                       {
-                        "value": 0.1931329965591431,
+                        "value": 1.0,
                         "minValue": -1.0,
                         "maxValue": 1.0,
                         "default": 0.0,
@@ -22133,7 +22272,8 @@
                         "type": "Filter by Group",
                         "groups": [
                           "/flood",
-                          "/sides"
+                          "/sides",
+                          "/arc"
                         ]
                       }
                     ],
@@ -22199,7 +22339,8 @@
                         "type": "Filter by Group",
                         "groups": [
                           "/flood",
-                          "/sides"
+                          "/sides",
+                          "/arc"
                         ]
                       }
                     ],
@@ -22232,6 +22373,58 @@
                   },
                   "type": "Solid Color"
                 }
+              },
+              {
+                "parameters": [
+                  {
+                    "value": true,
+                    "controlAddress": "/enabled"
+                  },
+                  {
+                    "value": "Save weight only",
+                    "controlAddress": "/saveMode"
+                  }
+                ],
+                "niceName": "Orientation Target",
+                "containers": {
+                  "effectParameters": {
+                    "parameters": [
+                      {
+                        "value": [
+                          7.450580596923828e-8,
+                          9.000002861022949,
+                          -14.10001087188721
+                        ],
+                        "controlAddress": "/position"
+                      }
+                    ],
+                    "paramLinks": {
+                    }
+                  },
+                  "filters": {
+                    "items": [
+                      {
+                        "parameters": [
+                          {
+                            "value": "Use local",
+                            "controlAddress": "/idMode"
+                          }
+                        ],
+                        "niceName": "Filter by Group",
+                        "type": "Filter by Group",
+                        "groups": [
+                          "/arc"
+                        ]
+                      }
+                    ],
+                    "viewOffset": [
+                      0,
+                      0
+                    ],
+                    "viewZoom": 1.0
+                  }
+                },
+                "type": "Orientation Target"
               }
             ],
             "viewOffset": [
@@ -22276,8 +22469,9 @@
                   "useIntensityForColor": false
                 },
                 "custom": {
-                  "count": 1,
-                  "value1": 0.7701149582862854
+                  "count": 2,
+                  "value1": 0.0,
+                  "value2": 0.0
                 }
               },
               "effects": {
@@ -22301,8 +22495,9 @@
                   "useIntensityForColor": false
                 },
                 "custom": {
-                  "count": 1,
-                  "value1": 0.770115
+                  "count": 2,
+                  "value1": 0.0,
+                  "value2": 0.0
                 }
               },
               "effects": {
@@ -22326,8 +22521,9 @@
                   "useIntensityForColor": false
                 },
                 "custom": {
-                  "count": 1,
-                  "value1": 0.770115
+                  "count": 2,
+                  "value1": 0.0,
+                  "value2": 0.0
                 }
               },
               "effects": {
@@ -22351,8 +22547,9 @@
                   "useIntensityForColor": false
                 },
                 "custom": {
-                  "count": 1,
-                  "value1": 0.770115
+                  "count": 2,
+                  "value1": 0.0,
+                  "value2": 0.0
                 }
               },
               "effects": {
@@ -22376,8 +22573,9 @@
                   "useIntensityForColor": false
                 },
                 "custom": {
-                  "count": 1,
-                  "value1": 0.770115
+                  "count": 2,
+                  "value1": 0.0,
+                  "value2": 0.0
                 }
               },
               "effects": {
@@ -22401,8 +22599,9 @@
                   "useIntensityForColor": false
                 },
                 "custom": {
-                  "count": 1,
-                  "value1": 0.770115
+                  "count": 2,
+                  "value1": 0.0,
+                  "value2": 0.0
                 }
               },
               "effects": {
@@ -22697,13 +22896,13 @@
                 }
               }
             },
-            "mlFloorCenter": {
+            "mlFloorSide": {
               "effects": {
                 "orientationTarget": {
-                  "weight": 1.0
+                  "weight": 0.0
                 },
                 "override_Number_": {
-                  "weight": 0.1979166716337204
+                  "weight": 0.0
                 },
                 "override_Color_": {
                   "weight": 0.0
@@ -22712,6 +22911,12 @@
             },
             "flood": {
               "effects": {
+                "override_Number_": {
+                  "weight": 0.0
+                },
+                "override_Color_": {
+                  "weight": 0.0
+                }
               }
             },
             "sides": {
