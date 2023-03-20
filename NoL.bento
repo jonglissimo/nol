@@ -1,6 +1,6 @@
 {
   "metaData": {
-    "version": "1.4.3b4",
+    "version": "1.4.3b5",
     "versionNumber": 66563
   },
   "projectSettings": {
@@ -136,7 +136,7 @@
                 },
                 {
                   "type": 0,
-                  "width": 329,
+                  "width": 187,
                   "height": 510,
                   "currentContent": "Video Preview",
                   "tabs": [
@@ -147,7 +147,7 @@
                 },
                 {
                   "type": 0,
-                  "width": 324,
+                  "width": 466,
                   "height": 510,
                   "currentContent": "Logger",
                   "tabs": [
@@ -192,7 +192,7 @@
         "modelParams": {
           "parameters": [
             {
-              "value": 0.05,
+              "value": 0.05000000074505806,
               "controlAddress": "/speed"
             }
           ]
@@ -283,6 +283,10 @@
                       -64.0
                     ],
                     "controlAddress": "/viewUIPosition"
+                  },
+                  {
+                    "value": "Resize",
+                    "controlAddress": "/mode"
                   }
                 ],
                 "niceName": "Position Remap",
@@ -1188,7 +1192,7 @@
                         "controlAddress": "/gap"
                       },
                       {
-                        "value": 0.1873158812522888,
+                        "value": 0.410064697265625,
                         "controlAddress": "/size"
                       },
                       {
@@ -1454,6 +1458,28 @@
       "viewZoom": 1.0
     },
     "wasm": {
+      "items": [
+        {
+          "parameters": [
+            {
+              "value": "D:/Documents/Bento/wasm/script-library/FXSpeed01.ts",
+              "controlAddress": "/script"
+            }
+          ],
+          "niceName": "fx01",
+          "type": "Wasm"
+        },
+        {
+          "parameters": [
+            {
+              "value": "D:/Documents/Bento/wasm/script-library/FXSpeed-51.ts",
+              "controlAddress": "/script"
+            }
+          ],
+          "niceName": "fxm51",
+          "type": "Wasm"
+        }
+      ],
       "viewOffset": [
         0,
         0
@@ -1514,6 +1540,10 @@
                     {
                       "value": true,
                       "controlAddress": "/default"
+                    },
+                    {
+                      "value": "Add",
+                      "controlAddress": "/blendMode"
                     }
                   ],
                   "niceName": "All Overlay",
@@ -1697,6 +1727,12 @@
                           }
                         },
                         "filters": {
+                          "parameters": [
+                            {
+                              "value": "OR",
+                              "controlAddress": "/operationMode"
+                            }
+                          ],
                           "items": [
                             {
                               "parameters": [
@@ -1946,6 +1982,12 @@
                           }
                         },
                         "filters": {
+                          "parameters": [
+                            {
+                              "value": "OR",
+                              "controlAddress": "/operationMode"
+                            }
+                          ],
                           "items": [
                             {
                               "parameters": [
@@ -1993,6 +2035,12 @@
                     "viewZoom": 1.0
                   },
                   "filters": {
+                    "parameters": [
+                      {
+                        "value": "OR",
+                        "controlAddress": "/operationMode"
+                      }
+                    ],
                     "items": [
                       {
                         "parameters": [
@@ -2101,6 +2149,12 @@
                           }
                         },
                         "filters": {
+                          "parameters": [
+                            {
+                              "value": "OR",
+                              "controlAddress": "/operationMode"
+                            }
+                          ],
                           "viewOffset": [
                             0,
                             0
@@ -2123,6 +2177,12 @@
                     "viewZoom": 1.0
                   },
                   "filters": {
+                    "parameters": [
+                      {
+                        "value": "OR",
+                        "controlAddress": "/operationMode"
+                      }
+                    ],
                     "items": [
                       {
                         "parameters": [
@@ -2215,6 +2275,10 @@
                       "value": 22,
                       "hexMode": false,
                       "controlAddress": "/uiHeight"
+                    },
+                    {
+                      "value": "Add",
+                      "controlAddress": "/blendMode"
                     }
                   ],
                   "niceName": "Doubles 2",
@@ -2491,6 +2555,12 @@
                           }
                         },
                         "filters": {
+                          "parameters": [
+                            {
+                              "value": "OR",
+                              "controlAddress": "/operationMode"
+                            }
+                          ],
                           "items": [
                             {
                               "parameters": [
@@ -2684,6 +2754,12 @@
                           }
                         },
                         "filters": {
+                          "parameters": [
+                            {
+                              "value": "OR",
+                              "controlAddress": "/operationMode"
+                            }
+                          ],
                           "items": [
                             {
                               "parameters": [
@@ -2731,6 +2807,12 @@
                     "viewZoom": 1.0
                   },
                   "filters": {
+                    "parameters": [
+                      {
+                        "value": "OR",
+                        "controlAddress": "/operationMode"
+                      }
+                    ],
                     "items": [
                       {
                         "parameters": [
@@ -2777,6 +2859,10 @@
                       "value": 22,
                       "hexMode": false,
                       "controlAddress": "/uiHeight"
+                    },
+                    {
+                      "value": "Add",
+                      "controlAddress": "/blendMode"
                     }
                   ],
                   "niceName": "Doubles 1",
@@ -3053,6 +3139,12 @@
                           }
                         },
                         "filters": {
+                          "parameters": [
+                            {
+                              "value": "OR",
+                              "controlAddress": "/operationMode"
+                            }
+                          ],
                           "items": [
                             {
                               "parameters": [
@@ -3246,6 +3338,12 @@
                           }
                         },
                         "filters": {
+                          "parameters": [
+                            {
+                              "value": "OR",
+                              "controlAddress": "/operationMode"
+                            }
+                          ],
                           "items": [
                             {
                               "parameters": [
@@ -3293,6 +3391,12 @@
                     "viewZoom": 1.0
                   },
                   "filters": {
+                    "parameters": [
+                      {
+                        "value": "OR",
+                        "controlAddress": "/operationMode"
+                      }
+                    ],
                     "items": [
                       {
                         "parameters": [
@@ -3544,6 +3648,12 @@
                           }
                         },
                         "filters": {
+                          "parameters": [
+                            {
+                              "value": "OR",
+                              "controlAddress": "/operationMode"
+                            }
+                          ],
                           "viewOffset": [
                             0,
                             0
@@ -3644,6 +3754,12 @@
                           }
                         },
                         "filters": {
+                          "parameters": [
+                            {
+                              "value": "OR",
+                              "controlAddress": "/operationMode"
+                            }
+                          ],
                           "viewOffset": [
                             0,
                             0
@@ -3811,6 +3927,12 @@
                           }
                         },
                         "filters": {
+                          "parameters": [
+                            {
+                              "value": "OR",
+                              "controlAddress": "/operationMode"
+                            }
+                          ],
                           "viewOffset": [
                             0,
                             0
@@ -3907,6 +4029,12 @@
                           }
                         },
                         "filters": {
+                          "parameters": [
+                            {
+                              "value": "OR",
+                              "controlAddress": "/operationMode"
+                            }
+                          ],
                           "viewOffset": [
                             0,
                             0
@@ -4098,6 +4226,12 @@
                           }
                         },
                         "filters": {
+                          "parameters": [
+                            {
+                              "value": "OR",
+                              "controlAddress": "/operationMode"
+                            }
+                          ],
                           "viewOffset": [
                             0,
                             0
@@ -4167,6 +4301,12 @@
                           }
                         },
                         "filters": {
+                          "parameters": [
+                            {
+                              "value": "OR",
+                              "controlAddress": "/operationMode"
+                            }
+                          ],
                           "viewOffset": [
                             0,
                             0
@@ -4258,6 +4398,12 @@
                           }
                         },
                         "filters": {
+                          "parameters": [
+                            {
+                              "value": "OR",
+                              "controlAddress": "/operationMode"
+                            }
+                          ],
                           "viewOffset": [
                             0,
                             0
@@ -4280,6 +4426,12 @@
                     "viewZoom": 1.0
                   },
                   "filters": {
+                    "parameters": [
+                      {
+                        "value": "OR",
+                        "controlAddress": "/operationMode"
+                      }
+                    ],
                     "items": [
                       {
                         "parameters": [
@@ -4326,6 +4478,10 @@
                       "value": 22,
                       "hexMode": false,
                       "controlAddress": "/uiHeight"
+                    },
+                    {
+                      "value": "Add",
+                      "controlAddress": "/blendMode"
                     }
                   ],
                   "niceName": "All",
@@ -4388,6 +4544,12 @@
                           }
                         },
                         "filters": {
+                          "parameters": [
+                            {
+                              "value": "OR",
+                              "controlAddress": "/operationMode"
+                            }
+                          ],
                           "items": [
                             {
                               "parameters": [
@@ -4523,6 +4685,12 @@
                           }
                         },
                         "filters": {
+                          "parameters": [
+                            {
+                              "value": "OR",
+                              "controlAddress": "/operationMode"
+                            }
+                          ],
                           "items": [
                             {
                               "parameters": [
@@ -4781,6 +4949,12 @@
                           }
                         },
                         "filters": {
+                          "parameters": [
+                            {
+                              "value": "OR",
+                              "controlAddress": "/operationMode"
+                            }
+                          ],
                           "viewOffset": [
                             0,
                             0
@@ -4803,6 +4977,12 @@
                     "viewZoom": 1.0
                   },
                   "filters": {
+                    "parameters": [
+                      {
+                        "value": "OR",
+                        "controlAddress": "/operationMode"
+                      }
+                    ],
                     "items": [
                       {
                         "parameters": [
@@ -4916,6 +5096,12 @@
                           }
                         },
                         "filters": {
+                          "parameters": [
+                            {
+                              "value": "OR",
+                              "controlAddress": "/operationMode"
+                            }
+                          ],
                           "items": [
                             {
                               "parameters": [
@@ -5089,6 +5275,12 @@
                           }
                         },
                         "filters": {
+                          "parameters": [
+                            {
+                              "value": "OR",
+                              "controlAddress": "/operationMode"
+                            }
+                          ],
                           "items": [
                             {
                               "parameters": [
@@ -5184,6 +5376,12 @@
                           }
                         },
                         "filters": {
+                          "parameters": [
+                            {
+                              "value": "OR",
+                              "controlAddress": "/operationMode"
+                            }
+                          ],
                           "items": [
                             {
                               "parameters": [
@@ -5231,6 +5429,12 @@
                     "viewZoom": 1.0
                   },
                   "filters": {
+                    "parameters": [
+                      {
+                        "value": "OR",
+                        "controlAddress": "/operationMode"
+                      }
+                    ],
                     "items": [
                       {
                         "parameters": [
@@ -5277,6 +5481,10 @@
                       "value": 22,
                       "hexMode": false,
                       "controlAddress": "/uiHeight"
+                    },
+                    {
+                      "value": "Add",
+                      "controlAddress": "/blendMode"
                     }
                   ],
                   "niceName": "Add Iso IMD",
@@ -5578,6 +5786,12 @@
                           }
                         },
                         "filters": {
+                          "parameters": [
+                            {
+                              "value": "OR",
+                              "controlAddress": "/operationMode"
+                            }
+                          ],
                           "items": [
                             {
                               "parameters": [
@@ -5911,6 +6125,12 @@
                           }
                         },
                         "filters": {
+                          "parameters": [
+                            {
+                              "value": "OR",
+                              "controlAddress": "/operationMode"
+                            }
+                          ],
                           "items": [
                             {
                               "parameters": [
@@ -6244,6 +6464,12 @@
                           }
                         },
                         "filters": {
+                          "parameters": [
+                            {
+                              "value": "OR",
+                              "controlAddress": "/operationMode"
+                            }
+                          ],
                           "items": [
                             {
                               "parameters": [
@@ -6577,6 +6803,12 @@
                           }
                         },
                         "filters": {
+                          "parameters": [
+                            {
+                              "value": "OR",
+                              "controlAddress": "/operationMode"
+                            }
+                          ],
                           "items": [
                             {
                               "parameters": [
@@ -6777,6 +7009,12 @@
                           }
                         },
                         "filters": {
+                          "parameters": [
+                            {
+                              "value": "OR",
+                              "controlAddress": "/operationMode"
+                            }
+                          ],
                           "items": [
                             {
                               "parameters": [
@@ -6821,6 +7059,12 @@
                     "viewZoom": 1.0
                   },
                   "filters": {
+                    "parameters": [
+                      {
+                        "value": "OR",
+                        "controlAddress": "/operationMode"
+                      }
+                    ],
                     "items": [
                       {
                         "parameters": [
@@ -6959,6 +7203,12 @@
                           }
                         },
                         "filters": {
+                          "parameters": [
+                            {
+                              "value": "OR",
+                              "controlAddress": "/operationMode"
+                            }
+                          ],
                           "viewOffset": [
                             0,
                             0
@@ -6981,6 +7231,12 @@
                     "viewZoom": 1.0
                   },
                   "filters": {
+                    "parameters": [
+                      {
+                        "value": "OR",
+                        "controlAddress": "/operationMode"
+                      }
+                    ],
                     "items": [
                       {
                         "parameters": [
@@ -7094,6 +7350,12 @@
                           }
                         },
                         "filters": {
+                          "parameters": [
+                            {
+                              "value": "OR",
+                              "controlAddress": "/operationMode"
+                            }
+                          ],
                           "items": [
                             {
                               "parameters": [
@@ -7267,6 +7529,12 @@
                           }
                         },
                         "filters": {
+                          "parameters": [
+                            {
+                              "value": "OR",
+                              "controlAddress": "/operationMode"
+                            }
+                          ],
                           "items": [
                             {
                               "parameters": [
@@ -7362,6 +7630,12 @@
                           }
                         },
                         "filters": {
+                          "parameters": [
+                            {
+                              "value": "OR",
+                              "controlAddress": "/operationMode"
+                            }
+                          ],
                           "items": [
                             {
                               "parameters": [
@@ -7457,6 +7731,12 @@
                           }
                         },
                         "filters": {
+                          "parameters": [
+                            {
+                              "value": "OR",
+                              "controlAddress": "/operationMode"
+                            }
+                          ],
                           "viewOffset": [
                             0,
                             0
@@ -7527,6 +7807,12 @@
                           }
                         },
                         "filters": {
+                          "parameters": [
+                            {
+                              "value": "OR",
+                              "controlAddress": "/operationMode"
+                            }
+                          ],
                           "viewOffset": [
                             0,
                             0
@@ -7597,6 +7883,12 @@
                           }
                         },
                         "filters": {
+                          "parameters": [
+                            {
+                              "value": "OR",
+                              "controlAddress": "/operationMode"
+                            }
+                          ],
                           "viewOffset": [
                             0,
                             0
@@ -7667,6 +7959,12 @@
                           }
                         },
                         "filters": {
+                          "parameters": [
+                            {
+                              "value": "OR",
+                              "controlAddress": "/operationMode"
+                            }
+                          ],
                           "viewOffset": [
                             0,
                             0
@@ -7689,6 +7987,12 @@
                     "viewZoom": 1.0
                   },
                   "filters": {
+                    "parameters": [
+                      {
+                        "value": "OR",
+                        "controlAddress": "/operationMode"
+                      }
+                    ],
                     "items": [
                       {
                         "parameters": [
@@ -7739,6 +8043,10 @@
                       "value": 22,
                       "hexMode": false,
                       "controlAddress": "/uiHeight"
+                    },
+                    {
+                      "value": "Add",
+                      "controlAddress": "/blendMode"
                     }
                   ],
                   "niceName": "Inga",
@@ -8295,6 +8603,12 @@
                           }
                         },
                         "filters": {
+                          "parameters": [
+                            {
+                              "value": "OR",
+                              "controlAddress": "/operationMode"
+                            }
+                          ],
                           "viewOffset": [
                             0,
                             0
@@ -8359,6 +8673,12 @@
                           }
                         },
                         "filters": {
+                          "parameters": [
+                            {
+                              "value": "OR",
+                              "controlAddress": "/operationMode"
+                            }
+                          ],
                           "viewOffset": [
                             0,
                             0
@@ -8418,6 +8738,12 @@
                           }
                         },
                         "filters": {
+                          "parameters": [
+                            {
+                              "value": "OR",
+                              "controlAddress": "/operationMode"
+                            }
+                          ],
                           "viewOffset": [
                             0,
                             0
@@ -8883,6 +9209,12 @@
                           }
                         },
                         "filters": {
+                          "parameters": [
+                            {
+                              "value": "OR",
+                              "controlAddress": "/operationMode"
+                            }
+                          ],
                           "viewOffset": [
                             0,
                             0
@@ -8905,6 +9237,12 @@
                     "viewZoom": 1.0
                   },
                   "filters": {
+                    "parameters": [
+                      {
+                        "value": "OR",
+                        "controlAddress": "/operationMode"
+                      }
+                    ],
                     "items": [
                       {
                         "parameters": [
@@ -8951,6 +9289,10 @@
                       "value": 22,
                       "hexMode": false,
                       "controlAddress": "/uiHeight"
+                    },
+                    {
+                      "value": "Add",
+                      "controlAddress": "/blendMode"
                     }
                   ],
                   "niceName": "Manuel",
@@ -9323,6 +9665,12 @@
                           }
                         },
                         "filters": {
+                          "parameters": [
+                            {
+                              "value": "OR",
+                              "controlAddress": "/operationMode"
+                            }
+                          ],
                           "viewOffset": [
                             0,
                             0
@@ -9382,6 +9730,12 @@
                           }
                         },
                         "filters": {
+                          "parameters": [
+                            {
+                              "value": "OR",
+                              "controlAddress": "/operationMode"
+                            }
+                          ],
                           "viewOffset": [
                             0,
                             0
@@ -9441,6 +9795,12 @@
                           }
                         },
                         "filters": {
+                          "parameters": [
+                            {
+                              "value": "OR",
+                              "controlAddress": "/operationMode"
+                            }
+                          ],
                           "viewOffset": [
                             0,
                             0
@@ -9717,6 +10077,12 @@
                           }
                         },
                         "filters": {
+                          "parameters": [
+                            {
+                              "value": "OR",
+                              "controlAddress": "/operationMode"
+                            }
+                          ],
                           "viewOffset": [
                             0,
                             0
@@ -9739,6 +10105,12 @@
                     "viewZoom": 1.0
                   },
                   "filters": {
+                    "parameters": [
+                      {
+                        "value": "OR",
+                        "controlAddress": "/operationMode"
+                      }
+                    ],
                     "items": [
                       {
                         "parameters": [
@@ -9785,6 +10157,10 @@
                       "value": 22,
                       "hexMode": false,
                       "controlAddress": "/uiHeight"
+                    },
+                    {
+                      "value": "Add",
+                      "controlAddress": "/blendMode"
                     }
                   ],
                   "niceName": "Daniel",
@@ -10201,6 +10577,12 @@
                           }
                         },
                         "filters": {
+                          "parameters": [
+                            {
+                              "value": "OR",
+                              "controlAddress": "/operationMode"
+                            }
+                          ],
                           "viewOffset": [
                             0,
                             0
@@ -10260,6 +10642,12 @@
                           }
                         },
                         "filters": {
+                          "parameters": [
+                            {
+                              "value": "OR",
+                              "controlAddress": "/operationMode"
+                            }
+                          ],
                           "viewOffset": [
                             0,
                             0
@@ -10319,6 +10707,12 @@
                           }
                         },
                         "filters": {
+                          "parameters": [
+                            {
+                              "value": "OR",
+                              "controlAddress": "/operationMode"
+                            }
+                          ],
                           "viewOffset": [
                             0,
                             0
@@ -10341,6 +10735,12 @@
                     "viewZoom": 1.0
                   },
                   "filters": {
+                    "parameters": [
+                      {
+                        "value": "OR",
+                        "controlAddress": "/operationMode"
+                      }
+                    ],
                     "items": [
                       {
                         "parameters": [
@@ -10383,6 +10783,10 @@
                       "value": 134,
                       "hexMode": false,
                       "controlAddress": "/uiHeight"
+                    },
+                    {
+                      "value": "Add",
+                      "controlAddress": "/blendMode"
                     }
                   ],
                   "niceName": "Julius",
@@ -10450,6 +10854,12 @@
                           }
                         },
                         "filters": {
+                          "parameters": [
+                            {
+                              "value": "OR",
+                              "controlAddress": "/operationMode"
+                            }
+                          ],
                           "items": [
                             {
                               "parameters": [
@@ -10553,6 +10963,12 @@
                           }
                         },
                         "filters": {
+                          "parameters": [
+                            {
+                              "value": "OR",
+                              "controlAddress": "/operationMode"
+                            }
+                          ],
                           "viewOffset": [
                             0,
                             0
@@ -10740,6 +11156,12 @@
                           }
                         },
                         "filters": {
+                          "parameters": [
+                            {
+                              "value": "OR",
+                              "controlAddress": "/operationMode"
+                            }
+                          ],
                           "viewOffset": [
                             0,
                             0
@@ -10958,6 +11380,12 @@
                           }
                         },
                         "filters": {
+                          "parameters": [
+                            {
+                              "value": "OR",
+                              "controlAddress": "/operationMode"
+                            }
+                          ],
                           "viewOffset": [
                             0,
                             0
@@ -10980,6 +11408,12 @@
                     "viewZoom": 1.0
                   },
                   "filters": {
+                    "parameters": [
+                      {
+                        "value": "OR",
+                        "controlAddress": "/operationMode"
+                      }
+                    ],
                     "items": [
                       {
                         "parameters": [
@@ -11026,6 +11460,10 @@
                       "value": 22,
                       "hexMode": false,
                       "controlAddress": "/uiHeight"
+                    },
+                    {
+                      "value": "Add",
+                      "controlAddress": "/blendMode"
                     }
                   ],
                   "niceName": "Tubes C",
@@ -11294,6 +11732,12 @@
                           }
                         },
                         "filters": {
+                          "parameters": [
+                            {
+                              "value": "OR",
+                              "controlAddress": "/operationMode"
+                            }
+                          ],
                           "viewOffset": [
                             0,
                             0
@@ -11364,6 +11808,12 @@
                           }
                         },
                         "filters": {
+                          "parameters": [
+                            {
+                              "value": "OR",
+                              "controlAddress": "/operationMode"
+                            }
+                          ],
                           "viewOffset": [
                             0,
                             0
@@ -11386,6 +11836,12 @@
                     "viewZoom": 1.0
                   },
                   "filters": {
+                    "parameters": [
+                      {
+                        "value": "OR",
+                        "controlAddress": "/operationMode"
+                      }
+                    ],
                     "items": [
                       {
                         "parameters": [
@@ -11678,6 +12134,12 @@
                           }
                         },
                         "filters": {
+                          "parameters": [
+                            {
+                              "value": "OR",
+                              "controlAddress": "/operationMode"
+                            }
+                          ],
                           "items": [
                             {
                               "parameters": [
@@ -11773,6 +12235,12 @@
                           }
                         },
                         "filters": {
+                          "parameters": [
+                            {
+                              "value": "OR",
+                              "controlAddress": "/operationMode"
+                            }
+                          ],
                           "viewOffset": [
                             0,
                             0
@@ -11795,6 +12263,12 @@
                     "viewZoom": 1.0
                   },
                   "filters": {
+                    "parameters": [
+                      {
+                        "value": "OR",
+                        "controlAddress": "/operationMode"
+                      }
+                    ],
                     "items": [
                       {
                         "parameters": [
@@ -12034,6 +12508,12 @@
                           }
                         },
                         "filters": {
+                          "parameters": [
+                            {
+                              "value": "OR",
+                              "controlAddress": "/operationMode"
+                            }
+                          ],
                           "items": [
                             {
                               "parameters": [
@@ -12259,6 +12739,12 @@
                           }
                         },
                         "filters": {
+                          "parameters": [
+                            {
+                              "value": "OR",
+                              "controlAddress": "/operationMode"
+                            }
+                          ],
                           "items": [
                             {
                               "parameters": [
@@ -12306,6 +12792,12 @@
                     "viewZoom": 1.0
                   },
                   "filters": {
+                    "parameters": [
+                      {
+                        "value": "OR",
+                        "controlAddress": "/operationMode"
+                      }
+                    ],
                     "items": [
                       {
                         "parameters": [
@@ -12568,6 +13060,12 @@
                           }
                         },
                         "filters": {
+                          "parameters": [
+                            {
+                              "value": "OR",
+                              "controlAddress": "/operationMode"
+                            }
+                          ],
                           "items": [
                             {
                               "parameters": [
@@ -12827,6 +13325,12 @@
                           }
                         },
                         "filters": {
+                          "parameters": [
+                            {
+                              "value": "OR",
+                              "controlAddress": "/operationMode"
+                            }
+                          ],
                           "items": [
                             {
                               "parameters": [
@@ -12874,6 +13378,12 @@
                     "viewZoom": 1.0
                   },
                   "filters": {
+                    "parameters": [
+                      {
+                        "value": "OR",
+                        "controlAddress": "/operationMode"
+                      }
+                    ],
                     "items": [
                       {
                         "parameters": [
@@ -12942,6 +13452,10 @@
                     {
                       "value": 60.0,
                       "controlAddress": "/listSize"
+                    },
+                    {
+                      "value": "Add",
+                      "controlAddress": "/blendMode"
                     }
                   ],
                   "niceName": "Tubes M 1",
@@ -13004,6 +13518,12 @@
                           }
                         },
                         "filters": {
+                          "parameters": [
+                            {
+                              "value": "OR",
+                              "controlAddress": "/operationMode"
+                            }
+                          ],
                           "viewOffset": [
                             0,
                             0
@@ -13074,6 +13594,12 @@
                           }
                         },
                         "filters": {
+                          "parameters": [
+                            {
+                              "value": "OR",
+                              "controlAddress": "/operationMode"
+                            }
+                          ],
                           "viewOffset": [
                             0,
                             0
@@ -13096,6 +13622,12 @@
                     "viewZoom": 1.0
                   },
                   "filters": {
+                    "parameters": [
+                      {
+                        "value": "OR",
+                        "controlAddress": "/operationMode"
+                      }
+                    ],
                     "items": [
                       {
                         "parameters": [
@@ -13243,6 +13775,10 @@
                       "controlAddress": "/time"
                     },
                     {
+                      "value": "Nothing",
+                      "controlAddress": "/actionOnCue"
+                    },
+                    {
                       "value": "",
                       "controlAddress": "/loopJumpCue"
                     }
@@ -13255,6 +13791,10 @@
                     {
                       "value": 52.54000091552734,
                       "controlAddress": "/time"
+                    },
+                    {
+                      "value": "Nothing",
+                      "controlAddress": "/actionOnCue"
                     },
                     {
                       "value": "",
@@ -13271,6 +13811,10 @@
                       "controlAddress": "/time"
                     },
                     {
+                      "value": "Nothing",
+                      "controlAddress": "/actionOnCue"
+                    },
+                    {
                       "value": "",
                       "controlAddress": "/loopJumpCue"
                     }
@@ -13283,6 +13827,10 @@
                     {
                       "value": 74.98000335693359,
                       "controlAddress": "/time"
+                    },
+                    {
+                      "value": "Nothing",
+                      "controlAddress": "/actionOnCue"
                     },
                     {
                       "value": "",
@@ -13299,6 +13847,10 @@
                       "controlAddress": "/time"
                     },
                     {
+                      "value": "Nothing",
+                      "controlAddress": "/actionOnCue"
+                    },
+                    {
                       "value": "",
                       "controlAddress": "/loopJumpCue"
                     }
@@ -13311,6 +13863,10 @@
                     {
                       "value": 135.1399993896484,
                       "controlAddress": "/time"
+                    },
+                    {
+                      "value": "Nothing",
+                      "controlAddress": "/actionOnCue"
                     },
                     {
                       "value": "",
@@ -13327,6 +13883,10 @@
                       "controlAddress": "/time"
                     },
                     {
+                      "value": "Nothing",
+                      "controlAddress": "/actionOnCue"
+                    },
+                    {
                       "value": "",
                       "controlAddress": "/loopJumpCue"
                     }
@@ -13339,6 +13899,10 @@
                     {
                       "value": 176.2599945068359,
                       "controlAddress": "/time"
+                    },
+                    {
+                      "value": "Nothing",
+                      "controlAddress": "/actionOnCue"
                     },
                     {
                       "value": "",
@@ -14956,6 +15520,10 @@
               {
                 "value": 242.3399963378906,
                 "controlAddress": "/viewEndTime"
+              },
+              {
+                "value": "No group",
+                "controlAddress": "/calibrationGroup"
               }
             ],
             "niceName": "Sequence",
@@ -15016,6 +15584,10 @@
                     {
                       "value": 60.0,
                       "controlAddress": "/listSize"
+                    },
+                    {
+                      "value": "Add",
+                      "controlAddress": "/blendMode"
                     }
                   ],
                   "niceName": "Block Layer",
@@ -15100,6 +15672,12 @@
                           }
                         },
                         "filters": {
+                          "parameters": [
+                            {
+                              "value": "OR",
+                              "controlAddress": "/operationMode"
+                            }
+                          ],
                           "viewOffset": [
                             0,
                             0
@@ -15191,6 +15769,12 @@
                           }
                         },
                         "filters": {
+                          "parameters": [
+                            {
+                              "value": "OR",
+                              "controlAddress": "/operationMode"
+                            }
+                          ],
                           "viewOffset": [
                             0,
                             0
@@ -15213,6 +15797,12 @@
                     "viewZoom": 1.0
                   },
                   "filters": {
+                    "parameters": [
+                      {
+                        "value": "OR",
+                        "controlAddress": "/operationMode"
+                      }
+                    ],
                     "viewOffset": [
                       0,
                       0
@@ -15263,8 +15853,16 @@
                 "controlAddress": "/totalTime"
               },
               {
+                "value": 0.0,
+                "controlAddress": "/viewStartTime"
+              },
+              {
                 "value": 302.0,
                 "controlAddress": "/viewEndTime"
+              },
+              {
+                "value": "No group",
+                "controlAddress": "/calibrationGroup"
               }
             ],
             "niceName": "Sequence",
@@ -15283,7 +15881,7 @@
                       "controlAddress": "/blendMode"
                     }
                   ],
-                  "niceName": "Block Layer 6",
+                  "niceName": "Arc2",
                   "type": "Blocks",
                   "blocks": {
                     "hideInEditor": true,
@@ -15426,7 +16024,7 @@
                       "controlAddress": "/listSize"
                     }
                   ],
-                  "niceName": "Block Layer 7",
+                  "niceName": "Arc1",
                   "type": "Blocks",
                   "blocks": {
                     "hideInEditor": true,
@@ -15438,7 +16036,7 @@
                             "controlAddress": "/startTime"
                           },
                           {
-                            "value": 61.89999771118164,
+                            "value": 59.71999740600586,
                             "controlAddress": "/length"
                           },
                           {
@@ -15451,9 +16049,9 @@
                             "enabled": true
                           },
                           {
-                            "value": 2.279998779296875,
+                            "value": 12.7860050201416,
                             "controlAddress": "/fadeOut",
-                            "enabled": false
+                            "enabled": true
                           }
                         ],
                         "niceName": "LightBlockClip",
@@ -15530,11 +16128,11 @@
                       {
                         "parameters": [
                           {
-                            "value": 213.6800079345703,
+                            "value": 215.0199890136719,
                             "controlAddress": "/startTime"
                           },
                           {
-                            "value": 5.699997901916504,
+                            "value": 4.120011329650879,
                             "controlAddress": "/length"
                           },
                           {
@@ -15542,108 +16140,12 @@
                             "controlAddress": "/activeBlock"
                           },
                           {
-                            "value": 2.279998779296875,
+                            "value": 1.192402482032776,
                             "controlAddress": "/fadeIn",
-                            "enabled": false
+                            "enabled": true
                           },
                           {
-                            "value": 1.079986572265625,
-                            "controlAddress": "/fadeOut",
-                            "enabled": false
-                          }
-                        ],
-                        "niceName": "LightBlockClip 2",
-                        "editorIsCollapsed": true,
-                        "type": "LightBlockClip",
-                        "blockData": {
-                          "params": {
-                            "parameters": [
-                              {
-                                "value": 0.9241706132888794,
-                                "controlAddress": "/brightness"
-                              },
-                              {
-                                "value": [
-                                  1.0,
-                                  1.0,
-                                  1.0,
-                                  1.0
-                                ],
-                                "controlAddress": "/color"
-                              },
-                              {
-                                "value": [
-                                  0.0,
-                                  0.0313725508749485,
-                                  0.05098039284348488,
-                                  1.0
-                                ],
-                                "controlAddress": "/backgroundColor"
-                              },
-                              {
-                                "value": 0.05,
-                                "controlAddress": "/speed"
-                              },
-                              {
-                                "value": 0.0,
-                                "controlAddress": "/offset"
-                              },
-                              {
-                                "value": 0.25,
-                                "controlAddress": "/gap"
-                              },
-                              {
-                                "value": 0.9028435945510864,
-                                "controlAddress": "/size"
-                              },
-                              {
-                                "value": 1.0,
-                                "controlAddress": "/fade"
-                              },
-                              {
-                                "value": 1,
-                                "hexMode": false,
-                                "controlAddress": "/numProps"
-                              }
-                            ]
-                          }
-                        },
-                        "filters": {
-                          "viewOffset": [
-                            0,
-                            0
-                          ],
-                          "viewZoom": 1.0
-                        },
-                        "effects": {
-                          "viewOffset": [
-                            0,
-                            0
-                          ],
-                          "viewZoom": 1.0
-                        }
-                      },
-                      {
-                        "parameters": [
-                          {
-                            "value": 218.3000183105469,
-                            "controlAddress": "/startTime"
-                          },
-                          {
-                            "value": 29.10000419616699,
-                            "controlAddress": "/length"
-                          },
-                          {
-                            "value": "/library/generic/multipoint",
-                            "controlAddress": "/activeBlock"
-                          },
-                          {
-                            "value": 1.079986572265625,
-                            "controlAddress": "/fadeIn",
-                            "enabled": false
-                          },
-                          {
-                            "value": 7.616016864776611,
+                            "value": 1.51822555065155,
                             "controlAddress": "/fadeOut",
                             "enabled": true
                           }
@@ -15655,7 +16157,7 @@
                           "params": {
                             "parameters": [
                               {
-                                "value": 0.3270142078399658,
+                                "value": 0.4976303279399872,
                                 "controlAddress": "/brightness"
                               },
                               {
@@ -15762,6 +16264,215 @@
                 {
                   "parameters": [
                     {
+                      "value": 60.0,
+                      "controlAddress": "/listSize"
+                    },
+                    {
+                      "value": 60,
+                      "hexMode": false,
+                      "controlAddress": "/uiHeight"
+                    }
+                  ],
+                  "niceName": "WASM",
+                  "type": "Blocks",
+                  "blocks": {
+                    "hideInEditor": true,
+                    "items": [
+                      {
+                        "parameters": [
+                          {
+                            "value": 2.599999904632568,
+                            "controlAddress": "/startTime"
+                          },
+                          {
+                            "value": "/library/wasm/fx01",
+                            "controlAddress": "/activeBlock"
+                          }
+                        ],
+                        "niceName": "LightBlockClip",
+                        "editorIsCollapsed": true,
+                        "type": "LightBlockClip",
+                        "blockData": {
+                          "params": {
+                            "hideInEditor": true
+                          }
+                        },
+                        "filters": {
+                          "viewOffset": [
+                            0,
+                            0
+                          ],
+                          "viewZoom": 1.0
+                        },
+                        "effects": {
+                          "viewOffset": [
+                            0,
+                            0
+                          ],
+                          "viewZoom": 1.0
+                        }
+                      },
+                      {
+                        "parameters": [
+                          {
+                            "value": 212.2400207519531,
+                            "controlAddress": "/startTime"
+                          },
+                          {
+                            "value": 1.78000009059906,
+                            "controlAddress": "/length"
+                          },
+                          {
+                            "value": "/library/wasm/fx01",
+                            "controlAddress": "/activeBlock"
+                          }
+                        ],
+                        "niceName": "LightBlockClip 2",
+                        "editorIsCollapsed": true,
+                        "type": "LightBlockClip",
+                        "blockData": {
+                          "params": {
+                            "hideInEditor": true
+                          }
+                        },
+                        "filters": {
+                          "viewOffset": [
+                            0,
+                            0
+                          ],
+                          "viewZoom": 1.0
+                        },
+                        "effects": {
+                          "viewOffset": [
+                            0,
+                            0
+                          ],
+                          "viewZoom": 1.0
+                        }
+                      },
+                      {
+                        "parameters": [
+                          {
+                            "value": 222.9199981689453,
+                            "controlAddress": "/startTime"
+                          },
+                          {
+                            "value": 2.71999979019165,
+                            "controlAddress": "/length"
+                          },
+                          {
+                            "value": "/library/wasm/fxm51",
+                            "controlAddress": "/activeBlock"
+                          }
+                        ],
+                        "niceName": "LightBlockClip 1",
+                        "editorIsCollapsed": true,
+                        "type": "LightBlockClip",
+                        "blockData": {
+                          "params": {
+                            "hideInEditor": true
+                          }
+                        },
+                        "filters": {
+                          "viewOffset": [
+                            0,
+                            0
+                          ],
+                          "viewZoom": 1.0
+                        },
+                        "effects": {
+                          "viewOffset": [
+                            0,
+                            0
+                          ],
+                          "viewZoom": 1.0
+                        }
+                      },
+                      {
+                        "parameters": [
+                          {
+                            "value": 241.1800079345703,
+                            "controlAddress": "/startTime"
+                          },
+                          {
+                            "value": 1.78000009059906,
+                            "controlAddress": "/length"
+                          },
+                          {
+                            "value": "/library/wasm/fx01",
+                            "controlAddress": "/activeBlock"
+                          }
+                        ],
+                        "niceName": "LightBlockClip 3",
+                        "editorIsCollapsed": true,
+                        "type": "LightBlockClip",
+                        "blockData": {
+                          "params": {
+                            "hideInEditor": true
+                          }
+                        },
+                        "filters": {
+                          "viewOffset": [
+                            0,
+                            0
+                          ],
+                          "viewZoom": 1.0
+                        },
+                        "effects": {
+                          "viewOffset": [
+                            0,
+                            0
+                          ],
+                          "viewZoom": 1.0
+                        }
+                      }
+                    ],
+                    "viewOffset": [
+                      0,
+                      0
+                    ],
+                    "viewZoom": 1.0
+                  },
+                  "filters": {
+                    "items": [
+                      {
+                        "parameters": [
+                          {
+                            "value": true,
+                            "controlAddress": "/enabled"
+                          },
+                          {
+                            "value": true,
+                            "controlAddress": "/specificGroup"
+                          },
+                          {
+                            "value": "/hoops",
+                            "controlAddress": "/family"
+                          },
+                          {
+                            "value": "",
+                            "controlAddress": "/cluster"
+                          },
+                          {
+                            "value": 0,
+                            "hexMode": false,
+                            "controlAddress": "/localPropID"
+                          }
+                        ],
+                        "niceName": "Cluster",
+                        "type": "Cluster"
+                      }
+                    ],
+                    "viewOffset": [
+                      0,
+                      0
+                    ],
+                    "viewZoom": 1.0
+                  }
+                },
+                {
+                  "parameters": [
+                    {
                       "value": 48.0,
                       "controlAddress": "/listSize"
                     },
@@ -15779,16 +16490,26 @@
                       {
                         "parameters": [
                           {
-                            "value": 175.3799896240234,
+                            "value": 211.2599639892578,
                             "controlAddress": "/startTime"
                           },
                           {
-                            "value": 48.27999877929688,
+                            "value": 38.26000213623047,
                             "controlAddress": "/length"
                           },
                           {
                             "value": "/library/generic/multipoint",
                             "controlAddress": "/activeBlock"
+                          },
+                          {
+                            "value": 2.455714225769043,
+                            "controlAddress": "/fadeIn",
+                            "enabled": true
+                          },
+                          {
+                            "value": 5.869696617126465,
+                            "controlAddress": "/fadeOut",
+                            "enabled": true
                           }
                         ],
                         "niceName": "LightBlockClip",
@@ -15820,7 +16541,7 @@
                                 "controlAddress": "/backgroundColor"
                               },
                               {
-                                "value": 0.1000000014901161,
+                                "value": 0.0,
                                 "controlAddress": "/speed"
                               },
                               {
@@ -15828,11 +16549,11 @@
                                 "controlAddress": "/offset"
                               },
                               {
-                                "value": 0.25,
+                                "value": 0.125,
                                 "controlAddress": "/gap"
                               },
                               {
-                                "value": 0.1009574234485626,
+                                "value": 0.1388721168041229,
                                 "controlAddress": "/size"
                               },
                               {
@@ -15843,6 +16564,76 @@
                                 "value": 1,
                                 "hexMode": false,
                                 "controlAddress": "/numProps"
+                              }
+                            ]
+                          }
+                        },
+                        "filters": {
+                          "viewOffset": [
+                            0,
+                            0
+                          ],
+                          "viewZoom": 1.0
+                        },
+                        "effects": {
+                          "viewOffset": [
+                            0,
+                            0
+                          ],
+                          "viewZoom": 1.0
+                        }
+                      },
+                      {
+                        "parameters": [
+                          {
+                            "value": 246.1800079345703,
+                            "controlAddress": "/startTime"
+                          },
+                          {
+                            "value": 7.979999542236328,
+                            "controlAddress": "/length"
+                          },
+                          {
+                            "value": "/library/generic/solidColor",
+                            "controlAddress": "/activeBlock"
+                          },
+                          {
+                            "value": 3.339950561523438,
+                            "controlAddress": "/fadeIn",
+                            "enabled": false
+                          },
+                          {
+                            "value": 4.415584564208984,
+                            "controlAddress": "/fadeOut",
+                            "enabled": true
+                          }
+                        ],
+                        "niceName": "LightBlockClip 1",
+                        "editorIsCollapsed": true,
+                        "type": "LightBlockClip",
+                        "blockData": {
+                          "params": {
+                            "parameters": [
+                              {
+                                "value": 1.0,
+                                "controlAddress": "/brightness"
+                              },
+                              {
+                                "value": [
+                                  0.0,
+                                  0.2235294133424759,
+                                  0.6549019813537598,
+                                  1.0
+                                ],
+                                "controlAddress": "/color"
+                              },
+                              {
+                                "value": 0.0,
+                                "controlAddress": "/hueSpeed"
+                              },
+                              {
+                                "value": 0.0,
+                                "controlAddress": "/idOffset"
                               }
                             ]
                           }
@@ -15886,7 +16677,11 @@
                             "controlAddress": "/cluster"
                           },
                           {
-                            "value": 0,
+                            "value": false,
+                            "controlAddress": "/specificLocalID"
+                          },
+                          {
+                            "value": 1,
                             "hexMode": false,
                             "controlAddress": "/localPropID"
                           }
@@ -15912,9 +16707,13 @@
                       "value": 57,
                       "hexMode": false,
                       "controlAddress": "/uiHeight"
+                    },
+                    {
+                      "value": "Add",
+                      "controlAddress": "/blendMode"
                     }
                   ],
-                  "niceName": "Block Layer 1",
+                  "niceName": "Hoop1 5",
                   "type": "Blocks",
                   "blocks": {
                     "hideInEditor": true,
@@ -16027,6 +16826,12 @@
                     "viewZoom": 1.0
                   },
                   "filters": {
+                    "parameters": [
+                      {
+                        "value": "OR",
+                        "controlAddress": "/operationMode"
+                      }
+                    ],
                     "items": [
                       {
                         "parameters": [
@@ -16071,7 +16876,7 @@
                       "controlAddress": "/uiHeight"
                     }
                   ],
-                  "niceName": "Block Layer 5",
+                  "niceName": "Hoop1 4",
                   "type": "Blocks",
                   "blocks": {
                     "hideInEditor": true,
@@ -16228,7 +17033,7 @@
                       "controlAddress": "/uiHeight"
                     }
                   ],
-                  "niceName": "Block Layer 3",
+                  "niceName": "Hoop1 3",
                   "type": "Blocks",
                   "blocks": {
                     "hideInEditor": true,
@@ -16728,7 +17533,7 @@
                       "controlAddress": "/previewID"
                     }
                   ],
-                  "niceName": "Block Layer 4",
+                  "niceName": "Hoop1 2",
                   "type": "Blocks",
                   "blocks": {
                     "hideInEditor": true,
@@ -17862,7 +18667,7 @@
                       {
                         "parameters": [
                           {
-                            "value": 120.7999954223633,
+                            "value": 113.0799942016602,
                             "controlAddress": "/startTime"
                           },
                           {
@@ -17870,7 +18675,7 @@
                             "controlAddress": "/length"
                           },
                           {
-                            "value": 27.81999778747559,
+                            "value": 35.37999725341797,
                             "controlAddress": "/loopLength"
                           },
                           {
@@ -17878,7 +18683,7 @@
                             "controlAddress": "/activeBlock"
                           },
                           {
-                            "value": 2.32051944732666,
+                            "value": 5.475140571594238,
                             "controlAddress": "/fadeIn",
                             "enabled": true
                           },
@@ -18011,9 +18816,9 @@
                             "controlAddress": "/activeBlock"
                           },
                           {
-                            "value": 0.0,
+                            "value": 0.2599945068359375,
                             "controlAddress": "/fadeIn",
-                            "enabled": true
+                            "enabled": false
                           },
                           {
                             "value": 0.8112871050834656,
@@ -18235,7 +19040,7 @@
                       "controlAddress": "/uiHeight"
                     }
                   ],
-                  "niceName": "Block Layer 2",
+                  "niceName": "Hoop1 1",
                   "type": "Blocks",
                   "blocks": {
                     "hideInEditor": true,
@@ -19465,7 +20270,7 @@
                             "enabled": false
                           },
                           {
-                            "value": 0.0,
+                            "value": 3.94000244140625,
                             "controlAddress": "/fadeOut",
                             "enabled": false
                           }
@@ -19477,7 +20282,7 @@
                           "params": {
                             "parameters": [
                               {
-                                "value": 1.0,
+                                "value": 0.1753554344177246,
                                 "controlAddress": "/brightness"
                               },
                               {
@@ -19654,11 +20459,11 @@
                       {
                         "parameters": [
                           {
-                            "value": 155.4000091552734,
+                            "value": 155.4400024414062,
                             "controlAddress": "/startTime"
                           },
                           {
-                            "value": 49.26000595092773,
+                            "value": 28.28000831604004,
                             "controlAddress": "/length"
                           },
                           {
@@ -19666,12 +20471,12 @@
                             "controlAddress": "/activeBlock"
                           },
                           {
-                            "value": 3.979995727539062,
+                            "value": 3.94000244140625,
                             "controlAddress": "/fadeIn",
                             "enabled": false
                           },
                           {
-                            "value": 10.41999816894531,
+                            "value": 8.720016479492188,
                             "controlAddress": "/fadeOut",
                             "enabled": false
                           }
@@ -19750,15 +20555,11 @@
                       {
                         "parameters": [
                           {
-                            "value": false,
-                            "controlAddress": "/enabled"
-                          },
-                          {
-                            "value": 194.2400207519531,
+                            "value": 175.0,
                             "controlAddress": "/startTime"
                           },
                           {
-                            "value": 24.17997741699219,
+                            "value": 21.86000633239746,
                             "controlAddress": "/length"
                           },
                           {
@@ -19766,7 +20567,107 @@
                             "controlAddress": "/activeBlock"
                           },
                           {
-                            "value": 0.0,
+                            "value": 8.720016479492188,
+                            "controlAddress": "/fadeIn",
+                            "enabled": false
+                          },
+                          {
+                            "value": 3.899978637695312,
+                            "controlAddress": "/fadeOut",
+                            "enabled": false
+                          }
+                        ],
+                        "niceName": "LightBlockClip 8",
+                        "editorIsCollapsed": true,
+                        "type": "LightBlockClip",
+                        "blockData": {
+                          "params": {
+                            "parameters": [
+                              {
+                                "value": 1.0,
+                                "controlAddress": "/brightness"
+                              },
+                              {
+                                "value": [
+                                  0.0,
+                                  0.3960784375667572,
+                                  1.0,
+                                  1.0
+                                ],
+                                "controlAddress": "/color"
+                              },
+                              {
+                                "value": [
+                                  0.0,
+                                  0.0,
+                                  0.0,
+                                  1.0
+                                ],
+                                "controlAddress": "/backgroundColor"
+                              },
+                              {
+                                "value": 0.3,
+                                "controlAddress": "/speed"
+                              },
+                              {
+                                "value": 0.0,
+                                "controlAddress": "/offset"
+                              },
+                              {
+                                "value": 0.1666666666666667,
+                                "controlAddress": "/gap"
+                              },
+                              {
+                                "value": 0.2879146933555603,
+                                "controlAddress": "/size"
+                              },
+                              {
+                                "value": 1.0,
+                                "controlAddress": "/fade"
+                              },
+                              {
+                                "value": 1,
+                                "hexMode": false,
+                                "controlAddress": "/numProps"
+                              }
+                            ]
+                          }
+                        },
+                        "filters": {
+                          "viewOffset": [
+                            0,
+                            0
+                          ],
+                          "viewZoom": 1.0
+                        },
+                        "effects": {
+                          "viewOffset": [
+                            0,
+                            0
+                          ],
+                          "viewZoom": 1.0
+                        }
+                      },
+                      {
+                        "parameters": [
+                          {
+                            "value": true,
+                            "controlAddress": "/enabled"
+                          },
+                          {
+                            "value": 192.9600219726562,
+                            "controlAddress": "/startTime"
+                          },
+                          {
+                            "value": 19.47997856140137,
+                            "controlAddress": "/length"
+                          },
+                          {
+                            "value": "/library/generic/multipoint",
+                            "controlAddress": "/activeBlock"
+                          },
+                          {
+                            "value": 3.899978637695312,
                             "controlAddress": "/fadeIn",
                             "enabled": false
                           },
@@ -19805,7 +20706,7 @@
                                 "controlAddress": "/backgroundColor"
                               },
                               {
-                                "value": 2.5,
+                                "value": 0.1,
                                 "controlAddress": "/speed"
                               },
                               {
@@ -19817,7 +20718,7 @@
                                 "controlAddress": "/gap"
                               },
                               {
-                                "value": 0.25,
+                                "value": 0.1054502427577972,
                                 "controlAddress": "/size"
                               },
                               {
@@ -19955,6 +20856,10 @@
                       "controlAddress": "/time"
                     },
                     {
+                      "value": "Nothing",
+                      "controlAddress": "/actionOnCue"
+                    },
+                    {
                       "value": "",
                       "controlAddress": "/loopJumpCue"
                     }
@@ -19965,8 +20870,12 @@
                 {
                   "parameters": [
                     {
-                      "value": 113.9199981689453,
+                      "value": 113.2799987792969,
                       "controlAddress": "/time"
+                    },
+                    {
+                      "value": "Nothing",
+                      "controlAddress": "/actionOnCue"
                     },
                     {
                       "value": "",
@@ -19988,6 +20897,24 @@
                     }
                   ],
                   "niceName": "2nd hoop",
+                  "type": "BaseItem"
+                },
+                {
+                  "parameters": [
+                    {
+                      "value": 235.4199981689453,
+                      "controlAddress": "/time"
+                    },
+                    {
+                      "value": "Nothing",
+                      "controlAddress": "/actionOnCue"
+                    },
+                    {
+                      "value": "/2ndHoop",
+                      "controlAddress": "/loopJumpCue"
+                    }
+                  ],
+                  "niceName": "loop",
                   "type": "BaseItem"
                 }
               ],
@@ -20202,7 +21129,15 @@
     "genericFilters": {
       "remap": {
         "niceName": "Remap",
-        "type": "Remap"
+        "type": "Remap",
+        "modelParams": {
+          "parameters": [
+            {
+              "value": "Stretch",
+              "controlAddress": "/remapMode"
+            }
+          ]
+        }
       },
       "hsv": {
         "niceName": "HSV",
@@ -20218,6 +21153,10 @@
     "containers": {
       "olimexTube": {
         "parameters": [
+          {
+            "value": true,
+            "controlAddress": "/enabled"
+          },
           {
             "value": 50.0,
             "controlAddress": "/listSize"
@@ -20236,6 +21175,10 @@
                 "value": 120,
                 "hexMode": false,
                 "controlAddress": "/resolution"
+              },
+              {
+                "value": "Club",
+                "controlAddress": "/type"
               }
             ]
           },
@@ -20250,6 +21193,12 @@
           "controls": {
           },
           "bakeAndUpload": {
+            "parameters": [
+              {
+                "value": false,
+                "controlAddress": "/bakeMode"
+              }
+            ],
             "editorIsCollapsed": true
           },
           "rgb": {
@@ -20289,6 +21238,10 @@
       "olimexTube2": {
         "parameters": [
           {
+            "value": true,
+            "controlAddress": "/enabled"
+          },
+          {
             "value": 50.0,
             "controlAddress": "/listSize"
           },
@@ -20311,6 +21264,10 @@
                 "value": 120,
                 "hexMode": false,
                 "controlAddress": "/resolution"
+              },
+              {
+                "value": "Club",
+                "controlAddress": "/type"
               }
             ]
           },
@@ -20325,6 +21282,12 @@
           "controls": {
           },
           "bakeAndUpload": {
+            "parameters": [
+              {
+                "value": false,
+                "controlAddress": "/bakeMode"
+              }
+            ],
             "editorIsCollapsed": true
           },
           "rgb": {
@@ -20364,6 +21327,10 @@
       "olimexTube1": {
         "parameters": [
           {
+            "value": true,
+            "controlAddress": "/enabled"
+          },
+          {
             "value": 50.0,
             "controlAddress": "/listSize"
           },
@@ -20386,6 +21353,10 @@
                 "value": 120,
                 "hexMode": false,
                 "controlAddress": "/resolution"
+              },
+              {
+                "value": "Club",
+                "controlAddress": "/type"
               }
             ]
           },
@@ -20400,6 +21371,12 @@
           "controls": {
           },
           "bakeAndUpload": {
+            "parameters": [
+              {
+                "value": false,
+                "controlAddress": "/bakeMode"
+              }
+            ],
             "editorIsCollapsed": true
           },
           "rgb": {
@@ -20439,6 +21416,10 @@
       "olimexTube3": {
         "parameters": [
           {
+            "value": true,
+            "controlAddress": "/enabled"
+          },
+          {
             "value": 50.0,
             "controlAddress": "/listSize"
           },
@@ -20461,6 +21442,10 @@
                 "value": 120,
                 "hexMode": false,
                 "controlAddress": "/resolution"
+              },
+              {
+                "value": "Club",
+                "controlAddress": "/type"
               }
             ]
           },
@@ -20475,6 +21460,12 @@
           "controls": {
           },
           "bakeAndUpload": {
+            "parameters": [
+              {
+                "value": false,
+                "controlAddress": "/bakeMode"
+              }
+            ],
             "editorIsCollapsed": true
           },
           "rgb": {
@@ -20514,6 +21505,10 @@
       "olimexTube4": {
         "parameters": [
           {
+            "value": true,
+            "controlAddress": "/enabled"
+          },
+          {
             "value": 50.0,
             "controlAddress": "/listSize"
           },
@@ -20536,6 +21531,10 @@
                 "value": 120,
                 "hexMode": false,
                 "controlAddress": "/resolution"
+              },
+              {
+                "value": "Club",
+                "controlAddress": "/type"
               }
             ]
           },
@@ -20550,6 +21549,12 @@
           "controls": {
           },
           "bakeAndUpload": {
+            "parameters": [
+              {
+                "value": false,
+                "controlAddress": "/bakeMode"
+              }
+            ],
             "editorIsCollapsed": true
           },
           "rgb": {
@@ -20615,6 +21620,10 @@
                 "value": 32,
                 "hexMode": false,
                 "controlAddress": "/resolution"
+              },
+              {
+                "value": "Club",
+                "controlAddress": "/type"
               }
             ]
           },
@@ -20629,6 +21638,12 @@
           "controls": {
           },
           "bakeAndUpload": {
+            "parameters": [
+              {
+                "value": false,
+                "controlAddress": "/bakeMode"
+              }
+            ],
             "editorIsCollapsed": true
           },
           "rgb": {
@@ -20642,16 +21657,18 @@
               {
                 "value": false,
                 "controlAddress": "/enabled"
+              },
+              {
+                "value": "No Send",
+                "controlAddress": "/sendLevel"
+              },
+              {
+                "value": "None",
+                "controlAddress": "/throwState"
               }
             ],
             "editorIsCollapsed": true,
             "containers": {
-              "orientationOffsetConfig": {
-                "editorIsCollapsed": true
-              },
-              "angleConfig": {
-                "editorIsCollapsed": true
-              },
               "throwConfig": {
                 "parameters": [
                   {
@@ -20670,6 +21687,16 @@
                   }
                 ],
                 "editorIsCollapsed": true
+              },
+              "orientationOffsetConfig": {
+                "editorIsCollapsed": true,
+                "owned": true,
+                "niceName": "orientationOffsetConfig"
+              },
+              "angleConfig": {
+                "editorIsCollapsed": true,
+                "owned": true,
+                "niceName": "angleConfig"
               }
             },
             "owned": true
@@ -20740,6 +21767,10 @@
                 "value": 32,
                 "hexMode": false,
                 "controlAddress": "/resolution"
+              },
+              {
+                "value": "Club",
+                "controlAddress": "/type"
               }
             ]
           },
@@ -20754,6 +21785,12 @@
           "controls": {
           },
           "bakeAndUpload": {
+            "parameters": [
+              {
+                "value": false,
+                "controlAddress": "/bakeMode"
+              }
+            ],
             "editorIsCollapsed": true
           },
           "rgb": {
@@ -20767,16 +21804,18 @@
               {
                 "value": false,
                 "controlAddress": "/enabled"
+              },
+              {
+                "value": "No Send",
+                "controlAddress": "/sendLevel"
+              },
+              {
+                "value": "None",
+                "controlAddress": "/throwState"
               }
             ],
             "editorIsCollapsed": true,
             "containers": {
-              "orientationOffsetConfig": {
-                "editorIsCollapsed": true
-              },
-              "angleConfig": {
-                "editorIsCollapsed": true
-              },
               "throwConfig": {
                 "parameters": [
                   {
@@ -20795,6 +21834,16 @@
                   }
                 ],
                 "editorIsCollapsed": true
+              },
+              "orientationOffsetConfig": {
+                "editorIsCollapsed": true,
+                "owned": true,
+                "niceName": "orientationOffsetConfig"
+              },
+              "angleConfig": {
+                "editorIsCollapsed": true,
+                "owned": true,
+                "niceName": "angleConfig"
               }
             },
             "owned": true
@@ -20839,6 +21888,10 @@
       "flowtoysCreatorHoop": {
         "parameters": [
           {
+            "value": true,
+            "controlAddress": "/enabled"
+          },
+          {
             "value": 100.0,
             "controlAddress": "/listSize"
           },
@@ -20866,7 +21919,8 @@
                 "value": "Hoop",
                 "controlAddress": "/type"
               }
-            ]
+            ],
+            "editorIsCollapsed": true
           },
           "connection": {
             "parameters": [
@@ -20874,31 +21928,48 @@
                 "value": "192.168.1.105",
                 "controlAddress": "/propIP"
               }
-            ]
+            ],
+            "editorIsCollapsed": true
           },
           "controls": {
+            "editorIsCollapsed": true
           },
           "bakeAndUpload": {
+            "parameters": [
+              {
+                "value": false,
+                "controlAddress": "/bakeMode"
+              }
+            ],
             "editorIsCollapsed": true
           },
           "rgb": {
             "parameters": [
               {
-                "value": 0.3402715027332306,
+                "value": 0.2316742241382599,
                 "controlAddress": "/brightness"
               }
             ],
+            "editorIsCollapsed": true,
             "owned": true
           },
           "fx": {
             "parameters": [
               {
+                "value": 0.0,
+                "controlAddress": "/offsetSpeed"
+              },
+              {
                 "value": 1.0,
                 "controlAddress": "/isolationSpeed"
               },
               {
-                "value": 0.6153846383094788,
+                "value": 0.6696832776069641,
                 "controlAddress": "/isolationSmoothing"
+              },
+              {
+                "value": "Projected Angle",
+                "controlAddress": "/isolationAxis"
               }
             ],
             "owned": true
@@ -20913,18 +21984,15 @@
                 "controlAddress": "/enabled"
               },
               {
-                "value": "Orientation",
+                "value": "No Send",
                 "controlAddress": "/sendLevel"
+              },
+              {
+                "value": "None",
+                "controlAddress": "/throwState"
               }
             ],
-            "editorIsCollapsed": true,
             "containers": {
-              "orientationOffsetConfig": {
-                "editorIsCollapsed": true
-              },
-              "angleConfig": {
-                "editorIsCollapsed": true
-              },
               "throwConfig": {
                 "parameters": [
                   {
@@ -20943,6 +22011,16 @@
                   }
                 ],
                 "editorIsCollapsed": true
+              },
+              "orientationOffsetConfig": {
+                "editorIsCollapsed": true,
+                "owned": true,
+                "niceName": "orientationOffsetConfig"
+              },
+              "angleConfig": {
+                "editorIsCollapsed": true,
+                "owned": true,
+                "niceName": "angleConfig"
               }
             },
             "owned": true
@@ -20987,6 +22065,10 @@
       "flowtoysCreatorHoop1": {
         "parameters": [
           {
+            "value": true,
+            "controlAddress": "/enabled"
+          },
+          {
             "value": 100.0,
             "controlAddress": "/listSize"
           },
@@ -21021,7 +22103,8 @@
                 "value": "Hoop",
                 "controlAddress": "/type"
               }
-            ]
+            ],
+            "editorIsCollapsed": true
           },
           "connection": {
             "parameters": [
@@ -21029,17 +22112,25 @@
                 "value": "192.168.1.103",
                 "controlAddress": "/propIP"
               }
-            ]
+            ],
+            "editorIsCollapsed": true
           },
           "controls": {
+            "editorIsCollapsed": true
           },
           "bakeAndUpload": {
+            "parameters": [
+              {
+                "value": false,
+                "controlAddress": "/bakeMode"
+              }
+            ],
             "editorIsCollapsed": true
           },
           "rgb": {
             "parameters": [
               {
-                "value": 0.07833081483840942,
+                "value": 0.3000502586364746,
                 "controlAddress": "/brightness"
               }
             ],
@@ -21047,6 +22138,10 @@
           },
           "fx": {
             "parameters": [
+              {
+                "value": 0.0,
+                "controlAddress": "/offsetSpeed"
+              },
               {
                 "value": 1.0,
                 "controlAddress": "/isolationSpeed"
@@ -21068,18 +22163,15 @@
                 "controlAddress": "/enabled"
               },
               {
-                "value": "Orientation",
+                "value": "No Send",
                 "controlAddress": "/sendLevel"
+              },
+              {
+                "value": "None",
+                "controlAddress": "/throwState"
               }
             ],
-            "editorIsCollapsed": true,
             "containers": {
-              "orientationOffsetConfig": {
-                "editorIsCollapsed": true
-              },
-              "angleConfig": {
-                "editorIsCollapsed": true
-              },
               "throwConfig": {
                 "parameters": [
                   {
@@ -21098,6 +22190,16 @@
                   }
                 ],
                 "editorIsCollapsed": true
+              },
+              "orientationOffsetConfig": {
+                "editorIsCollapsed": true,
+                "owned": true,
+                "niceName": "orientationOffsetConfig"
+              },
+              "angleConfig": {
+                "editorIsCollapsed": true,
+                "owned": true,
+                "niceName": "angleConfig"
               }
             },
             "owned": true
@@ -21144,6 +22246,12 @@
       "controls": {
       },
       "show": {
+        "parameters": [
+          {
+            "value": false,
+            "controlAddress": "/bakeMode"
+          }
+        ]
       },
       "families": {
       }
@@ -21151,6 +22259,10 @@
     "items": [
       {
         "parameters": [
+          {
+            "value": true,
+            "controlAddress": "/enabled"
+          },
           {
             "value": 50.0,
             "controlAddress": "/listSize"
@@ -21169,6 +22281,10 @@
                 "value": 120,
                 "hexMode": false,
                 "controlAddress": "/resolution"
+              },
+              {
+                "value": "Club",
+                "controlAddress": "/type"
               }
             ]
           },
@@ -21183,6 +22299,12 @@
           "controls": {
           },
           "bakeAndUpload": {
+            "parameters": [
+              {
+                "value": false,
+                "controlAddress": "/bakeMode"
+              }
+            ],
             "editorIsCollapsed": true
           },
           "rgb": {
@@ -21222,6 +22344,10 @@
       {
         "parameters": [
           {
+            "value": true,
+            "controlAddress": "/enabled"
+          },
+          {
             "value": 50.0,
             "controlAddress": "/listSize"
           },
@@ -21244,6 +22370,10 @@
                 "value": 120,
                 "hexMode": false,
                 "controlAddress": "/resolution"
+              },
+              {
+                "value": "Club",
+                "controlAddress": "/type"
               }
             ]
           },
@@ -21258,6 +22388,12 @@
           "controls": {
           },
           "bakeAndUpload": {
+            "parameters": [
+              {
+                "value": false,
+                "controlAddress": "/bakeMode"
+              }
+            ],
             "editorIsCollapsed": true
           },
           "rgb": {
@@ -21297,6 +22433,10 @@
       {
         "parameters": [
           {
+            "value": true,
+            "controlAddress": "/enabled"
+          },
+          {
             "value": 50.0,
             "controlAddress": "/listSize"
           },
@@ -21319,6 +22459,10 @@
                 "value": 120,
                 "hexMode": false,
                 "controlAddress": "/resolution"
+              },
+              {
+                "value": "Club",
+                "controlAddress": "/type"
               }
             ]
           },
@@ -21333,6 +22477,12 @@
           "controls": {
           },
           "bakeAndUpload": {
+            "parameters": [
+              {
+                "value": false,
+                "controlAddress": "/bakeMode"
+              }
+            ],
             "editorIsCollapsed": true
           },
           "rgb": {
@@ -21372,6 +22522,10 @@
       {
         "parameters": [
           {
+            "value": true,
+            "controlAddress": "/enabled"
+          },
+          {
             "value": 50.0,
             "controlAddress": "/listSize"
           },
@@ -21394,6 +22548,10 @@
                 "value": 120,
                 "hexMode": false,
                 "controlAddress": "/resolution"
+              },
+              {
+                "value": "Club",
+                "controlAddress": "/type"
               }
             ]
           },
@@ -21408,6 +22566,12 @@
           "controls": {
           },
           "bakeAndUpload": {
+            "parameters": [
+              {
+                "value": false,
+                "controlAddress": "/bakeMode"
+              }
+            ],
             "editorIsCollapsed": true
           },
           "rgb": {
@@ -21447,6 +22611,10 @@
       {
         "parameters": [
           {
+            "value": true,
+            "controlAddress": "/enabled"
+          },
+          {
             "value": 50.0,
             "controlAddress": "/listSize"
           },
@@ -21469,6 +22637,10 @@
                 "value": 120,
                 "hexMode": false,
                 "controlAddress": "/resolution"
+              },
+              {
+                "value": "Club",
+                "controlAddress": "/type"
               }
             ]
           },
@@ -21483,6 +22655,12 @@
           "controls": {
           },
           "bakeAndUpload": {
+            "parameters": [
+              {
+                "value": false,
+                "controlAddress": "/bakeMode"
+              }
+            ],
             "editorIsCollapsed": true
           },
           "rgb": {
@@ -21548,6 +22726,10 @@
                 "value": 32,
                 "hexMode": false,
                 "controlAddress": "/resolution"
+              },
+              {
+                "value": "Club",
+                "controlAddress": "/type"
               }
             ]
           },
@@ -21562,6 +22744,12 @@
           "controls": {
           },
           "bakeAndUpload": {
+            "parameters": [
+              {
+                "value": false,
+                "controlAddress": "/bakeMode"
+              }
+            ],
             "editorIsCollapsed": true
           },
           "rgb": {
@@ -21575,16 +22763,18 @@
               {
                 "value": false,
                 "controlAddress": "/enabled"
+              },
+              {
+                "value": "No Send",
+                "controlAddress": "/sendLevel"
+              },
+              {
+                "value": "None",
+                "controlAddress": "/throwState"
               }
             ],
             "editorIsCollapsed": true,
             "containers": {
-              "orientationOffsetConfig": {
-                "editorIsCollapsed": true
-              },
-              "angleConfig": {
-                "editorIsCollapsed": true
-              },
               "throwConfig": {
                 "parameters": [
                   {
@@ -21603,6 +22793,16 @@
                   }
                 ],
                 "editorIsCollapsed": true
+              },
+              "orientationOffsetConfig": {
+                "editorIsCollapsed": true,
+                "owned": true,
+                "niceName": "orientationOffsetConfig"
+              },
+              "angleConfig": {
+                "editorIsCollapsed": true,
+                "owned": true,
+                "niceName": "angleConfig"
               }
             },
             "owned": true
@@ -21673,6 +22873,10 @@
                 "value": 32,
                 "hexMode": false,
                 "controlAddress": "/resolution"
+              },
+              {
+                "value": "Club",
+                "controlAddress": "/type"
               }
             ]
           },
@@ -21687,6 +22891,12 @@
           "controls": {
           },
           "bakeAndUpload": {
+            "parameters": [
+              {
+                "value": false,
+                "controlAddress": "/bakeMode"
+              }
+            ],
             "editorIsCollapsed": true
           },
           "rgb": {
@@ -21700,16 +22910,18 @@
               {
                 "value": false,
                 "controlAddress": "/enabled"
+              },
+              {
+                "value": "No Send",
+                "controlAddress": "/sendLevel"
+              },
+              {
+                "value": "None",
+                "controlAddress": "/throwState"
               }
             ],
             "editorIsCollapsed": true,
             "containers": {
-              "orientationOffsetConfig": {
-                "editorIsCollapsed": true
-              },
-              "angleConfig": {
-                "editorIsCollapsed": true
-              },
               "throwConfig": {
                 "parameters": [
                   {
@@ -21728,6 +22940,16 @@
                   }
                 ],
                 "editorIsCollapsed": true
+              },
+              "orientationOffsetConfig": {
+                "editorIsCollapsed": true,
+                "owned": true,
+                "niceName": "orientationOffsetConfig"
+              },
+              "angleConfig": {
+                "editorIsCollapsed": true,
+                "owned": true,
+                "niceName": "angleConfig"
               }
             },
             "owned": true
@@ -21772,6 +22994,10 @@
       {
         "parameters": [
           {
+            "value": true,
+            "controlAddress": "/enabled"
+          },
+          {
             "value": 100.0,
             "controlAddress": "/listSize"
           },
@@ -21799,7 +23025,8 @@
                 "value": "Hoop",
                 "controlAddress": "/type"
               }
-            ]
+            ],
+            "editorIsCollapsed": true
           },
           "connection": {
             "parameters": [
@@ -21807,31 +23034,48 @@
                 "value": "192.168.1.105",
                 "controlAddress": "/propIP"
               }
-            ]
+            ],
+            "editorIsCollapsed": true
           },
           "controls": {
+            "editorIsCollapsed": true
           },
           "bakeAndUpload": {
+            "parameters": [
+              {
+                "value": false,
+                "controlAddress": "/bakeMode"
+              }
+            ],
             "editorIsCollapsed": true
           },
           "rgb": {
             "parameters": [
               {
-                "value": 0.3402715027332306,
+                "value": 0.2316742241382599,
                 "controlAddress": "/brightness"
               }
             ],
+            "editorIsCollapsed": true,
             "owned": true
           },
           "fx": {
             "parameters": [
               {
+                "value": 0.0,
+                "controlAddress": "/offsetSpeed"
+              },
+              {
                 "value": 1.0,
                 "controlAddress": "/isolationSpeed"
               },
               {
-                "value": 0.6153846383094788,
+                "value": 0.6696832776069641,
                 "controlAddress": "/isolationSmoothing"
+              },
+              {
+                "value": "Projected Angle",
+                "controlAddress": "/isolationAxis"
               }
             ],
             "owned": true
@@ -21846,18 +23090,15 @@
                 "controlAddress": "/enabled"
               },
               {
-                "value": "Orientation",
+                "value": "No Send",
                 "controlAddress": "/sendLevel"
+              },
+              {
+                "value": "None",
+                "controlAddress": "/throwState"
               }
             ],
-            "editorIsCollapsed": true,
             "containers": {
-              "orientationOffsetConfig": {
-                "editorIsCollapsed": true
-              },
-              "angleConfig": {
-                "editorIsCollapsed": true
-              },
               "throwConfig": {
                 "parameters": [
                   {
@@ -21876,6 +23117,16 @@
                   }
                 ],
                 "editorIsCollapsed": true
+              },
+              "orientationOffsetConfig": {
+                "editorIsCollapsed": true,
+                "owned": true,
+                "niceName": "orientationOffsetConfig"
+              },
+              "angleConfig": {
+                "editorIsCollapsed": true,
+                "owned": true,
+                "niceName": "angleConfig"
               }
             },
             "owned": true
@@ -21920,6 +23171,10 @@
       {
         "parameters": [
           {
+            "value": true,
+            "controlAddress": "/enabled"
+          },
+          {
             "value": 100.0,
             "controlAddress": "/listSize"
           },
@@ -21954,7 +23209,8 @@
                 "value": "Hoop",
                 "controlAddress": "/type"
               }
-            ]
+            ],
+            "editorIsCollapsed": true
           },
           "connection": {
             "parameters": [
@@ -21962,17 +23218,25 @@
                 "value": "192.168.1.103",
                 "controlAddress": "/propIP"
               }
-            ]
+            ],
+            "editorIsCollapsed": true
           },
           "controls": {
+            "editorIsCollapsed": true
           },
           "bakeAndUpload": {
+            "parameters": [
+              {
+                "value": false,
+                "controlAddress": "/bakeMode"
+              }
+            ],
             "editorIsCollapsed": true
           },
           "rgb": {
             "parameters": [
               {
-                "value": 0.07833081483840942,
+                "value": 0.3000502586364746,
                 "controlAddress": "/brightness"
               }
             ],
@@ -21980,6 +23244,10 @@
           },
           "fx": {
             "parameters": [
+              {
+                "value": 0.0,
+                "controlAddress": "/offsetSpeed"
+              },
               {
                 "value": 1.0,
                 "controlAddress": "/isolationSpeed"
@@ -22001,18 +23269,15 @@
                 "controlAddress": "/enabled"
               },
               {
-                "value": "Orientation",
+                "value": "No Send",
                 "controlAddress": "/sendLevel"
+              },
+              {
+                "value": "None",
+                "controlAddress": "/throwState"
               }
             ],
-            "editorIsCollapsed": true,
             "containers": {
-              "orientationOffsetConfig": {
-                "editorIsCollapsed": true
-              },
-              "angleConfig": {
-                "editorIsCollapsed": true
-              },
               "throwConfig": {
                 "parameters": [
                   {
@@ -22031,6 +23296,16 @@
                   }
                 ],
                 "editorIsCollapsed": true
+              },
+              "orientationOffsetConfig": {
+                "editorIsCollapsed": true,
+                "owned": true,
+                "niceName": "orientationOffsetConfig"
+              },
+              "angleConfig": {
+                "editorIsCollapsed": true,
+                "owned": true,
+                "niceName": "angleConfig"
               }
             },
             "owned": true
