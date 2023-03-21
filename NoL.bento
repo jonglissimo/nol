@@ -1630,7 +1630,7 @@
                             "controlAddress": "/startTime"
                           },
                           {
-                            "value": 0.9300003051757812,
+                            "value": 0.9300003051757813,
                             "controlAddress": "/length"
                           },
                           {
@@ -1675,7 +1675,7 @@
                                 "paramAutomation": {
                                   "parameters": [
                                     {
-                                      "value": 0.9300003051757812,
+                                      "value": 0.9300003051757813,
                                       "controlAddress": "/length"
                                     }
                                   ],
@@ -1684,7 +1684,7 @@
                                   "automation": {
                                     "parameters": [
                                       {
-                                        "value": 0.9300003051757812,
+                                        "value": 0.9300003051757813,
                                         "controlAddress": "/length"
                                       },
                                       {
@@ -4185,7 +4185,7 @@
                                 "controlAddress": "/contrast"
                               },
                               {
-                                "value": 0.5000076293945312,
+                                "value": 0.5000076293945313,
                                 "controlAddress": "/scale"
                               },
                               {
@@ -15365,10 +15365,6 @@
                 "controlAddress": "/totalTime"
               },
               {
-                "value": 0.0,
-                "controlAddress": "/viewStartTime"
-              },
-              {
                 "value": 302.0,
                 "controlAddress": "/viewEndTime"
               }
@@ -16156,11 +16152,6 @@
                     {
                       "value": 60.0,
                       "controlAddress": "/listSize"
-                    },
-                    {
-                      "value": 60,
-                      "hexMode": false,
-                      "controlAddress": "/uiHeight"
                     }
                   ],
                   "niceName": "Wasm H1",
@@ -16543,11 +16534,6 @@
                     {
                       "value": 60.0,
                       "controlAddress": "/listSize"
-                    },
-                    {
-                      "value": 60,
-                      "hexMode": false,
-                      "controlAddress": "/uiHeight"
                     }
                   ],
                   "niceName": "WASM 2",
@@ -17263,10 +17249,6 @@
                                     "items": [
                                       {
                                         "parameters": [
-                                          {
-                                            "value": 0.0,
-                                            "controlAddress": "/position"
-                                          },
                                           {
                                             "value": 0.5288461446762085,
                                             "controlAddress": "/value"
@@ -19066,10 +19048,6 @@
                                       {
                                         "parameters": [
                                           {
-                                            "value": 0.0,
-                                            "controlAddress": "/position"
-                                          },
-                                          {
                                             "value": 0.1666666865348816,
                                             "controlAddress": "/value"
                                           },
@@ -19686,10 +19664,6 @@
                                             "controlAddress": "/position"
                                           },
                                           {
-                                            "value": 0.0,
-                                            "controlAddress": "/value"
-                                          },
-                                          {
                                             "value": "Linear",
                                             "controlAddress": "/easingType"
                                           }
@@ -19985,11 +19959,6 @@
                       "controlAddress": "/listSize"
                     },
                     {
-                      "value": 60,
-                      "hexMode": false,
-                      "controlAddress": "/uiHeight"
-                    },
-                    {
                       "value": "Mask",
                       "controlAddress": "/blendMode"
                     }
@@ -20216,10 +20185,6 @@
                                       {
                                         "parameters": [
                                           {
-                                            "value": 0.0,
-                                            "controlAddress": "/position"
-                                          },
-                                          {
                                             "value": 1.0,
                                             "controlAddress": "/value"
                                           },
@@ -20411,10 +20376,6 @@
                                     "items": [
                                       {
                                         "parameters": [
-                                          {
-                                            "value": 0.0,
-                                            "controlAddress": "/position"
-                                          },
                                           {
                                             "value": -0.09469687938690186,
                                             "controlAddress": "/value"
@@ -21177,7 +21138,7 @@
                                               {
                                                 "value": [
                                                   -0.954132080078125,
-                                                  0.006364822387695312
+                                                  0.006364822387695313
                                                 ],
                                                 "controlAddress": "/anchor2"
                                               }
@@ -22249,10 +22210,6 @@
       "olimexTube": {
         "parameters": [
           {
-            "value": true,
-            "controlAddress": "/enabled"
-          },
-          {
             "value": 50.0,
             "controlAddress": "/listSize"
           },
@@ -22262,6 +22219,7 @@
           }
         ],
         "niceName": "Olimex Tube",
+        "editorIsCollapsed": true,
         "containers": {
           "general": {
             "parameters": [
@@ -22285,7 +22243,7 @@
           "bakeAndUpload": {
             "parameters": [
               {
-                "value": false,
+                "value": true,
                 "controlAddress": "/bakeMode"
               }
             ],
@@ -22304,7 +22262,7 @@
             ],
             "viewZoom": 1.0
           },
-          "reflections": {
+          "reflection": {
             "params": {
               "hideInEditor": true
             }
@@ -22328,10 +22286,6 @@
       "olimexTube2": {
         "parameters": [
           {
-            "value": true,
-            "controlAddress": "/enabled"
-          },
-          {
             "value": 50.0,
             "controlAddress": "/listSize"
           },
@@ -22341,6 +22295,7 @@
           }
         ],
         "niceName": "Olimex Tube 2",
+        "editorIsCollapsed": true,
         "containers": {
           "general": {
             "parameters": [
@@ -22369,7 +22324,7 @@
           "bakeAndUpload": {
             "parameters": [
               {
-                "value": false,
+                "value": true,
                 "controlAddress": "/bakeMode"
               }
             ],
@@ -22388,7 +22343,7 @@
             ],
             "viewZoom": 1.0
           },
-          "reflections": {
+          "reflection": {
             "params": {
               "hideInEditor": true
             }
@@ -22412,10 +22367,6 @@
       "olimexTube1": {
         "parameters": [
           {
-            "value": true,
-            "controlAddress": "/enabled"
-          },
-          {
             "value": 50.0,
             "controlAddress": "/listSize"
           },
@@ -22425,6 +22376,7 @@
           }
         ],
         "niceName": "Olimex Tube 1",
+        "editorIsCollapsed": true,
         "containers": {
           "general": {
             "parameters": [
@@ -22453,7 +22405,7 @@
           "bakeAndUpload": {
             "parameters": [
               {
-                "value": false,
+                "value": true,
                 "controlAddress": "/bakeMode"
               }
             ],
@@ -22472,7 +22424,7 @@
             ],
             "viewZoom": 1.0
           },
-          "reflections": {
+          "reflection": {
             "params": {
               "hideInEditor": true
             }
@@ -22496,10 +22448,6 @@
       "olimexTube3": {
         "parameters": [
           {
-            "value": true,
-            "controlAddress": "/enabled"
-          },
-          {
             "value": 50.0,
             "controlAddress": "/listSize"
           },
@@ -22509,6 +22457,7 @@
           }
         ],
         "niceName": "Olimex Tube 3",
+        "editorIsCollapsed": true,
         "containers": {
           "general": {
             "parameters": [
@@ -22537,7 +22486,7 @@
           "bakeAndUpload": {
             "parameters": [
               {
-                "value": false,
+                "value": true,
                 "controlAddress": "/bakeMode"
               }
             ],
@@ -22556,7 +22505,7 @@
             ],
             "viewZoom": 1.0
           },
-          "reflections": {
+          "reflection": {
             "params": {
               "hideInEditor": true
             }
@@ -22580,10 +22529,6 @@
       "olimexTube4": {
         "parameters": [
           {
-            "value": true,
-            "controlAddress": "/enabled"
-          },
-          {
             "value": 50.0,
             "controlAddress": "/listSize"
           },
@@ -22593,6 +22538,7 @@
           }
         ],
         "niceName": "Olimex Tube 4",
+        "editorIsCollapsed": true,
         "containers": {
           "general": {
             "parameters": [
@@ -22621,7 +22567,7 @@
           "bakeAndUpload": {
             "parameters": [
               {
-                "value": false,
+                "value": true,
                 "controlAddress": "/bakeMode"
               }
             ],
@@ -22640,7 +22586,7 @@
             ],
             "viewZoom": 1.0
           },
-          "reflections": {
+          "reflection": {
             "params": {
               "hideInEditor": true
             }
@@ -22664,11 +22610,7 @@
       "flowtoysCreatorHoop": {
         "parameters": [
           {
-            "value": true,
-            "controlAddress": "/enabled"
-          },
-          {
-            "value": 101.0,
+            "value": 100.0,
             "controlAddress": "/listSize"
           },
           {
@@ -22677,6 +22619,7 @@
           }
         ],
         "niceName": "Flowtoys Creator Hoop",
+        "editorIsCollapsed": true,
         "containers": {
           "general": {
             "parameters": [
@@ -22709,7 +22652,7 @@
           "bakeAndUpload": {
             "parameters": [
               {
-                "value": false,
+                "value": true,
                 "controlAddress": "/bakeMode"
               }
             ],
@@ -22720,14 +22663,6 @@
               {
                 "value": 0.3511468172073364,
                 "controlAddress": "/brightness"
-              },
-              {
-                "value": true,
-                "controlAddress": "/streamColors"
-              },
-              {
-                "value": true,
-                "controlAddress": "/invertDirection"
               }
             ],
             "owned": true
@@ -22741,10 +22676,6 @@
               {
                 "value": 1.0,
                 "controlAddress": "/isolationSpeed"
-              },
-              {
-                "value": 0.0,
-                "controlAddress": "/isolationSmoothing"
               }
             ],
             "owned": true
@@ -22816,7 +22747,7 @@
             ],
             "viewZoom": 1.0
           },
-          "reflections": {
+          "reflection": {
             "params": {
               "hideInEditor": true
             }
@@ -22839,10 +22770,6 @@
       },
       "flowtoysCreatorHoop1": {
         "parameters": [
-          {
-            "value": true,
-            "controlAddress": "/enabled"
-          },
           {
             "value": 100.0,
             "controlAddress": "/listSize"
@@ -22896,7 +22823,7 @@
           "bakeAndUpload": {
             "parameters": [
               {
-                "value": false,
+                "value": true,
                 "controlAddress": "/bakeMode"
               }
             ],
@@ -22995,7 +22922,7 @@
             ],
             "viewZoom": 1.0
           },
-          "reflections": {
+          "reflection": {
             "params": {
               "hideInEditor": true
             }
@@ -23023,7 +22950,7 @@
       "show": {
         "parameters": [
           {
-            "value": false,
+            "value": true,
             "controlAddress": "/bakeMode"
           }
         ]
@@ -23035,10 +22962,6 @@
       {
         "parameters": [
           {
-            "value": true,
-            "controlAddress": "/enabled"
-          },
-          {
             "value": 50.0,
             "controlAddress": "/listSize"
           },
@@ -23048,6 +22971,7 @@
           }
         ],
         "niceName": "Olimex Tube",
+        "editorIsCollapsed": true,
         "containers": {
           "general": {
             "parameters": [
@@ -23071,7 +22995,7 @@
           "bakeAndUpload": {
             "parameters": [
               {
-                "value": false,
+                "value": true,
                 "controlAddress": "/bakeMode"
               }
             ],
@@ -23090,7 +23014,7 @@
             ],
             "viewZoom": 1.0
           },
-          "reflections": {
+          "reflection": {
             "params": {
               "hideInEditor": true
             }
@@ -23114,10 +23038,6 @@
       {
         "parameters": [
           {
-            "value": true,
-            "controlAddress": "/enabled"
-          },
-          {
             "value": 50.0,
             "controlAddress": "/listSize"
           },
@@ -23127,6 +23047,7 @@
           }
         ],
         "niceName": "Olimex Tube 2",
+        "editorIsCollapsed": true,
         "containers": {
           "general": {
             "parameters": [
@@ -23155,7 +23076,7 @@
           "bakeAndUpload": {
             "parameters": [
               {
-                "value": false,
+                "value": true,
                 "controlAddress": "/bakeMode"
               }
             ],
@@ -23174,7 +23095,7 @@
             ],
             "viewZoom": 1.0
           },
-          "reflections": {
+          "reflection": {
             "params": {
               "hideInEditor": true
             }
@@ -23198,10 +23119,6 @@
       {
         "parameters": [
           {
-            "value": true,
-            "controlAddress": "/enabled"
-          },
-          {
             "value": 50.0,
             "controlAddress": "/listSize"
           },
@@ -23211,6 +23128,7 @@
           }
         ],
         "niceName": "Olimex Tube 1",
+        "editorIsCollapsed": true,
         "containers": {
           "general": {
             "parameters": [
@@ -23239,7 +23157,7 @@
           "bakeAndUpload": {
             "parameters": [
               {
-                "value": false,
+                "value": true,
                 "controlAddress": "/bakeMode"
               }
             ],
@@ -23258,7 +23176,7 @@
             ],
             "viewZoom": 1.0
           },
-          "reflections": {
+          "reflection": {
             "params": {
               "hideInEditor": true
             }
@@ -23282,10 +23200,6 @@
       {
         "parameters": [
           {
-            "value": true,
-            "controlAddress": "/enabled"
-          },
-          {
             "value": 50.0,
             "controlAddress": "/listSize"
           },
@@ -23295,6 +23209,7 @@
           }
         ],
         "niceName": "Olimex Tube 3",
+        "editorIsCollapsed": true,
         "containers": {
           "general": {
             "parameters": [
@@ -23323,7 +23238,7 @@
           "bakeAndUpload": {
             "parameters": [
               {
-                "value": false,
+                "value": true,
                 "controlAddress": "/bakeMode"
               }
             ],
@@ -23342,7 +23257,7 @@
             ],
             "viewZoom": 1.0
           },
-          "reflections": {
+          "reflection": {
             "params": {
               "hideInEditor": true
             }
@@ -23366,10 +23281,6 @@
       {
         "parameters": [
           {
-            "value": true,
-            "controlAddress": "/enabled"
-          },
-          {
             "value": 50.0,
             "controlAddress": "/listSize"
           },
@@ -23379,6 +23290,7 @@
           }
         ],
         "niceName": "Olimex Tube 4",
+        "editorIsCollapsed": true,
         "containers": {
           "general": {
             "parameters": [
@@ -23407,7 +23319,7 @@
           "bakeAndUpload": {
             "parameters": [
               {
-                "value": false,
+                "value": true,
                 "controlAddress": "/bakeMode"
               }
             ],
@@ -23426,7 +23338,7 @@
             ],
             "viewZoom": 1.0
           },
-          "reflections": {
+          "reflection": {
             "params": {
               "hideInEditor": true
             }
@@ -23450,11 +23362,7 @@
       {
         "parameters": [
           {
-            "value": true,
-            "controlAddress": "/enabled"
-          },
-          {
-            "value": 101.0,
+            "value": 100.0,
             "controlAddress": "/listSize"
           },
           {
@@ -23463,6 +23371,7 @@
           }
         ],
         "niceName": "Flowtoys Creator Hoop",
+        "editorIsCollapsed": true,
         "containers": {
           "general": {
             "parameters": [
@@ -23495,7 +23404,7 @@
           "bakeAndUpload": {
             "parameters": [
               {
-                "value": false,
+                "value": true,
                 "controlAddress": "/bakeMode"
               }
             ],
@@ -23506,14 +23415,6 @@
               {
                 "value": 0.3511468172073364,
                 "controlAddress": "/brightness"
-              },
-              {
-                "value": true,
-                "controlAddress": "/streamColors"
-              },
-              {
-                "value": true,
-                "controlAddress": "/invertDirection"
               }
             ],
             "owned": true
@@ -23527,10 +23428,6 @@
               {
                 "value": 1.0,
                 "controlAddress": "/isolationSpeed"
-              },
-              {
-                "value": 0.0,
-                "controlAddress": "/isolationSmoothing"
               }
             ],
             "owned": true
@@ -23602,7 +23499,7 @@
             ],
             "viewZoom": 1.0
           },
-          "reflections": {
+          "reflection": {
             "params": {
               "hideInEditor": true
             }
@@ -23625,10 +23522,6 @@
       },
       {
         "parameters": [
-          {
-            "value": true,
-            "controlAddress": "/enabled"
-          },
           {
             "value": 100.0,
             "controlAddress": "/listSize"
@@ -23682,7 +23575,7 @@
           "bakeAndUpload": {
             "parameters": [
               {
-                "value": false,
+                "value": true,
                 "controlAddress": "/bakeMode"
               }
             ],
@@ -23781,7 +23674,7 @@
             ],
             "viewZoom": 1.0
           },
-          "reflections": {
+          "reflection": {
             "params": {
               "hideInEditor": true
             }

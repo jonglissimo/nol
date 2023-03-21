@@ -18,8 +18,10 @@ export declare function pointHSV(p: f32, rad: f32, h: u32, s: u32, v: u32): void
 export declare function getFXSpeed(): f32;
 export declare function getFXIsoSpeed(): f32;
 export declare function getFXStaticOffset(): f32;
+export declare function getFXFlipped(): u32;
 export declare function setFXSpeed(value: f32): void;
 export declare function setFXIsoSpeed(value: f32): void;
+export declare function setFXIsoAxis(value: u32): void;
 export declare function setFXStaticOffset(value: f32): void;
 export declare function resetFX(): void;
 
