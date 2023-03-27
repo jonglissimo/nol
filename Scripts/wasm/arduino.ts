@@ -5,6 +5,7 @@ export declare function printFloat(arg: f32): void;
 export declare function printInt(arg: u32): void;
 
 export declare function clearLeds(): void;
+export declare function dimLeds(v: f32): void;
 export declare function fillLeds(color: u32): void;
 export declare function fillLedsRGB(r: u32, g: u32, b: u32): void;
 export declare function fillLedsHSV(h: u32, s: u32, v: u32): void;
