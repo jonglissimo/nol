@@ -254,7 +254,7 @@
     "nodes": {
       "items": [
         {
-          "niceName": "Node",
+          "niceName": "Fire",
           "type": "Node",
           "nodes": {
             "hideInEditor": true,
@@ -321,7 +321,7 @@
                     "controlAddress": "/viewUIPosition"
                   },
                   {
-                    "value": 1.0,
+                    "value": 2.0,
                     "minValue": 0.0,
                     "maxValue": 2.0,
                     "default": 0.0,
@@ -21067,12 +21067,6 @@
           }
         },
         {
-          "parameters": [
-            {
-              "value": true,
-              "controlAddress": "/autoSetEnabled"
-            }
-          ],
           "niceName": "Fire",
           "type": "Timeline",
           "sequence": {
@@ -21091,6 +21085,10 @@
                 "controlAddress": "/loop"
               },
               {
+                "value": 0.0,
+                "controlAddress": "/viewStartTime"
+              },
+              {
                 "value": 234.1199951171875,
                 "controlAddress": "/viewEndTime"
               },
@@ -21107,11 +21105,15 @@
                 {
                   "parameters": [
                     {
+                      "value": true,
+                      "controlAddress": "/miniMode"
+                    },
+                    {
                       "value": 30.0,
                       "controlAddress": "/listSize"
                     },
                     {
-                      "value": 30,
+                      "value": 22,
                       "hexMode": false,
                       "controlAddress": "/uiHeight"
                     },
@@ -22932,6 +22934,10 @@
                 {
                   "parameters": [
                     {
+                      "value": true,
+                      "controlAddress": "/miniMode"
+                    },
+                    {
                       "value": 57.0,
                       "controlAddress": "/listSize"
                     },
@@ -22943,7 +22949,7 @@
                       "controlAddress": "/viewUIPosition"
                     },
                     {
-                      "value": 57,
+                      "value": 22,
                       "hexMode": false,
                       "controlAddress": "/uiHeight"
                     },
@@ -27137,7 +27143,7 @@
                       "controlAddress": "/miniMode"
                     },
                     {
-                      "value": 52.0,
+                      "value": 198.0,
                       "controlAddress": "/listSize"
                     },
                     {
@@ -27166,7 +27172,7 @@
                             "controlAddress": "/length"
                           },
                           {
-                            "value": "/library/nodes/node",
+                            "value": "/library/nodes/fire",
                             "controlAddress": "/activeBlock"
                           },
                           {
@@ -27206,14 +27212,14 @@
                                       {
                                         "value": [
                                           0.0,
-                                          1.0
+                                          2.0
                                         ],
                                         "controlAddress": "/viewValueRange"
                                       },
                                       {
                                         "value": [
                                           0.0,
-                                          1.0
+                                          2.0
                                         ],
                                         "controlAddress": "/range",
                                         "enabled": true
@@ -27237,43 +27243,37 @@
                                       {
                                         "parameters": [
                                           {
-                                            "value": 0.8501427173614502,
+                                            "value": 2.156758546829224,
                                             "controlAddress": "/position"
                                           },
                                           {
-                                            "value": 0.9912279844284058,
+                                            "value": 2.0,
                                             "controlAddress": "/value"
                                           },
                                           {
-                                            "value": "Linear",
+                                            "value": "Bezier",
                                             "controlAddress": "/easingType"
                                           }
                                         ],
                                         "niceName": "Key 2",
                                         "containers": {
                                           "easing": {
-                                          }
-                                        },
-                                        "type": "Key"
-                                      },
-                                      {
-                                        "parameters": [
-                                          {
-                                            "value": 29.59999847412109,
-                                            "controlAddress": "/position"
-                                          },
-                                          {
-                                            "value": 1.0,
-                                            "controlAddress": "/value"
-                                          },
-                                          {
-                                            "value": "Linear",
-                                            "controlAddress": "/easingType"
-                                          }
-                                        ],
-                                        "niceName": "Key 1",
-                                        "containers": {
-                                          "easing": {
+                                            "parameters": [
+                                              {
+                                                "value": [
+                                                  8.508110046386719,
+                                                  0.0
+                                                ],
+                                                "controlAddress": "/anchor1"
+                                              },
+                                              {
+                                                "value": [
+                                                  -8.508110046386719,
+                                                  0.0
+                                                ],
+                                                "controlAddress": "/anchor2"
+                                              }
+                                            ]
                                           }
                                         },
                                         "type": "Key"
@@ -27595,109 +27595,7 @@
                                 "controlAddress": "/brightness"
                               },
                               {
-                                "controlMode": 3,
-                                "paramAutomation": {
-                                  "parameters": [
-                                    {
-                                      "value": 29.59999847412109,
-                                      "controlAddress": "/length"
-                                    }
-                                  ],
-                                  "niceName": "Position automation",
-                                  "type": "BaseItem",
-                                  "automation": {
-                                    "parameters": [
-                                      {
-                                        "value": 29.59999847412109,
-                                        "controlAddress": "/length"
-                                      },
-                                      {
-                                        "value": [
-                                          0.0,
-                                          1.0
-                                        ],
-                                        "controlAddress": "/viewValueRange"
-                                      },
-                                      {
-                                        "value": [
-                                          0.0,
-                                          1.0
-                                        ],
-                                        "controlAddress": "/range",
-                                        "enabled": true
-                                      }
-                                    ],
-                                    "items": [
-                                      {
-                                        "parameters": [
-                                          {
-                                            "value": 0.7559014558792114,
-                                            "controlAddress": "/position"
-                                          },
-                                          {
-                                            "value": "Linear",
-                                            "controlAddress": "/easingType"
-                                          }
-                                        ],
-                                        "niceName": "Key",
-                                        "containers": {
-                                          "easing": {
-                                          }
-                                        },
-                                        "type": "Key"
-                                      },
-                                      {
-                                        "parameters": [
-                                          {
-                                            "value": 1.403982162475586,
-                                            "controlAddress": "/position"
-                                          },
-                                          {
-                                            "value": 0.5438596606254578,
-                                            "controlAddress": "/value"
-                                          },
-                                          {
-                                            "value": "Linear",
-                                            "controlAddress": "/easingType"
-                                          }
-                                        ],
-                                        "niceName": "Key 2",
-                                        "containers": {
-                                          "easing": {
-                                          }
-                                        },
-                                        "type": "Key"
-                                      },
-                                      {
-                                        "parameters": [
-                                          {
-                                            "value": 29.59999847412109,
-                                            "controlAddress": "/position"
-                                          },
-                                          {
-                                            "value": 0.5,
-                                            "controlAddress": "/value"
-                                          },
-                                          {
-                                            "value": "Linear",
-                                            "controlAddress": "/easingType"
-                                          }
-                                        ],
-                                        "niceName": "Key 1",
-                                        "containers": {
-                                          "easing": {
-                                          }
-                                        },
-                                        "type": "Key"
-                                      }
-                                    ],
-                                    "viewOffset": [
-                                      0,
-                                      0
-                                    ],
-                                    "viewZoom": 1.0
-                                  }
-                                },
+                                "value": 0.0,
                                 "controlAddress": "/position"
                               }
                             ]
@@ -28378,16 +28276,16 @@
                             "controlAddress": "/length"
                           },
                           {
-                            "value": "/library/pictures/picture",
+                            "value": "/library/nodes/fire",
                             "controlAddress": "/activeBlock"
                           },
                           {
-                            "value": 0.5076233148574829,
+                            "value": 0.0,
                             "controlAddress": "/fadeIn",
-                            "enabled": true
+                            "enabled": false
                           },
                           {
-                            "value": 1.775999903678894,
+                            "value": 1.776000022888184,
                             "controlAddress": "/fadeOut",
                             "enabled": true
                           }
@@ -28399,12 +28297,100 @@
                           "params": {
                             "parameters": [
                               {
-                                "value": 20.0,
-                                "controlAddress": "/loopTime"
-                              },
-                              {
-                                "value": 0.0,
-                                "controlAddress": "/offsetByID"
+                                "controlMode": 3,
+                                "paramAutomation": {
+                                  "parameters": [
+                                    {
+                                      "value": 26.10999870300293,
+                                      "controlAddress": "/length"
+                                    }
+                                  ],
+                                  "niceName": "Size automation",
+                                  "type": "BaseItem",
+                                  "automation": {
+                                    "parameters": [
+                                      {
+                                        "value": 26.10999870300293,
+                                        "controlAddress": "/length"
+                                      },
+                                      {
+                                        "value": [
+                                          0.0,
+                                          2.0
+                                        ],
+                                        "controlAddress": "/viewValueRange"
+                                      },
+                                      {
+                                        "value": [
+                                          0.0,
+                                          2.0
+                                        ],
+                                        "controlAddress": "/range",
+                                        "enabled": true
+                                      }
+                                    ],
+                                    "items": [
+                                      {
+                                        "parameters": [
+                                          {
+                                            "value": "Linear",
+                                            "controlAddress": "/easingType"
+                                          }
+                                        ],
+                                        "niceName": "Key",
+                                        "containers": {
+                                          "easing": {
+                                          }
+                                        },
+                                        "type": "Key"
+                                      },
+                                      {
+                                        "parameters": [
+                                          {
+                                            "value": 1.808388710021973,
+                                            "controlAddress": "/position"
+                                          },
+                                          {
+                                            "value": 2.0,
+                                            "controlAddress": "/value"
+                                          },
+                                          {
+                                            "value": "Bezier",
+                                            "controlAddress": "/easingType"
+                                          }
+                                        ],
+                                        "niceName": "Key 2",
+                                        "containers": {
+                                          "easing": {
+                                            "parameters": [
+                                              {
+                                                "value": [
+                                                  7.728385448455811,
+                                                  0.0
+                                                ],
+                                                "controlAddress": "/anchor1"
+                                              },
+                                              {
+                                                "value": [
+                                                  -7.728385448455811,
+                                                  0.0
+                                                ],
+                                                "controlAddress": "/anchor2"
+                                              }
+                                            ]
+                                          }
+                                        },
+                                        "type": "Key"
+                                      }
+                                    ],
+                                    "viewOffset": [
+                                      0,
+                                      0
+                                    ],
+                                    "viewZoom": 1.0
+                                  }
+                                },
+                                "controlAddress": "/size"
                               },
                               {
                                 "controlMode": 3,
@@ -28440,58 +28426,6 @@
                                       }
                                     ],
                                     "items": [
-                                      {
-                                        "parameters": [
-                                          {
-                                            "value": "Bezier",
-                                            "controlAddress": "/easingType"
-                                          }
-                                        ],
-                                        "niceName": "Key",
-                                        "containers": {
-                                          "easing": {
-                                            "parameters": [
-                                              {
-                                                "value": [
-                                                  1.394034504890442,
-                                                  0.2280701994895935
-                                                ],
-                                                "controlAddress": "/anchor1"
-                                              },
-                                              {
-                                                "value": [
-                                                  -1.719966411590576,
-                                                  -0.140350878238678
-                                                ],
-                                                "controlAddress": "/anchor2"
-                                              }
-                                            ]
-                                          }
-                                        },
-                                        "type": "Key"
-                                      },
-                                      {
-                                        "parameters": [
-                                          {
-                                            "value": 3.671614646911621,
-                                            "controlAddress": "/position"
-                                          },
-                                          {
-                                            "value": 1.0,
-                                            "controlAddress": "/value"
-                                          },
-                                          {
-                                            "value": "Linear",
-                                            "controlAddress": "/easingType"
-                                          }
-                                        ],
-                                        "niceName": "Key 2",
-                                        "containers": {
-                                          "easing": {
-                                          }
-                                        },
-                                        "type": "Key"
-                                      },
                                       {
                                         "parameters": [
                                           {
@@ -28721,12 +28655,62 @@
                                 "controlAddress": "/brightness"
                               },
                               {
-                                "value": 1.0,
-                                "controlAddress": "/saturation"
-                              },
-                              {
-                                "value": -0.04285717010498047,
-                                "controlAddress": "/hue"
+                                "controlMode": 3,
+                                "paramAutomation": {
+                                  "parameters": [
+                                    {
+                                      "value": 26.10999870300293,
+                                      "controlAddress": "/length"
+                                    }
+                                  ],
+                                  "niceName": "Position automation",
+                                  "type": "BaseItem",
+                                  "automation": {
+                                    "parameters": [
+                                      {
+                                        "value": 26.10999870300293,
+                                        "controlAddress": "/length"
+                                      },
+                                      {
+                                        "value": [
+                                          0.0,
+                                          1.0
+                                        ],
+                                        "controlAddress": "/viewValueRange"
+                                      },
+                                      {
+                                        "value": [
+                                          0.0,
+                                          1.0
+                                        ],
+                                        "controlAddress": "/range",
+                                        "enabled": true
+                                      }
+                                    ],
+                                    "items": [
+                                      {
+                                        "parameters": [
+                                          {
+                                            "value": "Hold",
+                                            "controlAddress": "/easingType"
+                                          }
+                                        ],
+                                        "niceName": "Key",
+                                        "containers": {
+                                          "easing": {
+                                          }
+                                        },
+                                        "type": "Key"
+                                      }
+                                    ],
+                                    "viewOffset": [
+                                      0,
+                                      0
+                                    ],
+                                    "viewZoom": 1.0
+                                  }
+                                },
+                                "controlAddress": "/position"
                               }
                             ]
                           }
@@ -29212,13 +29196,13 @@
                             "controlAddress": "/length"
                           },
                           {
-                            "value": "/library/pictures/picture",
+                            "value": "/library/nodes/fire",
                             "controlAddress": "/activeBlock"
                           },
                           {
-                            "value": 0.5076233148574829,
+                            "value": 0.0,
                             "controlAddress": "/fadeIn",
-                            "enabled": true
+                            "enabled": false
                           },
                           {
                             "value": 1.775999903678894,
@@ -29233,12 +29217,100 @@
                           "params": {
                             "parameters": [
                               {
-                                "value": 20.0,
-                                "controlAddress": "/loopTime"
-                              },
-                              {
-                                "value": 0.0,
-                                "controlAddress": "/offsetByID"
+                                "controlMode": 3,
+                                "paramAutomation": {
+                                  "parameters": [
+                                    {
+                                      "value": 22.24999809265137,
+                                      "controlAddress": "/length"
+                                    }
+                                  ],
+                                  "niceName": "Size automation",
+                                  "type": "BaseItem",
+                                  "automation": {
+                                    "parameters": [
+                                      {
+                                        "value": 22.24999809265137,
+                                        "controlAddress": "/length"
+                                      },
+                                      {
+                                        "value": [
+                                          0.0,
+                                          2.0
+                                        ],
+                                        "controlAddress": "/viewValueRange"
+                                      },
+                                      {
+                                        "value": [
+                                          0.0,
+                                          2.0
+                                        ],
+                                        "controlAddress": "/range",
+                                        "enabled": true
+                                      }
+                                    ],
+                                    "items": [
+                                      {
+                                        "parameters": [
+                                          {
+                                            "value": "Linear",
+                                            "controlAddress": "/easingType"
+                                          }
+                                        ],
+                                        "niceName": "Key",
+                                        "containers": {
+                                          "easing": {
+                                          }
+                                        },
+                                        "type": "Key"
+                                      },
+                                      {
+                                        "parameters": [
+                                          {
+                                            "value": 1.959732174873352,
+                                            "controlAddress": "/position"
+                                          },
+                                          {
+                                            "value": 2.0,
+                                            "controlAddress": "/value"
+                                          },
+                                          {
+                                            "value": "Bezier",
+                                            "controlAddress": "/easingType"
+                                          }
+                                        ],
+                                        "niceName": "Key 2",
+                                        "containers": {
+                                          "easing": {
+                                            "parameters": [
+                                              {
+                                                "value": [
+                                                  6.15529203414917,
+                                                  0.0
+                                                ],
+                                                "controlAddress": "/anchor1"
+                                              },
+                                              {
+                                                "value": [
+                                                  -6.15529203414917,
+                                                  0.0
+                                                ],
+                                                "controlAddress": "/anchor2"
+                                              }
+                                            ]
+                                          }
+                                        },
+                                        "type": "Key"
+                                      }
+                                    ],
+                                    "viewOffset": [
+                                      0,
+                                      0
+                                    ],
+                                    "viewZoom": 1.0
+                                  }
+                                },
+                                "controlAddress": "/size"
                               },
                               {
                                 "controlMode": 3,
@@ -29274,58 +29346,6 @@
                                       }
                                     ],
                                     "items": [
-                                      {
-                                        "parameters": [
-                                          {
-                                            "value": "Bezier",
-                                            "controlAddress": "/easingType"
-                                          }
-                                        ],
-                                        "niceName": "Key",
-                                        "containers": {
-                                          "easing": {
-                                            "parameters": [
-                                              {
-                                                "value": [
-                                                  1.394034504890442,
-                                                  0.2280701994895935
-                                                ],
-                                                "controlAddress": "/anchor1"
-                                              },
-                                              {
-                                                "value": [
-                                                  -1.719966411590576,
-                                                  -0.140350878238678
-                                                ],
-                                                "controlAddress": "/anchor2"
-                                              }
-                                            ]
-                                          }
-                                        },
-                                        "type": "Key"
-                                      },
-                                      {
-                                        "parameters": [
-                                          {
-                                            "value": 3.671614646911621,
-                                            "controlAddress": "/position"
-                                          },
-                                          {
-                                            "value": 1.0,
-                                            "controlAddress": "/value"
-                                          },
-                                          {
-                                            "value": "Linear",
-                                            "controlAddress": "/easingType"
-                                          }
-                                        ],
-                                        "niceName": "Key 2",
-                                        "containers": {
-                                          "easing": {
-                                          }
-                                        },
-                                        "type": "Key"
-                                      },
                                       {
                                         "parameters": [
                                           {
@@ -29599,12 +29619,8 @@
                                 "controlAddress": "/brightness"
                               },
                               {
-                                "value": 1.0,
-                                "controlAddress": "/saturation"
-                              },
-                              {
-                                "value": -0.04285717010498047,
-                                "controlAddress": "/hue"
+                                "value": 0.0,
+                                "controlAddress": "/position"
                               }
                             ]
                           }
@@ -29785,11 +29801,15 @@
                 {
                   "parameters": [
                     {
+                      "value": true,
+                      "controlAddress": "/miniMode"
+                    },
+                    {
                       "value": 134.0,
                       "controlAddress": "/listSize"
                     },
                     {
-                      "value": 134,
+                      "value": 22,
                       "hexMode": false,
                       "controlAddress": "/uiHeight"
                     }
@@ -31422,11 +31442,15 @@
                 {
                   "parameters": [
                     {
+                      "value": true,
+                      "controlAddress": "/miniMode"
+                    },
+                    {
                       "value": 74.0,
                       "controlAddress": "/listSize"
                     },
                     {
-                      "value": 74,
+                      "value": 22,
                       "hexMode": false,
                       "controlAddress": "/uiHeight"
                     },
@@ -31964,11 +31988,15 @@
                 {
                   "parameters": [
                     {
+                      "value": true,
+                      "controlAddress": "/miniMode"
+                    },
+                    {
                       "value": 74.0,
                       "controlAddress": "/listSize"
                     },
                     {
-                      "value": 74,
+                      "value": 22,
                       "hexMode": false,
                       "controlAddress": "/uiHeight"
                     },
@@ -32532,8 +32560,17 @@
                 {
                   "parameters": [
                     {
+                      "value": true,
+                      "controlAddress": "/miniMode"
+                    },
+                    {
                       "value": 60.0,
                       "controlAddress": "/listSize"
+                    },
+                    {
+                      "value": 22,
+                      "hexMode": false,
+                      "controlAddress": "/uiHeight"
                     }
                   ],
                   "niceName": "Tubes M 1",
@@ -32723,7 +32760,7 @@
                 {
                   "parameters": [
                     {
-                      "value": false,
+                      "value": true,
                       "controlAddress": "/enabled"
                     },
                     {
@@ -32947,6 +32984,7 @@
               ],
               "viewZoom": 1.0
             },
+            "editing": true,
             "clusterGroups": {
               "items": [
                 {
@@ -35616,10 +35654,6 @@
                 "value": 100,
                 "hexMode": false,
                 "controlAddress": "/fps"
-              },
-              {
-                "value": 0.0,
-                "controlAddress": "/viewStartTime"
               },
               {
                 "value": 315.4800109863281,
@@ -38353,11 +38387,15 @@
                 {
                   "parameters": [
                     {
+                      "value": true,
+                      "controlAddress": "/miniMode"
+                    },
+                    {
                       "value": 69.0,
                       "controlAddress": "/listSize"
                     },
                     {
-                      "value": 69,
+                      "value": 22,
                       "hexMode": false,
                       "controlAddress": "/uiHeight"
                     }
@@ -39176,11 +39214,15 @@
                 {
                   "parameters": [
                     {
+                      "value": true,
+                      "controlAddress": "/miniMode"
+                    },
+                    {
                       "value": 76.0,
                       "controlAddress": "/listSize"
                     },
                     {
-                      "value": 76,
+                      "value": 22,
                       "hexMode": false,
                       "controlAddress": "/uiHeight"
                     }
@@ -39761,11 +39803,15 @@
                 {
                   "parameters": [
                     {
+                      "value": true,
+                      "controlAddress": "/miniMode"
+                    },
+                    {
                       "value": 69.0,
                       "controlAddress": "/listSize"
                     },
                     {
-                      "value": 69,
+                      "value": 22,
                       "hexMode": false,
                       "controlAddress": "/uiHeight"
                     }
@@ -40584,11 +40630,15 @@
                 {
                   "parameters": [
                     {
+                      "value": true,
+                      "controlAddress": "/miniMode"
+                    },
+                    {
                       "value": 76.0,
                       "controlAddress": "/listSize"
                     },
                     {
-                      "value": 76,
+                      "value": 22,
                       "hexMode": false,
                       "controlAddress": "/uiHeight"
                     }
@@ -42298,11 +42348,15 @@
                 {
                   "parameters": [
                     {
-                      "value": 154.0,
+                      "value": true,
+                      "controlAddress": "/miniMode"
+                    },
+                    {
+                      "value": 108.0,
                       "controlAddress": "/listSize"
                     },
                     {
-                      "value": 154,
+                      "value": 22,
                       "hexMode": false,
                       "controlAddress": "/uiHeight"
                     }
@@ -43107,7 +43161,6 @@
               ],
               "viewZoom": 1.0
             },
-            "editing": true,
             "clusterGroups": {
               "items": [
                 {
@@ -43932,7 +43985,7 @@
             "controlAddress": "/listSize"
           },
           {
-            "value": "/library/timeline/aurora",
+            "value": "/library/timeline/fire",
             "controlAddress": "/activeBlock"
           }
         ],
@@ -44020,7 +44073,7 @@
             ],
             "viewZoom": 1.0
           },
-          "aurora": {
+          "fire": {
             "params": {
               "hideInEditor": true
             }
@@ -44048,7 +44101,7 @@
             "controlAddress": "/listSize"
           },
           {
-            "value": "/library/timeline/aurora",
+            "value": "/library/timeline/fire",
             "controlAddress": "/activeBlock"
           }
         ],
@@ -44141,7 +44194,7 @@
             ],
             "viewZoom": 1.0
           },
-          "aurora": {
+          "fire": {
             "params": {
               "hideInEditor": true
             }
@@ -44169,7 +44222,7 @@
             "controlAddress": "/listSize"
           },
           {
-            "value": "/library/timeline/aurora",
+            "value": "/library/timeline/fire",
             "controlAddress": "/activeBlock"
           }
         ],
@@ -44262,7 +44315,7 @@
             ],
             "viewZoom": 1.0
           },
-          "aurora": {
+          "fire": {
             "params": {
               "hideInEditor": true
             }
@@ -44290,7 +44343,7 @@
             "controlAddress": "/listSize"
           },
           {
-            "value": "/library/timeline/aurora",
+            "value": "/library/timeline/fire",
             "controlAddress": "/activeBlock"
           }
         ],
@@ -44383,7 +44436,7 @@
             ],
             "viewZoom": 1.0
           },
-          "aurora": {
+          "fire": {
             "params": {
               "hideInEditor": true
             }
@@ -44411,7 +44464,7 @@
             "controlAddress": "/listSize"
           },
           {
-            "value": "/library/timeline/aurora",
+            "value": "/library/timeline/fire",
             "controlAddress": "/activeBlock"
           }
         ],
@@ -44504,7 +44557,7 @@
             ],
             "viewZoom": 1.0
           },
-          "aurora": {
+          "fire": {
             "params": {
               "hideInEditor": true
             }
@@ -44532,7 +44585,7 @@
             "controlAddress": "/listSize"
           },
           {
-            "value": "/library/timeline/aurora",
+            "value": "/library/timeline/fire",
             "controlAddress": "/activeBlock"
           }
         ],
@@ -44625,7 +44678,7 @@
             ],
             "viewZoom": 1.0
           },
-          "aurora": {
+          "fire": {
             "params": {
               "hideInEditor": true
             }
@@ -44653,7 +44706,7 @@
             "controlAddress": "/listSize"
           },
           {
-            "value": "/library/timeline/aurora",
+            "value": "/library/timeline/fire",
             "controlAddress": "/activeBlock"
           }
         ],
@@ -44746,7 +44799,7 @@
             ],
             "viewZoom": 1.0
           },
-          "aurora": {
+          "fire": {
             "params": {
               "hideInEditor": true
             }
@@ -44774,7 +44827,7 @@
             "controlAddress": "/listSize"
           },
           {
-            "value": "/library/timeline/aurora",
+            "value": "/library/timeline/fire",
             "controlAddress": "/activeBlock"
           }
         ],
@@ -44867,7 +44920,7 @@
             ],
             "viewZoom": 1.0
           },
-          "aurora": {
+          "fire": {
             "params": {
               "hideInEditor": true
             }
@@ -44895,7 +44948,7 @@
             "controlAddress": "/listSize"
           },
           {
-            "value": "/library/timeline/aurora",
+            "value": "/library/timeline/fire",
             "controlAddress": "/activeBlock"
           }
         ],
@@ -44988,7 +45041,7 @@
             ],
             "viewZoom": 1.0
           },
-          "aurora": {
+          "fire": {
             "params": {
               "hideInEditor": true
             }
@@ -45016,7 +45069,7 @@
             "controlAddress": "/listSize"
           },
           {
-            "value": "/library/timeline/aurora",
+            "value": "/library/timeline/fire",
             "controlAddress": "/activeBlock"
           }
         ],
@@ -45109,7 +45162,7 @@
             ],
             "viewZoom": 1.0
           },
-          "aurora": {
+          "fire": {
             "params": {
               "hideInEditor": true
             }
@@ -45137,7 +45190,7 @@
             "controlAddress": "/listSize"
           },
           {
-            "value": "/library/timeline/aurora",
+            "value": "/library/timeline/fire",
             "controlAddress": "/activeBlock"
           }
         ],
@@ -45230,7 +45283,7 @@
             ],
             "viewZoom": 1.0
           },
-          "aurora": {
+          "fire": {
             "params": {
               "hideInEditor": true
             }
@@ -45258,7 +45311,7 @@
             "controlAddress": "/listSize"
           },
           {
-            "value": "/library/timeline/aurora",
+            "value": "/library/timeline/fire",
             "controlAddress": "/activeBlock"
           }
         ],
@@ -45351,7 +45404,7 @@
             ],
             "viewZoom": 1.0
           },
-          "aurora": {
+          "fire": {
             "params": {
               "hideInEditor": true
             }
@@ -45379,7 +45432,7 @@
             "controlAddress": "/listSize"
           },
           {
-            "value": "/library/timeline/aurora",
+            "value": "/library/timeline/fire",
             "controlAddress": "/activeBlock"
           }
         ],
@@ -45472,7 +45525,7 @@
             ],
             "viewZoom": 1.0
           },
-          "aurora": {
+          "fire": {
             "params": {
               "hideInEditor": true
             }
@@ -45500,7 +45553,7 @@
             "controlAddress": "/listSize"
           },
           {
-            "value": "/library/timeline/aurora",
+            "value": "/library/timeline/fire",
             "controlAddress": "/activeBlock"
           }
         ],
@@ -45593,7 +45646,7 @@
             ],
             "viewZoom": 1.0
           },
-          "aurora": {
+          "fire": {
             "params": {
               "hideInEditor": true
             }
@@ -45621,7 +45674,7 @@
             "controlAddress": "/listSize"
           },
           {
-            "value": "/library/timeline/aurora",
+            "value": "/library/timeline/fire",
             "controlAddress": "/activeBlock"
           }
         ],
@@ -45714,7 +45767,7 @@
             ],
             "viewZoom": 1.0
           },
-          "aurora": {
+          "fire": {
             "params": {
               "hideInEditor": true
             }
@@ -45742,7 +45795,7 @@
             "controlAddress": "/listSize"
           },
           {
-            "value": "/library/timeline/aurora",
+            "value": "/library/timeline/fire",
             "controlAddress": "/activeBlock"
           }
         ],
@@ -45835,7 +45888,7 @@
             ],
             "viewZoom": 1.0
           },
-          "aurora": {
+          "fire": {
             "params": {
               "hideInEditor": true
             }
@@ -45863,7 +45916,7 @@
             "controlAddress": "/listSize"
           },
           {
-            "value": "/library/timeline/aurora",
+            "value": "/library/timeline/fire",
             "controlAddress": "/activeBlock"
           }
         ],
@@ -45956,7 +46009,7 @@
             ],
             "viewZoom": 1.0
           },
-          "aurora": {
+          "fire": {
             "params": {
               "hideInEditor": true
             }
@@ -45984,7 +46037,7 @@
             "controlAddress": "/listSize"
           },
           {
-            "value": "/library/timeline/aurora",
+            "value": "/library/timeline/fire",
             "controlAddress": "/activeBlock"
           }
         ],
@@ -46077,7 +46130,7 @@
             ],
             "viewZoom": 1.0
           },
-          "aurora": {
+          "fire": {
             "params": {
               "hideInEditor": true
             }
@@ -46105,7 +46158,7 @@
             "controlAddress": "/listSize"
           },
           {
-            "value": "/library/timeline/aurora",
+            "value": "/library/timeline/fire",
             "controlAddress": "/activeBlock"
           }
         ],
@@ -46198,7 +46251,7 @@
             ],
             "viewZoom": 1.0
           },
-          "aurora": {
+          "fire": {
             "params": {
               "hideInEditor": true
             }
@@ -46226,7 +46279,7 @@
             "controlAddress": "/listSize"
           },
           {
-            "value": "/library/timeline/aurora",
+            "value": "/library/timeline/fire",
             "controlAddress": "/activeBlock"
           }
         ],
@@ -46319,7 +46372,7 @@
             ],
             "viewZoom": 1.0
           },
-          "aurora": {
+          "fire": {
             "params": {
               "hideInEditor": true
             }
@@ -46347,7 +46400,7 @@
             "controlAddress": "/listSize"
           },
           {
-            "value": "/library/timeline/aurora",
+            "value": "/library/timeline/fire",
             "controlAddress": "/activeBlock"
           }
         ],
@@ -46394,7 +46447,7 @@
             ],
             "viewZoom": 1.0
           },
-          "aurora": {
+          "fire": {
             "params": {
               "hideInEditor": true
             }
@@ -46422,7 +46475,7 @@
             "controlAddress": "/listSize"
           },
           {
-            "value": "/library/timeline/aurora",
+            "value": "/library/timeline/fire",
             "controlAddress": "/activeBlock"
           }
         ],
@@ -46469,7 +46522,7 @@
             ],
             "viewZoom": 1.0
           },
-          "aurora": {
+          "fire": {
             "params": {
               "hideInEditor": true
             }
@@ -46497,7 +46550,7 @@
             "controlAddress": "/listSize"
           },
           {
-            "value": "/library/timeline/aurora",
+            "value": "/library/timeline/fire",
             "controlAddress": "/activeBlock"
           }
         ],
@@ -46544,7 +46597,7 @@
             ],
             "viewZoom": 1.0
           },
-          "aurora": {
+          "fire": {
             "params": {
               "hideInEditor": true
             }
@@ -46572,7 +46625,7 @@
             "controlAddress": "/listSize"
           },
           {
-            "value": "/library/timeline/aurora",
+            "value": "/library/timeline/fire",
             "controlAddress": "/activeBlock"
           }
         ],
@@ -46619,7 +46672,7 @@
             ],
             "viewZoom": 1.0
           },
-          "aurora": {
+          "fire": {
             "params": {
               "hideInEditor": true
             }
@@ -46647,7 +46700,7 @@
             "controlAddress": "/listSize"
           },
           {
-            "value": "/library/timeline/aurora",
+            "value": "/library/timeline/fire",
             "controlAddress": "/activeBlock"
           }
         ],
@@ -46694,7 +46747,7 @@
             ],
             "viewZoom": 1.0
           },
-          "aurora": {
+          "fire": {
             "params": {
               "hideInEditor": true
             }
@@ -46722,7 +46775,7 @@
             "controlAddress": "/listSize"
           },
           {
-            "value": "",
+            "value": "/library/timeline/fire",
             "controlAddress": "/activeBlock"
           }
         ],
@@ -46815,6 +46868,11 @@
               0
             ],
             "viewZoom": 1.0
+          },
+          "fire": {
+            "params": {
+              "hideInEditor": true
+            }
           }
         },
         "type": "Flowtoys Creator Hoop",
@@ -46825,6 +46883,11 @@
           ],
           "viewZoom": 1.0
         },
+        "block": {
+          "params": {
+            "hideInEditor": true
+          }
+        },
         "deviceID": "50:2:91:A0:F7:74"
       },
       "flowtoysCreatorHoop1": {
@@ -46834,7 +46897,7 @@
             "controlAddress": "/listSize"
           },
           {
-            "value": "",
+            "value": "/library/timeline/fire",
             "controlAddress": "/activeBlock"
           }
         ],
@@ -46927,6 +46990,11 @@
               0
             ],
             "viewZoom": 1.0
+          },
+          "fire": {
+            "params": {
+              "hideInEditor": true
+            }
           }
         },
         "type": "Flowtoys Creator Hoop",
@@ -46936,6 +47004,11 @@
             0
           ],
           "viewZoom": 1.0
+        },
+        "block": {
+          "params": {
+            "hideInEditor": true
+          }
         },
         "deviceID": "50:2:91:9C:C:54"
       },
@@ -46956,7 +47029,7 @@
             "controlAddress": "/listSize"
           },
           {
-            "value": "/library/timeline/aurora",
+            "value": "/library/timeline/fire",
             "controlAddress": "/activeBlock"
           }
         ],
@@ -47044,7 +47117,7 @@
             ],
             "viewZoom": 1.0
           },
-          "aurora": {
+          "fire": {
             "params": {
               "hideInEditor": true
             }
@@ -47072,7 +47145,7 @@
             "controlAddress": "/listSize"
           },
           {
-            "value": "/library/timeline/aurora",
+            "value": "/library/timeline/fire",
             "controlAddress": "/activeBlock"
           }
         ],
@@ -47165,7 +47238,7 @@
             ],
             "viewZoom": 1.0
           },
-          "aurora": {
+          "fire": {
             "params": {
               "hideInEditor": true
             }
@@ -47193,7 +47266,7 @@
             "controlAddress": "/listSize"
           },
           {
-            "value": "/library/timeline/aurora",
+            "value": "/library/timeline/fire",
             "controlAddress": "/activeBlock"
           }
         ],
@@ -47286,7 +47359,7 @@
             ],
             "viewZoom": 1.0
           },
-          "aurora": {
+          "fire": {
             "params": {
               "hideInEditor": true
             }
@@ -47314,7 +47387,7 @@
             "controlAddress": "/listSize"
           },
           {
-            "value": "/library/timeline/aurora",
+            "value": "/library/timeline/fire",
             "controlAddress": "/activeBlock"
           }
         ],
@@ -47407,7 +47480,7 @@
             ],
             "viewZoom": 1.0
           },
-          "aurora": {
+          "fire": {
             "params": {
               "hideInEditor": true
             }
@@ -47435,7 +47508,7 @@
             "controlAddress": "/listSize"
           },
           {
-            "value": "/library/timeline/aurora",
+            "value": "/library/timeline/fire",
             "controlAddress": "/activeBlock"
           }
         ],
@@ -47528,7 +47601,7 @@
             ],
             "viewZoom": 1.0
           },
-          "aurora": {
+          "fire": {
             "params": {
               "hideInEditor": true
             }
@@ -47556,7 +47629,7 @@
             "controlAddress": "/listSize"
           },
           {
-            "value": "/library/timeline/aurora",
+            "value": "/library/timeline/fire",
             "controlAddress": "/activeBlock"
           }
         ],
@@ -47649,7 +47722,7 @@
             ],
             "viewZoom": 1.0
           },
-          "aurora": {
+          "fire": {
             "params": {
               "hideInEditor": true
             }
@@ -47677,7 +47750,7 @@
             "controlAddress": "/listSize"
           },
           {
-            "value": "/library/timeline/aurora",
+            "value": "/library/timeline/fire",
             "controlAddress": "/activeBlock"
           }
         ],
@@ -47770,7 +47843,7 @@
             ],
             "viewZoom": 1.0
           },
-          "aurora": {
+          "fire": {
             "params": {
               "hideInEditor": true
             }
@@ -47798,7 +47871,7 @@
             "controlAddress": "/listSize"
           },
           {
-            "value": "/library/timeline/aurora",
+            "value": "/library/timeline/fire",
             "controlAddress": "/activeBlock"
           }
         ],
@@ -47891,7 +47964,7 @@
             ],
             "viewZoom": 1.0
           },
-          "aurora": {
+          "fire": {
             "params": {
               "hideInEditor": true
             }
@@ -47919,7 +47992,7 @@
             "controlAddress": "/listSize"
           },
           {
-            "value": "/library/timeline/aurora",
+            "value": "/library/timeline/fire",
             "controlAddress": "/activeBlock"
           }
         ],
@@ -48012,7 +48085,7 @@
             ],
             "viewZoom": 1.0
           },
-          "aurora": {
+          "fire": {
             "params": {
               "hideInEditor": true
             }
@@ -48040,7 +48113,7 @@
             "controlAddress": "/listSize"
           },
           {
-            "value": "/library/timeline/aurora",
+            "value": "/library/timeline/fire",
             "controlAddress": "/activeBlock"
           }
         ],
@@ -48133,7 +48206,7 @@
             ],
             "viewZoom": 1.0
           },
-          "aurora": {
+          "fire": {
             "params": {
               "hideInEditor": true
             }
@@ -48161,7 +48234,7 @@
             "controlAddress": "/listSize"
           },
           {
-            "value": "/library/timeline/aurora",
+            "value": "/library/timeline/fire",
             "controlAddress": "/activeBlock"
           }
         ],
@@ -48254,7 +48327,7 @@
             ],
             "viewZoom": 1.0
           },
-          "aurora": {
+          "fire": {
             "params": {
               "hideInEditor": true
             }
@@ -48282,7 +48355,7 @@
             "controlAddress": "/listSize"
           },
           {
-            "value": "/library/timeline/aurora",
+            "value": "/library/timeline/fire",
             "controlAddress": "/activeBlock"
           }
         ],
@@ -48375,7 +48448,7 @@
             ],
             "viewZoom": 1.0
           },
-          "aurora": {
+          "fire": {
             "params": {
               "hideInEditor": true
             }
@@ -48403,7 +48476,7 @@
             "controlAddress": "/listSize"
           },
           {
-            "value": "/library/timeline/aurora",
+            "value": "/library/timeline/fire",
             "controlAddress": "/activeBlock"
           }
         ],
@@ -48496,7 +48569,7 @@
             ],
             "viewZoom": 1.0
           },
-          "aurora": {
+          "fire": {
             "params": {
               "hideInEditor": true
             }
@@ -48524,7 +48597,7 @@
             "controlAddress": "/listSize"
           },
           {
-            "value": "/library/timeline/aurora",
+            "value": "/library/timeline/fire",
             "controlAddress": "/activeBlock"
           }
         ],
@@ -48617,7 +48690,7 @@
             ],
             "viewZoom": 1.0
           },
-          "aurora": {
+          "fire": {
             "params": {
               "hideInEditor": true
             }
@@ -48645,7 +48718,7 @@
             "controlAddress": "/listSize"
           },
           {
-            "value": "/library/timeline/aurora",
+            "value": "/library/timeline/fire",
             "controlAddress": "/activeBlock"
           }
         ],
@@ -48738,7 +48811,7 @@
             ],
             "viewZoom": 1.0
           },
-          "aurora": {
+          "fire": {
             "params": {
               "hideInEditor": true
             }
@@ -48766,7 +48839,7 @@
             "controlAddress": "/listSize"
           },
           {
-            "value": "/library/timeline/aurora",
+            "value": "/library/timeline/fire",
             "controlAddress": "/activeBlock"
           }
         ],
@@ -48859,7 +48932,7 @@
             ],
             "viewZoom": 1.0
           },
-          "aurora": {
+          "fire": {
             "params": {
               "hideInEditor": true
             }
@@ -48887,7 +48960,7 @@
             "controlAddress": "/listSize"
           },
           {
-            "value": "/library/timeline/aurora",
+            "value": "/library/timeline/fire",
             "controlAddress": "/activeBlock"
           }
         ],
@@ -48980,7 +49053,7 @@
             ],
             "viewZoom": 1.0
           },
-          "aurora": {
+          "fire": {
             "params": {
               "hideInEditor": true
             }
@@ -49008,7 +49081,7 @@
             "controlAddress": "/listSize"
           },
           {
-            "value": "/library/timeline/aurora",
+            "value": "/library/timeline/fire",
             "controlAddress": "/activeBlock"
           }
         ],
@@ -49101,7 +49174,7 @@
             ],
             "viewZoom": 1.0
           },
-          "aurora": {
+          "fire": {
             "params": {
               "hideInEditor": true
             }
@@ -49129,7 +49202,7 @@
             "controlAddress": "/listSize"
           },
           {
-            "value": "/library/timeline/aurora",
+            "value": "/library/timeline/fire",
             "controlAddress": "/activeBlock"
           }
         ],
@@ -49222,7 +49295,7 @@
             ],
             "viewZoom": 1.0
           },
-          "aurora": {
+          "fire": {
             "params": {
               "hideInEditor": true
             }
@@ -49250,7 +49323,7 @@
             "controlAddress": "/listSize"
           },
           {
-            "value": "/library/timeline/aurora",
+            "value": "/library/timeline/fire",
             "controlAddress": "/activeBlock"
           }
         ],
@@ -49343,7 +49416,7 @@
             ],
             "viewZoom": 1.0
           },
-          "aurora": {
+          "fire": {
             "params": {
               "hideInEditor": true
             }
@@ -49371,7 +49444,7 @@
             "controlAddress": "/listSize"
           },
           {
-            "value": "/library/timeline/aurora",
+            "value": "/library/timeline/fire",
             "controlAddress": "/activeBlock"
           }
         ],
@@ -49418,7 +49491,7 @@
             ],
             "viewZoom": 1.0
           },
-          "aurora": {
+          "fire": {
             "params": {
               "hideInEditor": true
             }
@@ -49446,7 +49519,7 @@
             "controlAddress": "/listSize"
           },
           {
-            "value": "/library/timeline/aurora",
+            "value": "/library/timeline/fire",
             "controlAddress": "/activeBlock"
           }
         ],
@@ -49493,7 +49566,7 @@
             ],
             "viewZoom": 1.0
           },
-          "aurora": {
+          "fire": {
             "params": {
               "hideInEditor": true
             }
@@ -49521,7 +49594,7 @@
             "controlAddress": "/listSize"
           },
           {
-            "value": "/library/timeline/aurora",
+            "value": "/library/timeline/fire",
             "controlAddress": "/activeBlock"
           }
         ],
@@ -49568,7 +49641,7 @@
             ],
             "viewZoom": 1.0
           },
-          "aurora": {
+          "fire": {
             "params": {
               "hideInEditor": true
             }
@@ -49596,7 +49669,7 @@
             "controlAddress": "/listSize"
           },
           {
-            "value": "/library/timeline/aurora",
+            "value": "/library/timeline/fire",
             "controlAddress": "/activeBlock"
           }
         ],
@@ -49643,7 +49716,7 @@
             ],
             "viewZoom": 1.0
           },
-          "aurora": {
+          "fire": {
             "params": {
               "hideInEditor": true
             }
@@ -49671,7 +49744,7 @@
             "controlAddress": "/listSize"
           },
           {
-            "value": "/library/timeline/aurora",
+            "value": "/library/timeline/fire",
             "controlAddress": "/activeBlock"
           }
         ],
@@ -49718,7 +49791,7 @@
             ],
             "viewZoom": 1.0
           },
-          "aurora": {
+          "fire": {
             "params": {
               "hideInEditor": true
             }
@@ -49746,7 +49819,7 @@
             "controlAddress": "/listSize"
           },
           {
-            "value": "",
+            "value": "/library/timeline/fire",
             "controlAddress": "/activeBlock"
           }
         ],
@@ -49839,6 +49912,11 @@
               0
             ],
             "viewZoom": 1.0
+          },
+          "fire": {
+            "params": {
+              "hideInEditor": true
+            }
           }
         },
         "type": "Flowtoys Creator Hoop",
@@ -49849,6 +49927,11 @@
           ],
           "viewZoom": 1.0
         },
+        "block": {
+          "params": {
+            "hideInEditor": true
+          }
+        },
         "deviceID": "50:2:91:A0:F7:74"
       },
       {
@@ -49858,7 +49941,7 @@
             "controlAddress": "/listSize"
           },
           {
-            "value": "",
+            "value": "/library/timeline/fire",
             "controlAddress": "/activeBlock"
           }
         ],
@@ -49951,6 +50034,11 @@
               0
             ],
             "viewZoom": 1.0
+          },
+          "fire": {
+            "params": {
+              "hideInEditor": true
+            }
           }
         },
         "type": "Flowtoys Creator Hoop",
@@ -49960,6 +50048,11 @@
             0
           ],
           "viewZoom": 1.0
+        },
+        "block": {
+          "params": {
+            "hideInEditor": true
+          }
         },
         "deviceID": "50:2:91:9C:C:54"
       }
