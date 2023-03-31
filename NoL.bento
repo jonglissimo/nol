@@ -21085,11 +21085,11 @@
                 "controlAddress": "/loop"
               },
               {
-                "value": 0.0,
+                "value": 18.33544158935547,
                 "controlAddress": "/viewStartTime"
               },
               {
-                "value": 234.1199951171875,
+                "value": 55.7469596862793,
                 "controlAddress": "/viewEndTime"
               },
               {
@@ -27139,7 +27139,7 @@
                 {
                   "parameters": [
                     {
-                      "value": true,
+                      "value": false,
                       "controlAddress": "/miniMode"
                     },
                     {
@@ -27151,7 +27151,7 @@
                       "controlAddress": "/locked"
                     },
                     {
-                      "value": 22,
+                      "value": 198,
                       "hexMode": false,
                       "controlAddress": "/uiHeight"
                     }
@@ -27164,11 +27164,11 @@
                       {
                         "parameters": [
                           {
-                            "value": 22.68000030517578,
+                            "value": 22.55000114440918,
                             "controlAddress": "/startTime"
                           },
                           {
-                            "value": 29.59999847412109,
+                            "value": 29.7299976348877,
                             "controlAddress": "/length"
                           },
                           {
@@ -27197,7 +27197,7 @@
                                 "paramAutomation": {
                                   "parameters": [
                                     {
-                                      "value": 29.59999847412109,
+                                      "value": 29.7299976348877,
                                       "controlAddress": "/length"
                                     }
                                   ],
@@ -27206,7 +27206,7 @@
                                   "automation": {
                                     "parameters": [
                                       {
-                                        "value": 29.59999847412109,
+                                        "value": 29.7299976348877,
                                         "controlAddress": "/length"
                                       },
                                       {
@@ -27229,6 +27229,10 @@
                                       {
                                         "parameters": [
                                           {
+                                            "value": 0.1299991607666016,
+                                            "controlAddress": "/position"
+                                          },
+                                          {
                                             "value": "Linear",
                                             "controlAddress": "/easingType"
                                           }
@@ -27243,7 +27247,7 @@
                                       {
                                         "parameters": [
                                           {
-                                            "value": 2.156758546829224,
+                                            "value": 3.085577726364136,
                                             "controlAddress": "/position"
                                           },
                                           {
@@ -27293,7 +27297,7 @@
                                 "paramAutomation": {
                                   "parameters": [
                                     {
-                                      "value": 29.59999847412109,
+                                      "value": 29.7299976348877,
                                       "controlAddress": "/length"
                                     }
                                   ],
@@ -27302,7 +27306,7 @@
                                   "automation": {
                                     "parameters": [
                                       {
-                                        "value": 29.59999847412109,
+                                        "value": 29.7299976348877,
                                         "controlAddress": "/length"
                                       },
                                       {
@@ -27325,7 +27329,7 @@
                                       {
                                         "parameters": [
                                           {
-                                            "value": 6.692460536956787,
+                                            "value": 6.822459697723389,
                                             "controlAddress": "/position"
                                           },
                                           {
@@ -27363,7 +27367,7 @@
                                       {
                                         "parameters": [
                                           {
-                                            "value": 8.397640228271484,
+                                            "value": 8.527639389038086,
                                             "controlAddress": "/position"
                                           },
                                           {
@@ -27385,7 +27389,7 @@
                                       {
                                         "parameters": [
                                           {
-                                            "value": 11.0933198928833,
+                                            "value": 11.2233190536499,
                                             "controlAddress": "/position"
                                           },
                                           {
@@ -27423,7 +27427,7 @@
                                       {
                                         "parameters": [
                                           {
-                                            "value": 12.59500026702881,
+                                            "value": 12.72499942779541,
                                             "controlAddress": "/position"
                                           },
                                           {
@@ -27445,7 +27449,7 @@
                                       {
                                         "parameters": [
                                           {
-                                            "value": 18.49695587158203,
+                                            "value": 18.62695503234863,
                                             "controlAddress": "/position"
                                           },
                                           {
@@ -27483,7 +27487,7 @@
                                       {
                                         "parameters": [
                                           {
-                                            "value": 19.79833221435547,
+                                            "value": 19.92833137512207,
                                             "controlAddress": "/position"
                                           },
                                           {
@@ -27505,7 +27509,7 @@
                                       {
                                         "parameters": [
                                           {
-                                            "value": 22.35445213317871,
+                                            "value": 22.48445129394531,
                                             "controlAddress": "/position"
                                           },
                                           {
@@ -27543,7 +27547,7 @@
                                       {
                                         "parameters": [
                                           {
-                                            "value": 24.07403945922852,
+                                            "value": 24.20403861999512,
                                             "controlAddress": "/position"
                                           },
                                           {
@@ -27565,7 +27569,7 @@
                                       {
                                         "parameters": [
                                           {
-                                            "value": 29.59999847412109,
+                                            "value": 29.70999717712402,
                                             "controlAddress": "/position"
                                           },
                                           {
@@ -28247,7 +28251,7 @@
                 {
                   "parameters": [
                     {
-                      "value": true,
+                      "value": false,
                       "controlAddress": "/miniMode"
                     },
                     {
@@ -28255,7 +28259,7 @@
                       "controlAddress": "/listSize"
                     },
                     {
-                      "value": 22,
+                      "value": 103,
                       "hexMode": false,
                       "controlAddress": "/uiHeight"
                     }
@@ -28347,7 +28351,7 @@
                                       {
                                         "parameters": [
                                           {
-                                            "value": 1.808388710021973,
+                                            "value": 3.318741083145142,
                                             "controlAddress": "/position"
                                           },
                                           {
@@ -29167,7 +29171,7 @@
                 {
                   "parameters": [
                     {
-                      "value": true,
+                      "value": false,
                       "controlAddress": "/miniMode"
                     },
                     {
@@ -29175,7 +29179,7 @@
                       "controlAddress": "/listSize"
                     },
                     {
-                      "value": 22,
+                      "value": 87,
                       "hexMode": false,
                       "controlAddress": "/uiHeight"
                     }
@@ -29267,7 +29271,7 @@
                                       {
                                         "parameters": [
                                           {
-                                            "value": 1.959732174873352,
+                                            "value": 3.322432994842529,
                                             "controlAddress": "/position"
                                           },
                                           {
@@ -32759,10 +32763,6 @@
                 },
                 {
                   "parameters": [
-                    {
-                      "value": true,
-                      "controlAddress": "/enabled"
-                    },
                     {
                       "value": 60.0,
                       "controlAddress": "/listSize"
@@ -45079,7 +45079,7 @@
           "general": {
             "parameters": [
               {
-                "value": 9,
+                "value": 19,
                 "hexMode": false,
                 "controlAddress": "/globalID"
               },
@@ -46289,7 +46289,7 @@
           "general": {
             "parameters": [
               {
-                "value": 19,
+                "value": 9,
                 "hexMode": false,
                 "controlAddress": "/globalID"
               },
@@ -46303,7 +46303,7 @@
           "connection": {
             "parameters": [
               {
-                "value": "192.168.1.131",
+                "value": "192.168.98.108",
                 "controlAddress": "/propIP"
               }
             ]
@@ -48123,7 +48123,7 @@
           "general": {
             "parameters": [
               {
-                "value": 9,
+                "value": 19,
                 "hexMode": false,
                 "controlAddress": "/globalID"
               },
@@ -49333,7 +49333,7 @@
           "general": {
             "parameters": [
               {
-                "value": 19,
+                "value": 9,
                 "hexMode": false,
                 "controlAddress": "/globalID"
               },
@@ -49347,7 +49347,7 @@
           "connection": {
             "parameters": [
               {
-                "value": "192.168.1.131",
+                "value": "192.168.98.108",
                 "controlAddress": "/propIP"
               }
             ]
