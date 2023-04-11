@@ -54,6 +54,16 @@ export function update(): void {
     }
     
     prevThrowState = throwState;
+
+    
+    let a = dev.getActivity();
+
+    if (a > 0.10) {
+      let dim = mapRange(a, 0.10, 1.0, 0.0, 1.0);
+      dev.dimLeds(f32(dim));
+    } else {
+      dev.clearLeds();
+    }
 }
 
 export function stop(): void {
