@@ -117,7 +117,7 @@ function sendSequencePause(sequenceName) {
 
 function sendSceneLoad(sequenceName) {
 	if (appEnum.get() == "blux" && sequenceName != loadedScene) {
-		var address = "/scenes/" + sequenceName + "/load";
+		var address = "/scenes/" + sequenceName + "/directLoad";
 		local.send(address);
 
 		loadedScene = sequenceName;
