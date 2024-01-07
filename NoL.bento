@@ -59,13 +59,13 @@
             {
               "type": 1,
               "width": 1920,
-              "height": 679,
+              "height": 471,
               "direction": 1,
               "shifters": [
                 {
                   "type": 0,
                   "width": 257,
-                  "height": 679,
+                  "height": 471,
                   "currentContent": "Blocks",
                   "tabs": [
                     {
@@ -76,7 +76,7 @@
                 {
                   "type": 0,
                   "width": 1181,
-                  "height": 679,
+                  "height": 471,
                   "currentContent": "Sequence Editor",
                   "tabs": [
                     {
@@ -96,7 +96,7 @@
                 {
                   "type": 0,
                   "width": 470,
-                  "height": 679,
+                  "height": 471,
                   "currentContent": "Inspector",
                   "tabs": [
                     {
@@ -109,13 +109,13 @@
             {
               "type": 1,
               "width": 1920,
-              "height": 312,
+              "height": 520,
               "direction": 1,
               "shifters": [
                 {
                   "type": 0,
-                  "width": 1496,
-                  "height": 312,
+                  "width": 1202,
+                  "height": 520,
                   "currentContent": "Props",
                   "tabs": [
                     {
@@ -126,7 +126,7 @@
                 {
                   "type": 0,
                   "width": 150,
-                  "height": 312,
+                  "height": 520,
                   "currentContent": "Block Visualizer",
                   "tabs": [
                     {
@@ -136,8 +136,8 @@
                 },
                 {
                   "type": 0,
-                  "width": 262,
-                  "height": 312,
+                  "width": 556,
+                  "height": 520,
                   "currentContent": "Logger",
                   "tabs": [
                     {
@@ -33844,7 +33844,6 @@
                 },
                 {
                   "niceName": "Clubs Main",
-                  "editorIsCollapsed": true,
                   "type": "BaseItem",
                   "clusterManager": {
                     "items": [
@@ -36088,16 +36087,20 @@
                 "controlAddress": "/fps"
               },
               {
-                "value": 105.6900482177734,
+                "value": 93.03013610839844,
                 "controlAddress": "/viewStartTime"
               },
               {
-                "value": 164.2479553222656,
+                "value": 184.3979644775391,
                 "controlAddress": "/viewEndTime"
               },
               {
                 "value": "Cluster Group",
                 "controlAddress": "/calibrationGroup"
+              },
+              {
+                "value": false,
+                "controlAddress": "/identityMode"
               }
             ],
             "niceName": "Sequence",
@@ -65422,6 +65425,139 @@
   },
   "props": {
     "containers": {
+      "flowtoysCreatorClub2": {
+        "parameters": [
+          {
+            "value": 50.0,
+            "controlAddress": "/listSize"
+          },
+          {
+            "value": true,
+            "controlAddress": "/logIncoming"
+          },
+          {
+            "value": "/library/timeline/aurora",
+            "controlAddress": "/activeBlock"
+          }
+        ],
+        "niceName": "Flowtoys Creator Club 2",
+        "editorIsCollapsed": true,
+        "containers": {
+          "general": {
+            "parameters": [
+              {
+                "value": 0,
+                "hexMode": false,
+                "controlAddress": "/globalID"
+              },
+              {
+                "value": 32,
+                "hexMode": false,
+                "controlAddress": "/resolution"
+              }
+            ]
+          },
+          "connection": {
+            "parameters": [
+              {
+                "value": "192.168.1.109",
+                "controlAddress": "/propIP"
+              },
+              {
+                "value": "",
+                "controlAddress": "/usbDevice"
+              }
+            ]
+          },
+          "controls": {
+          },
+          "bakeAndUpload": {
+            "parameters": [
+              {
+                "value": false,
+                "controlAddress": "/bakeMode"
+              }
+            ],
+            "editorIsCollapsed": true
+          },
+          "rgb": {
+            "owned": true
+          },
+          "buttons": {
+            "owned": true
+          },
+          "imu": {
+            "parameters": [
+              {
+                "value": false,
+                "controlAddress": "/enabled"
+              },
+              {
+                "value": "None",
+                "controlAddress": "/throwState"
+              }
+            ],
+            "editorIsCollapsed": true,
+            "containers": {
+              "throwConfig": {
+                "parameters": [
+                  {
+                    "value": [
+                      0.800000011920929,
+                      2.0
+                    ],
+                    "controlAddress": "/accelThresholds"
+                  },
+                  {
+                    "value": [
+                      0.800000011920929,
+                      2.0
+                    ],
+                    "controlAddress": "/flatThresholds"
+                  }
+                ],
+                "editorIsCollapsed": true
+              }
+            },
+            "owned": true
+          },
+          "ir": {
+            "owned": true
+          },
+          "battery": {
+            "owned": true
+          },
+          "files": {
+            "owned": true
+          },
+          "scripts": {
+            "viewOffset": [
+              0,
+              0
+            ],
+            "viewZoom": 1.0
+          },
+          "aurora": {
+            "params": {
+              "hideInEditor": true
+            }
+          }
+        },
+        "type": "Flowtoys Creator Club",
+        "scripts": {
+          "viewOffset": [
+            0,
+            0
+          ],
+          "viewZoom": 1.0
+        },
+        "block": {
+          "params": {
+            "hideInEditor": true
+          }
+        },
+        "deviceID": "30:AE:A4:31:26:58"
+      },
       "connection": {
       },
       "controls": {
@@ -65437,6 +65573,141 @@
       "families": {
       }
     },
+    "items": [
+      {
+        "parameters": [
+          {
+            "value": 50.0,
+            "controlAddress": "/listSize"
+          },
+          {
+            "value": true,
+            "controlAddress": "/logIncoming"
+          },
+          {
+            "value": "/library/timeline/aurora",
+            "controlAddress": "/activeBlock"
+          }
+        ],
+        "niceName": "Flowtoys Creator Club 2",
+        "editorIsCollapsed": true,
+        "containers": {
+          "general": {
+            "parameters": [
+              {
+                "value": 0,
+                "hexMode": false,
+                "controlAddress": "/globalID"
+              },
+              {
+                "value": 32,
+                "hexMode": false,
+                "controlAddress": "/resolution"
+              }
+            ]
+          },
+          "connection": {
+            "parameters": [
+              {
+                "value": "192.168.1.109",
+                "controlAddress": "/propIP"
+              },
+              {
+                "value": "",
+                "controlAddress": "/usbDevice"
+              }
+            ]
+          },
+          "controls": {
+          },
+          "bakeAndUpload": {
+            "parameters": [
+              {
+                "value": false,
+                "controlAddress": "/bakeMode"
+              }
+            ],
+            "editorIsCollapsed": true
+          },
+          "rgb": {
+            "owned": true
+          },
+          "buttons": {
+            "owned": true
+          },
+          "imu": {
+            "parameters": [
+              {
+                "value": false,
+                "controlAddress": "/enabled"
+              },
+              {
+                "value": "None",
+                "controlAddress": "/throwState"
+              }
+            ],
+            "editorIsCollapsed": true,
+            "containers": {
+              "throwConfig": {
+                "parameters": [
+                  {
+                    "value": [
+                      0.800000011920929,
+                      2.0
+                    ],
+                    "controlAddress": "/accelThresholds"
+                  },
+                  {
+                    "value": [
+                      0.800000011920929,
+                      2.0
+                    ],
+                    "controlAddress": "/flatThresholds"
+                  }
+                ],
+                "editorIsCollapsed": true
+              }
+            },
+            "owned": true
+          },
+          "ir": {
+            "owned": true
+          },
+          "battery": {
+            "owned": true
+          },
+          "files": {
+            "owned": true
+          },
+          "scripts": {
+            "viewOffset": [
+              0,
+              0
+            ],
+            "viewZoom": 1.0
+          },
+          "aurora": {
+            "params": {
+              "hideInEditor": true
+            }
+          }
+        },
+        "type": "Flowtoys Creator Club",
+        "scripts": {
+          "viewOffset": [
+            0,
+            0
+          ],
+          "viewZoom": 1.0
+        },
+        "block": {
+          "params": {
+            "hideInEditor": true
+          }
+        },
+        "deviceID": "30:AE:A4:31:26:58"
+      }
+    ],
     "viewOffset": [
       0,
       0
