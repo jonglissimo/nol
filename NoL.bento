@@ -75,7 +75,7 @@
                 },
                 {
                   "type": 0,
-                  "width": 1181,
+                  "width": 902,
                   "height": 644,
                   "currentContent": "Sequence Editor",
                   "tabs": [
@@ -95,7 +95,7 @@
                 },
                 {
                   "type": 0,
-                  "width": 470,
+                  "width": 749,
                   "height": 644,
                   "currentContent": "Inspector",
                   "tabs": [
@@ -5257,6 +5257,10 @@
               {
                 "value": 244.7200012207031,
                 "controlAddress": "/totalTime"
+              },
+              {
+                "value": 0.0,
+                "controlAddress": "/viewStartTime"
               },
               {
                 "value": 244.7200012207031,
@@ -14840,6 +14844,7 @@
               ],
               "viewZoom": 1.0
             },
+            "editing": true,
             "clusterGroups": {
               "items": [
                 {
@@ -38604,11 +38609,11 @@
                       {
                         "parameters": [
                           {
-                            "value": 123.7499923706055,
+                            "value": 104.4099884033203,
                             "controlAddress": "/startTime"
                           },
                           {
-                            "value": 11.62000274658203,
+                            "value": 30.15000534057617,
                             "controlAddress": "/length"
                           },
                           {
@@ -44773,11 +44778,11 @@
                 "controlAddress": "/fps"
               },
               {
-                "value": 127.1465377807617,
+                "value": 129.1405487060547,
                 "controlAddress": "/viewStartTime"
               },
               {
-                "value": 162.9519195556641,
+                "value": 202.8035278320312,
                 "controlAddress": "/viewEndTime"
               },
               {
@@ -53223,11 +53228,11 @@
                 "controlAddress": "/fps"
               },
               {
-                "value": 117.0858459472656,
+                "value": 32.48196411132812,
                 "controlAddress": "/viewStartTime"
               },
               {
-                "value": 167.5313720703125,
+                "value": 308.8111877441406,
                 "controlAddress": "/viewEndTime"
               },
               {
@@ -64342,7 +64347,6 @@
               ],
               "viewZoom": 1.0
             },
-            "editing": true,
             "clusterGroups": {
               "items": [
                 {
@@ -66812,29 +66816,29 @@
   },
   "props": {
     "containers": {
-      "olimexTube": {
+      "flowtoysCreatorClub1": {
         "parameters": [
           {
             "value": 50.0,
             "controlAddress": "/listSize"
           },
           {
-            "value": "/library/timeline/rainbowshort",
+            "value": "/library/timeline/sunrise",
             "controlAddress": "/activeBlock"
           }
         ],
-        "niceName": "Olimex Tube",
+        "niceName": "Flowtoys Creator Club 1",
         "editorIsCollapsed": true,
         "containers": {
           "general": {
             "parameters": [
               {
-                "value": 51,
+                "value": 16,
                 "hexMode": false,
                 "controlAddress": "/globalID"
               },
               {
-                "value": 120,
+                "value": 32,
                 "hexMode": false,
                 "controlAddress": "/resolution"
               }
@@ -66843,7 +66847,7 @@
           "connection": {
             "parameters": [
               {
-                "value": "192.168.3.109",
+                "value": "192.168.3.127",
                 "controlAddress": "/propIP"
               }
             ]
@@ -66862,6 +66866,46 @@
           "rgb": {
             "owned": true
           },
+          "buttons": {
+            "owned": true
+          },
+          "imu": {
+            "parameters": [
+              {
+                "value": false,
+                "controlAddress": "/enabled"
+              }
+            ],
+            "editorIsCollapsed": true,
+            "containers": {
+              "throwConfig": {
+                "parameters": [
+                  {
+                    "value": [
+                      0.800000011920929,
+                      2.0
+                    ],
+                    "controlAddress": "/accelThresholds"
+                  },
+                  {
+                    "value": [
+                      0.800000011920929,
+                      2.0
+                    ],
+                    "controlAddress": "/flatThresholds"
+                  }
+                ],
+                "editorIsCollapsed": true
+              }
+            },
+            "owned": true
+          },
+          "ir": {
+            "owned": true
+          },
+          "battery": {
+            "owned": true
+          },
           "files": {
             "owned": true
           },
@@ -66872,13 +66916,13 @@
             ],
             "viewZoom": 1.0
           },
-          "rainbowshort": {
+          "sunrise": {
             "params": {
               "hideInEditor": true
             }
           }
         },
-        "type": "Olimex Tube",
+        "type": "Flowtoys Creator Club",
         "scripts": {
           "viewOffset": [
             0,
@@ -66891,31 +66935,31 @@
             "hideInEditor": true
           }
         },
-        "deviceID": "24:4C:AB:22:A1:8C"
+        "deviceID": "30:AE:A4:31:3A:74"
       },
-      "olimexTube1": {
+      "flowtoysCreatorClub": {
         "parameters": [
           {
             "value": 50.0,
             "controlAddress": "/listSize"
           },
           {
-            "value": "/library/timeline/rainbowshort",
+            "value": "/library/timeline/sunrise",
             "controlAddress": "/activeBlock"
           }
         ],
-        "niceName": "Olimex Tube 1",
+        "niceName": "Flowtoys Creator Club",
         "editorIsCollapsed": true,
         "containers": {
           "general": {
             "parameters": [
               {
-                "value": 50,
+                "value": 17,
                 "hexMode": false,
                 "controlAddress": "/globalID"
               },
               {
-                "value": 120,
+                "value": 32,
                 "hexMode": false,
                 "controlAddress": "/resolution"
               }
@@ -66924,7 +66968,7 @@
           "connection": {
             "parameters": [
               {
-                "value": "192.168.3.107",
+                "value": "192.168.3.116",
                 "controlAddress": "/propIP"
               }
             ]
@@ -66943,6 +66987,46 @@
           "rgb": {
             "owned": true
           },
+          "buttons": {
+            "owned": true
+          },
+          "imu": {
+            "parameters": [
+              {
+                "value": false,
+                "controlAddress": "/enabled"
+              }
+            ],
+            "editorIsCollapsed": true,
+            "containers": {
+              "throwConfig": {
+                "parameters": [
+                  {
+                    "value": [
+                      0.800000011920929,
+                      2.0
+                    ],
+                    "controlAddress": "/accelThresholds"
+                  },
+                  {
+                    "value": [
+                      0.800000011920929,
+                      2.0
+                    ],
+                    "controlAddress": "/flatThresholds"
+                  }
+                ],
+                "editorIsCollapsed": true
+              }
+            },
+            "owned": true
+          },
+          "ir": {
+            "owned": true
+          },
+          "battery": {
+            "owned": true
+          },
           "files": {
             "owned": true
           },
@@ -66953,13 +67037,13 @@
             ],
             "viewZoom": 1.0
           },
-          "rainbowshort": {
+          "sunrise": {
             "params": {
               "hideInEditor": true
             }
           }
         },
-        "type": "Olimex Tube",
+        "type": "Flowtoys Creator Club",
         "scripts": {
           "viewOffset": [
             0,
@@ -66972,31 +67056,31 @@
             "hideInEditor": true
           }
         },
-        "deviceID": "24:4C:AB:24:35:78"
+        "deviceID": "30:AE:A4:F3:A3:8"
       },
-      "olimexTube2": {
+      "flowtoysCreatorClub2": {
         "parameters": [
           {
             "value": 50.0,
             "controlAddress": "/listSize"
           },
           {
-            "value": "/library/timeline/rainbowshort",
+            "value": "/library/timeline/sunrise",
             "controlAddress": "/activeBlock"
           }
         ],
-        "niceName": "Olimex Tube 2",
+        "niceName": "Flowtoys Creator Club 2",
         "editorIsCollapsed": true,
         "containers": {
           "general": {
             "parameters": [
               {
-                "value": 52,
+                "value": 18,
                 "hexMode": false,
                 "controlAddress": "/globalID"
               },
               {
-                "value": 120,
+                "value": 32,
                 "hexMode": false,
                 "controlAddress": "/resolution"
               }
@@ -67005,7 +67089,7 @@
           "connection": {
             "parameters": [
               {
-                "value": "192.168.3.108",
+                "value": "192.168.3.117",
                 "controlAddress": "/propIP"
               }
             ]
@@ -67024,85 +67108,44 @@
           "rgb": {
             "owned": true
           },
-          "files": {
+          "buttons": {
             "owned": true
           },
-          "scripts": {
-            "viewOffset": [
-              0,
-              0
-            ],
-            "viewZoom": 1.0
-          },
-          "rainbowshort": {
-            "params": {
-              "hideInEditor": true
-            }
-          }
-        },
-        "type": "Olimex Tube",
-        "scripts": {
-          "viewOffset": [
-            0,
-            0
-          ],
-          "viewZoom": 1.0
-        },
-        "block": {
-          "params": {
-            "hideInEditor": true
-          }
-        },
-        "deviceID": "24:4C:AB:24:6:8C"
-      },
-      "olimexTube3": {
-        "parameters": [
-          {
-            "value": 50.0,
-            "controlAddress": "/listSize"
-          },
-          {
-            "value": "/library/timeline/rainbowshort",
-            "controlAddress": "/activeBlock"
-          }
-        ],
-        "niceName": "Olimex Tube 3",
-        "editorIsCollapsed": true,
-        "containers": {
-          "general": {
-            "parameters": [
-              {
-                "value": 53,
-                "hexMode": false,
-                "controlAddress": "/globalID"
-              },
-              {
-                "value": 120,
-                "hexMode": false,
-                "controlAddress": "/resolution"
-              }
-            ]
-          },
-          "connection": {
-            "parameters": [
-              {
-                "value": "192.168.3.111",
-                "controlAddress": "/propIP"
-              }
-            ]
-          },
-          "controls": {
-          },
-          "bakeAndUpload": {
+          "imu": {
             "parameters": [
               {
                 "value": false,
-                "controlAddress": "/bakeMode"
+                "controlAddress": "/enabled"
               }
             ],
-            "editorIsCollapsed": true
+            "editorIsCollapsed": true,
+            "containers": {
+              "throwConfig": {
+                "parameters": [
+                  {
+                    "value": [
+                      0.800000011920929,
+                      2.0
+                    ],
+                    "controlAddress": "/accelThresholds"
+                  },
+                  {
+                    "value": [
+                      0.800000011920929,
+                      2.0
+                    ],
+                    "controlAddress": "/flatThresholds"
+                  }
+                ],
+                "editorIsCollapsed": true
+              }
+            },
+            "owned": true
           },
-          "rgb": {
+          "ir": {
+            "owned": true
+          },
+          "battery": {
             "owned": true
           },
           "files": {
@@ -67115,13 +67158,13 @@
             ],
             "viewZoom": 1.0
           },
-          "rainbowshort": {
+          "sunrise": {
             "params": {
               "hideInEditor": true
             }
           }
         },
-        "type": "Olimex Tube",
+        "type": "Flowtoys Creator Club",
         "scripts": {
           "viewOffset": [
             0,
@@ -67134,88 +67177,7 @@
             "hideInEditor": true
           }
         },
-        "deviceID": "24:4C:AB:22:FA:74"
-      },
-      "olimexTube4": {
-        "parameters": [
-          {
-            "value": 50.0,
-            "controlAddress": "/listSize"
-          },
-          {
-            "value": "/library/timeline/rainbowshort",
-            "controlAddress": "/activeBlock"
-          }
-        ],
-        "niceName": "Olimex Tube 4",
-        "editorIsCollapsed": true,
-        "containers": {
-          "general": {
-            "parameters": [
-              {
-                "value": 54,
-                "hexMode": false,
-                "controlAddress": "/globalID"
-              },
-              {
-                "value": 120,
-                "hexMode": false,
-                "controlAddress": "/resolution"
-              }
-            ]
-          },
-          "connection": {
-            "parameters": [
-              {
-                "value": "192.168.3.106",
-                "controlAddress": "/propIP"
-              }
-            ]
-          },
-          "controls": {
-          },
-          "bakeAndUpload": {
-            "parameters": [
-              {
-                "value": false,
-                "controlAddress": "/bakeMode"
-              }
-            ],
-            "editorIsCollapsed": true
-          },
-          "rgb": {
-            "owned": true
-          },
-          "files": {
-            "owned": true
-          },
-          "scripts": {
-            "viewOffset": [
-              0,
-              0
-            ],
-            "viewZoom": 1.0
-          },
-          "rainbowshort": {
-            "params": {
-              "hideInEditor": true
-            }
-          }
-        },
-        "type": "Olimex Tube",
-        "scripts": {
-          "viewOffset": [
-            0,
-            0
-          ],
-          "viewZoom": 1.0
-        },
-        "block": {
-          "params": {
-            "hideInEditor": true
-          }
-        },
-        "deviceID": "24:4C:AB:24:25:B8"
+        "deviceID": "4C:EB:D6:7D:48:D0"
       },
       "connection": {
       },
@@ -67240,22 +67202,22 @@
             "controlAddress": "/listSize"
           },
           {
-            "value": "/library/timeline/rainbowshort",
+            "value": "/library/timeline/sunrise",
             "controlAddress": "/activeBlock"
           }
         ],
-        "niceName": "Olimex Tube",
+        "niceName": "Flowtoys Creator Club 1",
         "editorIsCollapsed": true,
         "containers": {
           "general": {
             "parameters": [
               {
-                "value": 51,
+                "value": 16,
                 "hexMode": false,
                 "controlAddress": "/globalID"
               },
               {
-                "value": 120,
+                "value": 32,
                 "hexMode": false,
                 "controlAddress": "/resolution"
               }
@@ -67264,7 +67226,7 @@
           "connection": {
             "parameters": [
               {
-                "value": "192.168.3.109",
+                "value": "192.168.3.127",
                 "controlAddress": "/propIP"
               }
             ]
@@ -67283,6 +67245,46 @@
           "rgb": {
             "owned": true
           },
+          "buttons": {
+            "owned": true
+          },
+          "imu": {
+            "parameters": [
+              {
+                "value": false,
+                "controlAddress": "/enabled"
+              }
+            ],
+            "editorIsCollapsed": true,
+            "containers": {
+              "throwConfig": {
+                "parameters": [
+                  {
+                    "value": [
+                      0.800000011920929,
+                      2.0
+                    ],
+                    "controlAddress": "/accelThresholds"
+                  },
+                  {
+                    "value": [
+                      0.800000011920929,
+                      2.0
+                    ],
+                    "controlAddress": "/flatThresholds"
+                  }
+                ],
+                "editorIsCollapsed": true
+              }
+            },
+            "owned": true
+          },
+          "ir": {
+            "owned": true
+          },
+          "battery": {
+            "owned": true
+          },
           "files": {
             "owned": true
           },
@@ -67293,13 +67295,13 @@
             ],
             "viewZoom": 1.0
           },
-          "rainbowshort": {
+          "sunrise": {
             "params": {
               "hideInEditor": true
             }
           }
         },
-        "type": "Olimex Tube",
+        "type": "Flowtoys Creator Club",
         "scripts": {
           "viewOffset": [
             0,
@@ -67312,7 +67314,7 @@
             "hideInEditor": true
           }
         },
-        "deviceID": "24:4C:AB:22:A1:8C"
+        "deviceID": "30:AE:A4:31:3A:74"
       },
       {
         "parameters": [
@@ -67321,22 +67323,22 @@
             "controlAddress": "/listSize"
           },
           {
-            "value": "/library/timeline/rainbowshort",
+            "value": "/library/timeline/sunrise",
             "controlAddress": "/activeBlock"
           }
         ],
-        "niceName": "Olimex Tube 1",
+        "niceName": "Flowtoys Creator Club",
         "editorIsCollapsed": true,
         "containers": {
           "general": {
             "parameters": [
               {
-                "value": 50,
+                "value": 17,
                 "hexMode": false,
                 "controlAddress": "/globalID"
               },
               {
-                "value": 120,
+                "value": 32,
                 "hexMode": false,
                 "controlAddress": "/resolution"
               }
@@ -67345,7 +67347,7 @@
           "connection": {
             "parameters": [
               {
-                "value": "192.168.3.107",
+                "value": "192.168.3.116",
                 "controlAddress": "/propIP"
               }
             ]
@@ -67364,6 +67366,46 @@
           "rgb": {
             "owned": true
           },
+          "buttons": {
+            "owned": true
+          },
+          "imu": {
+            "parameters": [
+              {
+                "value": false,
+                "controlAddress": "/enabled"
+              }
+            ],
+            "editorIsCollapsed": true,
+            "containers": {
+              "throwConfig": {
+                "parameters": [
+                  {
+                    "value": [
+                      0.800000011920929,
+                      2.0
+                    ],
+                    "controlAddress": "/accelThresholds"
+                  },
+                  {
+                    "value": [
+                      0.800000011920929,
+                      2.0
+                    ],
+                    "controlAddress": "/flatThresholds"
+                  }
+                ],
+                "editorIsCollapsed": true
+              }
+            },
+            "owned": true
+          },
+          "ir": {
+            "owned": true
+          },
+          "battery": {
+            "owned": true
+          },
           "files": {
             "owned": true
           },
@@ -67374,13 +67416,13 @@
             ],
             "viewZoom": 1.0
           },
-          "rainbowshort": {
+          "sunrise": {
             "params": {
               "hideInEditor": true
             }
           }
         },
-        "type": "Olimex Tube",
+        "type": "Flowtoys Creator Club",
         "scripts": {
           "viewOffset": [
             0,
@@ -67393,7 +67435,7 @@
             "hideInEditor": true
           }
         },
-        "deviceID": "24:4C:AB:24:35:78"
+        "deviceID": "30:AE:A4:F3:A3:8"
       },
       {
         "parameters": [
@@ -67402,22 +67444,22 @@
             "controlAddress": "/listSize"
           },
           {
-            "value": "/library/timeline/rainbowshort",
+            "value": "/library/timeline/sunrise",
             "controlAddress": "/activeBlock"
           }
         ],
-        "niceName": "Olimex Tube 2",
+        "niceName": "Flowtoys Creator Club 2",
         "editorIsCollapsed": true,
         "containers": {
           "general": {
             "parameters": [
               {
-                "value": 52,
+                "value": 18,
                 "hexMode": false,
                 "controlAddress": "/globalID"
               },
               {
-                "value": 120,
+                "value": 32,
                 "hexMode": false,
                 "controlAddress": "/resolution"
               }
@@ -67426,7 +67468,7 @@
           "connection": {
             "parameters": [
               {
-                "value": "192.168.3.108",
+                "value": "192.168.3.117",
                 "controlAddress": "/propIP"
               }
             ]
@@ -67445,85 +67487,44 @@
           "rgb": {
             "owned": true
           },
-          "files": {
+          "buttons": {
             "owned": true
           },
-          "scripts": {
-            "viewOffset": [
-              0,
-              0
-            ],
-            "viewZoom": 1.0
-          },
-          "rainbowshort": {
-            "params": {
-              "hideInEditor": true
-            }
-          }
-        },
-        "type": "Olimex Tube",
-        "scripts": {
-          "viewOffset": [
-            0,
-            0
-          ],
-          "viewZoom": 1.0
-        },
-        "block": {
-          "params": {
-            "hideInEditor": true
-          }
-        },
-        "deviceID": "24:4C:AB:24:6:8C"
-      },
-      {
-        "parameters": [
-          {
-            "value": 50.0,
-            "controlAddress": "/listSize"
-          },
-          {
-            "value": "/library/timeline/rainbowshort",
-            "controlAddress": "/activeBlock"
-          }
-        ],
-        "niceName": "Olimex Tube 3",
-        "editorIsCollapsed": true,
-        "containers": {
-          "general": {
-            "parameters": [
-              {
-                "value": 53,
-                "hexMode": false,
-                "controlAddress": "/globalID"
-              },
-              {
-                "value": 120,
-                "hexMode": false,
-                "controlAddress": "/resolution"
-              }
-            ]
-          },
-          "connection": {
-            "parameters": [
-              {
-                "value": "192.168.3.111",
-                "controlAddress": "/propIP"
-              }
-            ]
-          },
-          "controls": {
-          },
-          "bakeAndUpload": {
+          "imu": {
             "parameters": [
               {
                 "value": false,
-                "controlAddress": "/bakeMode"
+                "controlAddress": "/enabled"
               }
             ],
-            "editorIsCollapsed": true
+            "editorIsCollapsed": true,
+            "containers": {
+              "throwConfig": {
+                "parameters": [
+                  {
+                    "value": [
+                      0.800000011920929,
+                      2.0
+                    ],
+                    "controlAddress": "/accelThresholds"
+                  },
+                  {
+                    "value": [
+                      0.800000011920929,
+                      2.0
+                    ],
+                    "controlAddress": "/flatThresholds"
+                  }
+                ],
+                "editorIsCollapsed": true
+              }
+            },
+            "owned": true
           },
-          "rgb": {
+          "ir": {
+            "owned": true
+          },
+          "battery": {
             "owned": true
           },
           "files": {
@@ -67536,13 +67537,13 @@
             ],
             "viewZoom": 1.0
           },
-          "rainbowshort": {
+          "sunrise": {
             "params": {
               "hideInEditor": true
             }
           }
         },
-        "type": "Olimex Tube",
+        "type": "Flowtoys Creator Club",
         "scripts": {
           "viewOffset": [
             0,
@@ -67555,88 +67556,7 @@
             "hideInEditor": true
           }
         },
-        "deviceID": "24:4C:AB:22:FA:74"
-      },
-      {
-        "parameters": [
-          {
-            "value": 50.0,
-            "controlAddress": "/listSize"
-          },
-          {
-            "value": "/library/timeline/rainbowshort",
-            "controlAddress": "/activeBlock"
-          }
-        ],
-        "niceName": "Olimex Tube 4",
-        "editorIsCollapsed": true,
-        "containers": {
-          "general": {
-            "parameters": [
-              {
-                "value": 54,
-                "hexMode": false,
-                "controlAddress": "/globalID"
-              },
-              {
-                "value": 120,
-                "hexMode": false,
-                "controlAddress": "/resolution"
-              }
-            ]
-          },
-          "connection": {
-            "parameters": [
-              {
-                "value": "192.168.3.106",
-                "controlAddress": "/propIP"
-              }
-            ]
-          },
-          "controls": {
-          },
-          "bakeAndUpload": {
-            "parameters": [
-              {
-                "value": false,
-                "controlAddress": "/bakeMode"
-              }
-            ],
-            "editorIsCollapsed": true
-          },
-          "rgb": {
-            "owned": true
-          },
-          "files": {
-            "owned": true
-          },
-          "scripts": {
-            "viewOffset": [
-              0,
-              0
-            ],
-            "viewZoom": 1.0
-          },
-          "rainbowshort": {
-            "params": {
-              "hideInEditor": true
-            }
-          }
-        },
-        "type": "Olimex Tube",
-        "scripts": {
-          "viewOffset": [
-            0,
-            0
-          ],
-          "viewZoom": 1.0
-        },
-        "block": {
-          "params": {
-            "hideInEditor": true
-          }
-        },
-        "deviceID": "24:4C:AB:24:25:B8"
+        "deviceID": "4C:EB:D6:7D:48:D0"
       }
     ],
     "viewOffset": [
